@@ -1,0 +1,12 @@
+{"fps": 20, "speed": 2, "segments": [
+ {"type":"card","title":"手首を傾けて触る — AI × Robotics","lines":["ロボットの手首をあえて傾けて、引き出し・電子レンジの扉に触れる","LIBERO の 3 タスクで、π0.5 を少量の専門家デモで微調整（LoRA）"],"sec":6},
+ {"type":"card","title":"ねらい","lines":["人間のデモ: 引き出しを開ける接触で、ツールの軸は最大 62° 傾く","まっすぐ下向きの手では、取っ手に指の腹を引っ掛けられない","→ 傾き付きの専門家（スクリプト）→ 教師デモ → LoRA 微調整"],"sec":9},
+ {"type":"image","path":"kadai/report/figs/fig1_human_tilt.png","caption":"人間デモの接触区間での手首の傾き（タスクによって大きく異なる）","sec":8},
+ {"type":"pair","speed":1,"title":"① 中段の引き出しを開ける（同じ初期条件・摂動）","left":{"label":"素の π0.5-LIBERO","npz":"data/video_frames/video_base/drawer_s1002.npz","success":false,"result":"失敗"},"right":{"label":"LoRA 微調整後","npz":"data/video_frames/video_v1/drawer_s1002.npz","success":true,"result":"成功"},"note":"手首を約 57° 傾けて取っ手の上に指の腹を掛け、手前に引く"},
+ {"type":"pair","speed":1,"title":"② 下段の引き出しを閉める","left":{"label":"素の π0.5-LIBERO","npz":"data/video_frames/video_base/k4_s1004.npz","success":false,"result":"失敗・他物体に衝突"},"right":{"label":"LoRA 微調整後","npz":"data/video_frames/video_v1/k4_s1004.npz","success":true,"result":"成功"},"note":"素のモデルは学習済みの別タスク（物を入れる）を続けてしまう"},
+ {"type":"pair","speed":1,"title":"③ 電子レンジを閉める","left":{"label":"素の π0.5-LIBERO","npz":"data/video_frames/video_base/k6_s1000.npz","success":false,"result":"失敗"},"right":{"label":"LoRA 微調整後","npz":"data/video_frames/video_v1/k6_s1000.npz","success":true,"result":"成功"},"note":"扉を押して閉める。手首の傾きは約 25°"},
+ {"type":"image","path":"kadai/report/figs/fig2_main_results.png","caption":"摂動つき評価（各 48 本）: 成功率は大幅に上がる。衝突なし率は下段の引き出しで課題が残る","sec":12},
+ {"type":"image","path":"kadai/report/figs/fig3_failure_taxonomy.png","caption":"残る失敗: 約 3 分の 1 は同じ条件で何度やっても失敗する決定的なもの","sec":9},
+ {"type":"image","path":"kadai/report/figs/fig4_perturbation.png","caption":"行動ノイズなどの停留対策は効果を検出できなかった（否定的結果）","sec":9},
+ {"type":"card","title":"まとめと課題","lines":["・傾き付き専門家デモ + LoRA で 3 タスクの成功率が大きく向上","・強い摂動のデータを足した再学習（v2）では改善を検出できず","・中段の引き出しの決定的失敗と、下段の衝突が今後の課題","※ 実装・解析に AI（Claude Code）の支援を使用"],"sec":12}
+]}

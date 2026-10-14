@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>手首を傾けた接触操作を VLA に学ばせる — 最終課題レポート</title>
+<style>
+  @page { size: A4; margin: 16mm 15mm 16mm 15mm; }
+  :root { --ink:#0b0b0b; --ink2:#52514e; --line:#d9d8d3; --accent:#2a78d6; --warn:#b3261e; }
+  html { font-family: "Noto Sans CJK JP","Noto Sans CJK HK","Droid Sans Fallback",sans-serif; color: var(--ink); font-size: 10pt; line-height: 1.62; }
+  body { margin: 0; }
+  h1 { font-size: 17pt; margin: 0 0 4pt; line-height: 1.35; }
+  h2 { font-size: 12.5pt; margin: 18pt 0 6pt; padding-bottom: 3pt; border-bottom: 1.5px solid var(--ink); }
+  h3 { font-size: 10.5pt; margin: 12pt 0 4pt; }
+  p, li { margin: 4pt 0; }
+  ul, ol { padding-left: 17pt; margin: 4pt 0; }
+  .sub { color: var(--ink2); font-size: 9pt; margin-bottom: 8pt; }
+  .abstract { border-left: 3px solid var(--accent); padding: 4pt 10pt; background: #f4f6fa; margin: 8pt 0 10pt; }
+  figure { margin: 8pt 0 10pt; break-inside: avoid; }
+  figure img { width: 100%; }
+  figcaption { color: var(--ink2); font-size: 8.8pt; margin-top: 3pt; }
+  table { border-collapse: collapse; width: 100%; font-size: 9pt; margin: 6pt 0; break-inside: avoid; }
+  th, td { border: 1px solid var(--line); padding: 3pt 5pt; text-align: left; vertical-align: top; }
+  th { background: #f1f0ec; font-weight: 600; }
+  td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; }
+  code { font-family: "DejaVu Sans Mono", monospace; font-size: 8.6pt; background: #f1f0ec; padding: 0 2pt; }
+  .todo { color: var(--warn); font-weight: 600; }
+  .note { color: var(--ink2); font-size: 9pt; }
+</style>
+</head>
+<body>
+
+<h1>手首を傾けた接触操作を VLA に学ばせる<br><span style="font-size:11.5pt;font-weight:500">— スクリプト expert で作った教師デモによる π0.5 の LoRA 微調整と、失敗の構造の分析 —</span></h1>
+<div class="sub">Physical AI 2026 応用編 1 最終課題 ／ OmniCAMPUS アカウント名: __ACCOUNT__ ／ シミュレータ: MuJoCo（LIBERO-plus）、ロボット: Franka Panda</div>
+
+<div class="abstract">
+<b>要旨.</b> 真下に下ろした手では、手の本体や前腕が棚の前板・天板に当たって届かない「接触操作」がある。本課題では、(1) 人間デモの手首の傾きを接触区間ごとに測って、傾きが本当に要るタスクを選び、(2) 傾けた姿勢で動く<b>スクリプト expert</b>を作って教師デモを生成し、(3) 公開の VLA（π0.5-LIBERO）を LoRA で微調整し、(4) 摂動付きの閉ループ評価で素のモデルと比べた。LoRA で成功率・衝突の少なさ・効率が大きく改善した（例: 電子レンジを閉める 38% → 98%、ステップ数 241 → 49）。さらに、残る失敗を同じ初期条件で反復実行して調べたところ、<b>失敗の約 3 分の 1 は運、約 3 分の 1 は決定的（学習分布の端）</b>と分かった。停留対策として提案された摂動（行動ノイズ、停留キック、フローの初期ノイズのスケーリング）は、全体の成功率を検出可能な大きさでは上げなかった。強い摂動の expert データを約 2 倍に増やして再学習（v2）しても、事前に決めた基準では改善を検出できなかった（否定的結果）。
+</div>
+
+<h2>1. タスクのコンセプト・目的</h2>
+<p><b>何を達成したいか.</b> 引き出しや扉の取っ手に、上から掴みに行くと手首・前腕が棚の前板や上段の取っ手にぶつかる。人間は手首を倒して、指を取っ手の裏に回し込む。この<b>手首を傾けた接触操作</b>を、模倣学習した VLA が再現できるかを調べる。</p>
+<p><b>タスク選びの根拠（人間デモの解析）.</b> LIBERO の人間デモ（各 50 本）について、操作対象の関節が動く「接触区間」でのツール軸の傾きを測った（図 1）。当初の想定（引き出し・扉・押しの 3 動作は傾けないと届かない）は、<u>中段引き出しにしか当てはまらなかった</u>。上段引き出し・皿押し・つまみは、人間も 5° 以下でほぼ真下向きだった。そこで焦点を 3 タスクに絞った。</p>
+<table>
+<tr><th>タスク（LIBERO）</th><th>人間デモの傾き（中央値）</th><th>動作</th></tr>
+<tr><td>① 中段引き出しを開ける（libero_goal）</td><td class="n">62°（51–77°）</td><td>グリッパを開いたまま、指のパッドを取っ手の棒の上面の奥の縁に乗せて約 200 N で引く</td></tr>
+<tr><td>② 下段引き出しを閉める（libero_90 K4）</td><td class="n">33°（20–46°）</td><td>押しながら傾きを増やす。ボウルとワインボトルの間を通る</td></tr>
+<tr><td>③ 電子レンジを閉める（libero_90 K6）</td><td class="n">10°（4–15°）</td><td>扉の固定点を押して閉める。<b>人間は傾けない</b>（傾きが要らない対照）</td></tr>
+</table>
+<figure><img src="figs/fig1_human_tilt.png" alt="人間デモの手首の傾き"><figcaption>図 1. 人間デモの接触区間の手首の傾き。青 = 本課題の 3 タスク。当初の想定に反し、傾きが本質的に要るのは中段引き出し（約 62°）と、押しながら傾ける下段引き出し（約 33°）。電子レンジ（単独）は約 10° で、傾けない。</figcaption></figure>
+<p class="note">発見の経緯（正直に）: K4 は最初「開ける」動作と誤読し（実際は最初から開いていて「閉める」）、計画書を訂正した。窓の定義が変位の大きさだけで向きを区別していなかったため。</p>
+
+<h2>2. システム構成・技術選定</h2>
+<ul>
+<li><b>シミュレータ:</b> MuJoCo（LIBERO-plus の bddl・初期状態）、Franka Panda、OSC_POSE 制御（位置 ±5 cm/step、回転 ±0.5 rad/step）。</li>
+<li><b>教師（スクリプト expert）:</b> 人間デモの接触時点の姿勢を<u>固定物の座標系で</u>中央値化した「キーポーズ」を、実行時の棚・扉の位置と向きで世界座標に直して追従する。位置と<b>全姿勢（クォータニオン）</b>を目標にする制御器を新規に作った（既存のプリミティブは世界 z まわりの回転しか持たず、手首を傾けられなかった）。中段引き出しはキーポーズ追従、下段引き出しは前傾 +22° と高い経路の押し、電子レンジは<b>扉の座標系の固定点</b>を扉の動きに追従して押す。</li>
+<li><b>方策（AI）:</b> 公開の π0.5-LIBERO（3.617B、PyTorch 版に変換）に <b>LoRA</b>（r=16、α=32、attention+MLP、学習パラメータ 35.2M = 0.97%）。フローマッチングで 10 step の行動チャンクを出力し、先頭 5 step を使って再計画する。入力は agentview・手首カメラ（128px → 224px）、状態 8 次元、言語指示。</li>
+<li><b>データ:</b> expert の成功かつ他の物体を 1 mm 超動かさない試行だけを記録。初期条件の摂動（ロボット初期関節、棚の位置・向き）を混ぜた。v1: 910 本 / 79,854 フレーム。v2: 1,928 本 / 172,990 フレーム（強い摂動を追加、強い摂動の比率は約 25% → 約 60%）。</li>
+<li><b>学習:</b> 2400 step、バッチ 16、lr 1e-4（RunPod の L40S、約 3.7 時間、5.2 s/step）。</li>
+<li><b>評価:</b> 閉ループ。成功 = bddl のゴール、<b>衝突なし</b> = 対象外の物体の移動 ≤ 1 mm。摂動 3 水準（なし / 中 / 強）を混合。評価の seed は学習 seed と重ならない。方策サーバと、タスク×シャードの並列クライアント（OSMesa 描画）。</li>
+<li><b>既存の資源と本作業の新規性:</b> シミュレータ（LIBERO-plus）、方策モデル（π0.5-LIBERO）、学習基盤（openpi）は公開のものを使った。サンプル課題の流用はない。本作業で新たに作ったのは、人間デモの接触解析、全姿勢追従の expert（3 タスク）、教師デモの記録、摂動付きの閉ループ評価と失敗の構造分析、および動画・レポートの生成である。</li>
+<li><b>AI の活用:</b> 推論（π0.5-LIBERO）と学習（LoRA 微調整）の両方を行った。</li>
+<li><b>AI 支援の使用:</b> 本作業は Claude Code（Anthropic の AI コーディング支援）を用いて実装・実験・記録を行った。判断・方針は人間（受講者）が承認した。</li>
+</ul>
+
+<h2>3. 工夫した点</h2>
+<h3>3.1 教師の設計 — 接触の実体を力で調べた</h3>
+<p>中段引き出しの expert は、人間デモの手先位置を再現しても最初は 0/4 だった。接触を力つきで調べると、<b>指のパッドが取っ手の棒の上面の奥側の縁に乗り、約 200 N で押しつけて引く</b>ことが分かった（棒の高さ補正 <code>dz</code> を 1.2 cm 下げるだけで 4/4、<code>dz = 0</code> だけ全滅）。手先の位置だけでは分からない接触の実体で、これを反映して摂動下でも成功する expert になった。</p>
+<h3>3.2 評価を信頼できるものにする工夫</h3>
+<ul>
+<li><b>操作チェック:</b> 独立変数が本当に動いたかを必ず測った（例: 行動ノイズ σ に対して実際に加わった摂動量が 0.8σ になること）。</li>
+<li><b>事前登録:</b> 実験の設計・予測・採否基準を、結果を見る前に作業履歴へ書いた（行動ノイズ・初期ノイズ・再学習）。</li>
+<li><b>対応のある比較:</b> 同じ seed で条件を比べ、同じ設定の再実行の差（ノイズ床）を必ず併記した。</li>
+<li><b>描画差の交絡:</b> 学習データは EGL、評価は OSMesa（Pod で EGL が使えない）。同じ初期条件でも平均 6/255 の画素差があるため、<u>すべての条件を同じ OSMesa で評価</u>して条件間の比較を公平に保った。</li>
+</ul>
+
+<h3>3.3 結果: LoRA は素のモデルを大きく上回る</h3>
+<figure><img src="figs/fig2_main_results.png" alt="主結果"><figcaption>図 2. 素の π0.5-LIBERO と LoRA の比較（混合摂動、同じ OSMesa）。成功率、成功かつ衝突なし、成功時のステップ数。縦線は Wilson 95% 区間。</figcaption></figure>
+<table>
+<tr><th>タスク</th><th class="n">素<br>成功/衝突なし/step</th><th class="n">LoRA v1<br>成功/衝突なし/step</th><th class="n">LoRA v2<br>成功/衝突なし/step</th></tr>
+<tr><td>中段引き出し</td><td class="n">62% / 62% / 124</td><td class="n">85% / 85% / 94</td><td class="n">83% / 81% / 94</td></tr>
+<tr><td>下段引き出し（K4）</td><td class="n">79% / 0% / 224</td><td class="n">94% / 44% / 106</td><td class="n">92% / 31% / 108</td></tr>
+<tr><td>電子レンジ（K6）</td><td class="n">38% / 38% / 241</td><td class="n">98% / 98% / 49</td><td class="n">98% / 98% / 48</td></tr>
+</table>
+<p class="note">混合摂動。素 = 各 24 本、LoRA = 各 48 本（seed 1000–）。</p>
+<h3>3.3.1 強い摂動の expert データを増やした再学習（v2）は、改善を検出できなかった</h3>
+<p>失敗の約 3 分の 1 が「強い摂動で毎回失敗する決定的なもの」だったので、強い摂動の expert デモを足して<b>最初から</b>再学習した（v2、同じ設定・同じ step 数）。結果を見る前に、判定基準を書いた（強い摂動のみの評価で中段引き出しが +15 pt 以上、同一 seed の符号検定 p&lt;0.1、混合評価で −6 pt を超える悪化なし）。</p>
+<table>
+<tr><th>強い摂動のみ（seed 3000–3047、各 48 本）</th><th class="n">v1 成功</th><th class="n">v2 成功</th><th class="n">勝ち/負け（同一 seed）</th><th class="n">符号検定 p</th><th class="n">衝突なし v1→v2</th></tr>
+<tr><td>中段引き出し</td><td class="n">56%</td><td class="n">60%</td><td class="n">9 / 7</td><td class="n">0.80</td><td class="n">24→24</td></tr>
+<tr><td>下段引き出し（K4）</td><td class="n">88%</td><td class="n">88%</td><td class="n">3 / 3</td><td class="n">1.00</td><td class="n">25→22</td></tr>
+<tr><td>電子レンジ（K6）</td><td class="n">88%</td><td class="n">94%</td><td class="n">4 / 1</td><td class="n">0.38</td><td class="n">42→45</td></tr>
+</table>
+<p>中段引き出しは +4 pt で基準（+15 pt）に届かず、「改善を検出できず」と判定した。混合評価の成功率の悪化は −2 pt 以内だったが、K4 の衝突なし率は 44% → 31% に下がった。電子レンジの基準（+15 pt）は、v1 がすでに 88% で上限（+12 pt）を超えており、<u>基準の立て方の誤り</u>だった（事前登録は変えず、事実として記録）。データ量を増やすだけでは決定的な失敗は減らなかった。</p>
+<h3>3.4 素のモデルの失敗の正体 — 指示を超えて元タスクを実行していた</h3>
+<p>K4・K6 で素のモデルの失敗例をコマ送りで見ると、「引き出しを閉める」「電子レンジを閉める」と指示したのに、<b>学習済みの LIBERO-10 の元タスク（ボウル／マグを入れてから閉める）を実行</b>していた。K4 の「衝突なし 0%」の実体は接触事故ではなく、指示にない動作（ボウルを持ち上げて運ぶ）を数えた結果だった。LoRA はこれを、指示に従う短い動作に置き換えた（ステップ数が約 5 分の 1〜半分）。</p>
+<p>失敗例のコマ送りの代表を付録 B に示す。</p>
+
+<h2>4. 苦労した点・課題・今後の展望</h2>
+<h3>4.1 残る失敗は「原因が追えない」ように見えた — 反復実行で構造を分けた</h3>
+<p>LoRA 後も、ためらい・途中や直前での停留（例: 引き出しが閾値まで 7 mm 足りないまま止まる）といった失敗が残る。1 例のコマ送りでは原因が特定できないので、最終評価で失敗した seed 30 本を、<b>同じ初期条件で方策のノイズだけ変えて 8 回ずつ</b>再実行した（図 3）。</p>
+<figure><img src="figs/fig3_failure_taxonomy.png" alt="失敗の構成"><figcaption>図 3. 失敗した seed の反復成功確率。毎回成功（p=1）は運、毎回失敗（p=0）は決定的な失敗。p=0 の seed は全て<b>強い摂動</b>の seed だった。</figcaption></figure>
+<ul>
+<li><b>運（約 3 分の 1）:</b> 同じ初期条件で再実行すると成功する。</li>
+<li><b>決定的（約 3 分の 1）:</b> どの条件でも毎回失敗。全て強い摂動の seed。学習データの強い摂動が 25% しかなかったことと整合する（<b>仮説</b>）。</li>
+<li><b>中間:</b> 成功確率 0〜1 の間。</li>
+</ul>
+<p class="note">留意: 失敗した seed から選んでいるので、成功確率は平均への回帰で本来より低めに出る。</p>
+<h3>4.2 停留対策の摂動（講座での助言）は、検出可能な改善にならなかった</h3>
+<p>「フローマッチングの停留対策としての摂動」を、行動ノイズ・手先ベースの停留キック・初期ノイズのスケーリング・関節 q の停留検出からの引き直しで試した（図 4）。事前に決めた基準（成功率 +10 pt 以上かつ衝突なしが 5 pt 超下がらない）を満たす条件は無かった。行動ノイズ σ=0.15 は中段引き出しを 85% → 38% に悪化させた（成功の回廊が約 1 cm のため）。q の停留検出は、正常な動作を停留と誤認して頻繁に発動した（検出器の設計不備）。</p>
+<figure><img src="figs/fig4_perturbation.png" alt="摂動の効果"><figcaption>図 4. 無摂動に対する成功率の差（同一 seed、95% ブートストラップ区間）。灰 = 同じ設定の再実行（ノイズ床）。</figcaption></figure>
+<h3>4.3 苦労した点（実装・運用）</h3>
+<ul>
+<li>評価環境の構築で、描画（EGL 不可）、画像効果ライブラリ、ネットワーク転送（遠いデータセンタの低速）、<b>ファイルディスクリプタのリーク</b>（環境を作り直すたびに増え、約 20 エピソードで上限。「メッシュが見つからない」という紛らわしいエラーになった）に詰まった。</li>
+<li>摂動試験の最初の起動は、待機条件のバグとコードのバグで約 35 分を無駄にした。原因は、大きな評価の前に 1 エピソードの煙検査をしなかったこと。以後は煙検査と進捗の確認を必須にした。</li>
+<li>停止した GPU インスタンスは元のホストの GPU が埋まると再開できないことがあり、再開できても内蔵ディスク（Python 環境など）が初期化される。回収を済ませてから停止・削除し、再開時は環境を入れ直す前提にした。</li>
+</ul>
+<h3>4.4 限界</h3>
+<ul>
+<li>評価は学習データと同じ摂動の分布で、<b>汎化（未見のタスク・物体・実機）は未検証</b>。学習 seed は 1 つ。</li>
+<li>K4 の衝突なし 44% は、expert の受理率（43%）・人間デモ（約 50%）と同程度で、配置上ボウルに触れやすい。方策の腕前の限界とは言えない。</li>
+<li>描画の差（EGL と OSMesa）により、評価の絶対値は EGL と異なりうる。比較は同条件内で行った。</li>
+</ul>
+<h3>4.5 今後の展望</h3>
+<ul>
+<li>決定的な失敗への対処: 強い摂動の expert データの追加（v2 で実施したが改善を検出できなかった。3.3.1）。データ量以外の要因（モデル容量・学習 step・描画差）の切り分け、失敗状態からの復帰デモ（DART 型のノイズ注入）。</li>
+<li>運の失敗への対処: ゴール到達の検証つき再試行（特権情報が要るので限界を明示して扱う）。</li>
+<li>複合タスク（ボウル／マグを入れてから閉める）と、実機への展開。傾けた把持は庫内の高さが低い電子レンジへの配置にも要る。</li>
+</ul>
+
+<h2>付録 A. 再現性</h2>
+<p>公開 GitHub リポジトリに、人間デモの解析、キーポーズの抽出、3 つの expert、デモ記録、学習・評価のスクリプト、作業履歴（判断・失敗・訂正を時系列で記録）を含む。重み・データは容量のため含まない（再生成の手順を同梱）。リポジトリ URL: __REPO_URL__</p>
+
+<h2>付録 B. 失敗例のコマ送り（代表）</h2>
+<p class="note">各図は 12 コマ（上段 agentview、下段 手首カメラ）。同じ seed・同じ摂動で、素のモデルと LoRA を並べた。</p>
+<figure><img src="../figs/failures_base/k4_case2_seed1014_B_timeout_collision.png" alt="素 K4"><figcaption>図 B1. 素のモデル、下段引き出し（K4）: ボウルを 340 mm 動かし（指示にない動作）、引き出しは閉まり切らず時間切れ。</figcaption></figure>
+<figure><img src="../figs/failures_lora/drawer_case1_seed1037_B_timeout_collision.png" alt="LoRA 中段引き出し"><figcaption>図 B2. LoRA、中段引き出し（強い摂動の seed）: 傾きは約 62° と正しいが、引き出しは 3.8 cm しか開かず（成功は 14 cm）、その後は皿の方へ迷走してチーズを 96 mm 動かし、時間切れ。</figcaption></figure>
+<figure><img src="../figs/failures_lora/k6_extra_seed1014_A_timeout_no_contact.png" alt="LoRA K6"><figcaption>図 B3. LoRA、電子レンジ: 扉を途中（q −1.73 → −0.55、閉じ切りは約 0）まで押して停留し、時間切れ。</figcaption></figure>
+</body>
+</html>

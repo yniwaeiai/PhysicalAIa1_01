@@ -1,0 +1,164 @@
+{
+ "drawer_middle": {
+  "ref_body": "wooden_cabinet_1_main",
+  "joint": "wooden_cabinet_1_middle_level",
+  "out": {
+   "n_demo": 50,
+   "len_median": 25.0,
+   "tilt_med_deg": {
+    "p10": 50.85623838622455,
+    "median": 61.61456462848706,
+    "p90": 77.23475402813835
+   },
+   "tilt_max_deg_median": 67.33175250973008,
+   "az_f_median_deg": 93.61681179042611,
+   "az_f_concentration": 0.9947571696516876,
+   "gripper_width_median": 0.07777361670238934,
+   "ee_at_start_in_ref_median": [
+    -0.002,
+    -0.095,
+    0.129
+   ],
+   "ee_at_end_in_ref_median": [
+    -0.0,
+    -0.253,
+    0.128
+   ]
+  }
+ },
+ "drawer_top_bowl": {
+  "ref_body": "wooden_cabinet_1_main",
+  "joint": "wooden_cabinet_1_top_level",
+  "out": {
+   "n_demo": 50,
+   "len_median": 24.0,
+   "tilt_med_deg": {
+    "p10": 1.5539873583394619,
+    "median": 3.7140049076062756,
+    "p90": 9.383692111972913
+   },
+   "tilt_max_deg_median": 5.4639777719539735,
+   "az_f_median_deg": 96.70938728583118,
+   "az_f_concentration": 0.17977412792383227,
+   "gripper_width_median": 0.08010098608799823,
+   "ee_at_start_in_ref_median": [
+    0.006,
+    -0.152,
+    0.201
+   ],
+   "ee_at_end_in_ref_median": [
+    0.007,
+    -0.311,
+    0.201
+   ]
+  }
+ },
+ "push_plate": {
+  "ref_body": "flat_stove_1_main",
+  "joint": "plate_1_joint0",
+  "out": {
+   "n_demo": 50,
+   "len_median": 60.5,
+   "tilt_med_deg": {
+    "p10": 3.053933276014303,
+    "median": 5.176578354025391,
+    "p90": 11.302404126192206
+   },
+   "tilt_max_deg_median": 10.432480246828677,
+   "az_f_median_deg": -2.1959777770761546,
+   "az_f_concentration": 0.3503600683169689,
+   "gripper_width_median": 0.05941465290639749,
+   "ee_at_start_in_ref_median": [
+    0.462,
+    -0.206,
+    0.012
+   ],
+   "ee_at_end_in_ref_median": [
+    0.456,
+    0.051,
+    0.015
+   ]
+  }
+ },
+ "microwave_k6": {
+  "ref_body": "microwave_1_main",
+  "joint": "microwave_1_microjoint",
+  "out": {
+   "n_demo": 50,
+   "len_median": 32.5,
+   "tilt_med_deg": {
+    "p10": 13.442223000961336,
+    "median": 19.928568447031427,
+    "p90": 41.94425372347328
+   },
+   "tilt_max_deg_median": 26.525301971162236,
+   "az_f_median_deg": 113.17657955504414,
+   "az_f_concentration": 0.8846415198880887,
+   "gripper_width_median": 0.07978489654477755,
+   "ee_at_start_in_ref_median": [
+    -0.279,
+    -0.214,
+    0.15
+   ],
+   "ee_at_end_in_ref_median": [
+    -0.106,
+    -0.163,
+    0.132
+   ]
+  }
+ },
+ "k3_stove_moka": {
+  "ref_body": "flat_stove_1_main",
+  "joint": "flat_stove_1_button",
+  "out": {
+   "n_demo": 50,
+   "len_median": 53.5,
+   "tilt_med_deg": {
+    "p10": 2.2666593899221685,
+    "median": 5.183640240855567,
+    "p90": 8.929022119368575
+   },
+   "tilt_max_deg_median": 8.746553547476323,
+   "az_f_median_deg": -156.58048667823007,
+   "az_f_concentration": 0.5168285928705769,
+   "gripper_width_median": 0.030967518171334585,
+   "ee_at_start_in_ref_median": [
+    -0.014,
+    0.0,
+    0.023
+   ],
+   "ee_at_end_in_ref_median": [
+    0.084,
+    -0.076,
+    0.166
+   ]
+  }
+ },
+ "k4_bowl_drawer": {
+  "ref_body": "white_cabinet_1_main",
+  "joint": "white_cabinet_1_bottom_level",
+  "out": {
+   "n_demo": 50,
+   "len_median": 34.5,
+   "tilt_med_deg": {
+    "p10": 11.88877762219995,
+    "median": 28.168858447680016,
+    "p90": 37.55675894076777
+   },
+   "tilt_max_deg_median": 34.58849246817029,
+   "az_f_median_deg": 118.95908683758287,
+   "az_f_concentration": 0.8602004093383976,
+   "gripper_width_median": 0.07843270824155843,
+   "ee_at_start_in_ref_median": [
+    0.0,
+    -0.253,
+    0.065
+   ],
+   "ee_at_end_in_ref_median": [
+    0.022,
+    -0.102,
+    0.025
+   ]
+  }
+ }
+}

@@ -1,0 +1,1 @@
+{"task": "drawer", "seed": 1000, "level": [0.1, 0.03, 5.0], "success": false, "clean": false, "steps": 250, "disp_mm": 242.12, "top": "plate_1", "tilt_med": 59.0, "tilt_max": 72.3, "path_m": 1.1, "n_infer": 51, "n_kicks": 6, "act_dev": 0.0182, "q_start": 0.0, "q_end": -0.001, "sec": 102.9}

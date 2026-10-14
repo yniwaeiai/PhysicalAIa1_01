@@ -1,0 +1,24 @@
+{
+ "k4_single_close_drawer": {
+  "n": 50,
+  "window_len_median": 32.0,
+  "tilt_med_per_demo": {
+   "p10": 19.775830228945928,
+   "median": 33.237831318390704,
+   "p90": 46.23271981534344
+  },
+  "tilt_max_median": 55.18322091597071,
+  "frac_demos_median_tilt_gt_30": 0.7
+ },
+ "k6_single_close_microwave": {
+  "n": 50,
+  "window_len_median": 27.0,
+  "tilt_med_per_demo": {
+   "p10": 4.191390068019359,
+   "median": 9.83488837873588,
+   "p90": 15.372008624364476
+  },
+  "tilt_max_median": 12.138607454417953,
+  "frac_demos_median_tilt_gt_30": 0.0
+ }
+}

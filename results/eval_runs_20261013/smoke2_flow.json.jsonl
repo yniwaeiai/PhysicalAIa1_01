@@ -1,0 +1,1 @@
+{"task": "drawer", "seed": 1000, "level": [0.1, 0.03, 5.0], "success": false, "clean": false, "steps": 250, "disp_mm": 179.84, "top": "akita_black_bowl_1", "tilt_med": 57.0, "tilt_max": 65.8, "path_m": 1.23, "n_infer": 50, "n_kicks": 0, "act_dev": 0.0018, "n_resample": 0, "tau_mean": 2.0, "rep": 0, "q_start": 0.0, "q_end": 0.0, "sec": 96.4}

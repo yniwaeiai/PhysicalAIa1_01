@@ -1,0 +1,1302 @@
+[
+ {
+  "seed": 0,
+  "done": true,
+  "T": 166,
+  "q": -0.143,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    24,
+    "ok"
+   ],
+   [
+    "H_IN",
+    95,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    136,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 1,
+  "done": true,
+  "T": 166,
+  "q": -0.145,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 2,
+  "done": true,
+  "T": 165,
+  "q": -0.141,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 3,
+  "done": true,
+  "T": 165,
+  "q": -0.141,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 4,
+  "done": true,
+  "T": 166,
+  "q": -0.144,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 5,
+  "done": true,
+  "T": 165,
+  "q": -0.144,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 6,
+  "done": true,
+  "T": 165,
+  "q": -0.142,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 7,
+  "done": true,
+  "T": 165,
+  "q": -0.14,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 8,
+  "done": true,
+  "T": 165,
+  "q": -0.142,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 9,
+  "done": true,
+  "T": 166,
+  "q": -0.145,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 10,
+  "done": true,
+  "T": 165,
+  "q": -0.141,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 11,
+  "done": true,
+  "T": 165,
+  "q": -0.145,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 12,
+  "done": true,
+  "T": 166,
+  "q": -0.145,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 13,
+  "done": true,
+  "T": 165,
+  "q": -0.141,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 14,
+  "done": true,
+  "T": 165,
+  "q": -0.141,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 15,
+  "done": true,
+  "T": 165,
+  "q": -0.14,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 16,
+  "done": true,
+  "T": 166,
+  "q": -0.145,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 17,
+  "done": true,
+  "T": 166,
+  "q": -0.145,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 18,
+  "done": true,
+  "T": 166,
+  "q": -0.144,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 19,
+  "done": true,
+  "T": 166,
+  "q": -0.142,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    24,
+    "ok"
+   ],
+   [
+    "H_IN",
+    95,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    136,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 20,
+  "done": true,
+  "T": 165,
+  "q": -0.143,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 21,
+  "done": true,
+  "T": 165,
+  "q": -0.142,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 22,
+  "done": true,
+  "T": 165,
+  "q": -0.141,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 23,
+  "done": true,
+  "T": 166,
+  "q": -0.144,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 24,
+  "done": true,
+  "T": 165,
+  "q": -0.14,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 25,
+  "done": true,
+  "T": 165,
+  "q": -0.14,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 26,
+  "done": true,
+  "T": 165,
+  "q": -0.141,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 27,
+  "done": true,
+  "T": 165,
+  "q": -0.143,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 28,
+  "done": true,
+  "T": 166,
+  "q": -0.143,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 29,
+  "done": true,
+  "T": 165,
+  "q": -0.142,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 30,
+  "done": true,
+  "T": 165,
+  "q": -0.143,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 31,
+  "done": true,
+  "T": 166,
+  "q": -0.143,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    24,
+    "ok"
+   ],
+   [
+    "H_IN",
+    95,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    136,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 32,
+  "done": true,
+  "T": 165,
+  "q": -0.14,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 33,
+  "done": true,
+  "T": 165,
+  "q": -0.144,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 34,
+  "done": true,
+  "T": 165,
+  "q": -0.143,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 35,
+  "done": true,
+  "T": 166,
+  "q": -0.143,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    24,
+    "ok"
+   ],
+   [
+    "H_IN",
+    95,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    136,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 36,
+  "done": true,
+  "T": 165,
+  "q": -0.141,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 37,
+  "done": true,
+  "T": 165,
+  "q": -0.143,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 38,
+  "done": true,
+  "T": 166,
+  "q": -0.143,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 39,
+  "done": true,
+  "T": 165,
+  "q": -0.14,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 40,
+  "done": true,
+  "T": 166,
+  "q": -0.143,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 41,
+  "done": true,
+  "T": 165,
+  "q": -0.141,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 42,
+  "done": true,
+  "T": 165,
+  "q": -0.143,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 43,
+  "done": true,
+  "T": 165,
+  "q": -0.141,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 44,
+  "done": true,
+  "T": 166,
+  "q": -0.143,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 45,
+  "done": true,
+  "T": 166,
+  "q": -0.143,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 46,
+  "done": true,
+  "T": 165,
+  "q": -0.143,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 47,
+  "done": true,
+  "T": 165,
+  "q": -0.141,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 48,
+  "done": true,
+  "T": 165,
+  "q": -0.141,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ },
+ {
+  "seed": 49,
+  "done": true,
+  "T": 165,
+  "q": -0.141,
+  "disp_mm": 0.0,
+  "collided": false,
+  "ok": true,
+  "trans": [
+   [
+    "H_PRE",
+    25,
+    "ok"
+   ],
+   [
+    "H_IN",
+    96,
+    "timeout"
+   ],
+   [
+    "H_HOOK",
+    137,
+    "timeout"
+   ]
+  ]
+ }
+]
