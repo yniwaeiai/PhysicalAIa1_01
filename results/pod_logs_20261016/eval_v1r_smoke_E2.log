@@ -1,0 +1,9 @@
+[eval v1r_smoke_E2] start 2026-10-14 23:33:52 UTC policy=none tasks=drawer,k4,k6 eps=1 level=mix replan=5 seed_off=1000 shards=1
+[eval v1r_smoke_E2] server up after ~5s
+[k6 s0] k6 seed 1000: success=True clean=True T=52 disp=0.0mm tilt_med=25.0 max=25.5 q -1.502->0.017 9.8s
+[k6 s0] SUMMARY k6: success 1/1  clean 1/1  steps_med 52  tilt_med 25.0
+[k4 s0] k4 seed 1000: success=True clean=False T=103 disp=5.21mm tilt_med=41.3 max=44.5 q -0.155->0.001 23.7s
+[k4 s0] SUMMARY k4: success 1/1  clean 0/1  steps_med 103  tilt_med 41.3
+[drawer s0] drawer seed 1000: success=True clean=True T=109 disp=0.0mm tilt_med=60.4 max=63.7 q 0.0->-0.144 29.4s
+[drawer s0] SUMMARY drawer: success 1/1  clean 1/1  steps_med 109  tilt_med 60.4
+[eval v1r_smoke_E2] EVAL_DONE 2026-10-14 23:34:50 UTC

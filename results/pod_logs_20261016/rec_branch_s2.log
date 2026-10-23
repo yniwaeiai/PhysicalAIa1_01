@@ -1,0 +1,82 @@
+shard 2/32: 80 jobs, 0 done
+drawer_s5002_t5: skipped=None done=True clean=True n=105 err=1.1773306322422017 trans=[["H_PRE", 21, "ok"], ["H_IN", 38, "ok"], ["H_HOOK", 79, "timeout"]] 115.6s
+drawer_s5002_t10: skipped=None done=True clean=True n=100 err=0.8989188700883625 trans=[["H_PRE", 16, "ok"], ["H_IN", 33, "ok"], ["H_HOOK", 74, "timeout"]] 54.9s
+drawer_s5002_t15: skipped=None done=True clean=True n=95 err=1.086778744490254 trans=[["H_PRE", 11, "ok"], ["H_IN", 28, "ok"], ["H_HOOK", 69, "timeout"]] 52.0s
+drawer_s5002_t20: skipped=None done=True clean=True n=90 err=1.0136910578040437 trans=[["H_PRE", 6, "ok"], ["H_IN", 23, "ok"], ["H_HOOK", 64, "timeout"]] 49.2s
+drawer_s5002_t25: skipped=None done=True clean=True n=146 err=0.2800747609942868 trans=[["H_PRE", 7, "ok"], ["H_IN", 78, "timeout"], ["H_HOOK", 119, "timeout"]] 70.4s
+drawer_s5002_t30: skipped=None done=True clean=True n=87 err=0.29773432720490733 trans=[["H_PRE", 3, "ok"], ["H_IN", 18, "ok"], ["H_HOOK", 59, "timeout"]] 49.3s
+drawer_s5002_t35: skipped=None done=True clean=True n=84 err=0.9892513887975879 trans=[["H_PRE", 0, "ok"], ["H_IN", 14, "ok"], ["H_HOOK", 55, "timeout"]] 46.2s
+drawer_s5002_t40: skipped=None done=True clean=True n=94 err=0.8775180908882461 trans=[["H_PRE", 5, "ok"], ["H_IN", 22, "ok"], ["H_HOOK", 63, "timeout"]] 50.9s
+drawer_s5034_t5: skipped=None done=True clean=True n=160 err=1.2869188714335895 trans=[["H_PRE", 20, "ok"], ["H_IN", 91, "timeout"], ["H_HOOK", 132, "timeout"]] 80.8s
+drawer_s5034_t10: skipped=None done=True clean=True n=155 err=0.9414173806930662 trans=[["H_PRE", 15, "ok"], ["H_IN", 86, "timeout"], ["H_HOOK", 127, "timeout"]] 77.4s
+drawer_s5034_t15: skipped=None done=True clean=True n=95 err=1.1081229205651923 trans=[["H_PRE", 11, "ok"], ["H_IN", 28, "ok"], ["H_HOOK", 69, "timeout"]] 52.0s
+drawer_s5034_t20: skipped=None done=True clean=True n=90 err=0.909213384493344 trans=[["H_PRE", 5, "ok"], ["H_IN", 23, "ok"], ["H_HOOK", 64, "timeout"]] 50.5s
+drawer_s5034_t25: skipped=None done=True clean=True n=90 err=0.32226121092066634 trans=[["H_PRE", 6, "ok"], ["H_IN", 21, "ok"], ["H_HOOK", 62, "timeout"]] 47.7s
+drawer_s5034_t30: skipped=None done=True clean=True n=145 err=0.24745862953129605 trans=[["H_PRE", 3, "ok"], ["H_IN", 74, "timeout"], ["H_HOOK", 115, "timeout"]] 70.9s
+drawer_s5034_t35: skipped=None done=True clean=True n=92 err=0.9484140215587414 trans=[["H_PRE", 5, "ok"], ["H_IN", 22, "ok"], ["H_HOOK", 63, "timeout"]] 49.5s
+drawer_s5034_t40: skipped=None done=True clean=True n=95 err=0.7574637955001097 trans=[["H_PRE", 6, "ok"], ["H_IN", 23, "ok"], ["H_HOOK", 64, "timeout"]] 50.3s
+drawer_s5066_t5: skipped=None done=True clean=True n=108 err=1.6149434983336552 trans=[["H_PRE", 19, "ok"], ["H_IN", 38, "ok"], ["H_HOOK", 79, "timeout"]] 60.3s
+drawer_s5066_t10: skipped=None done=True clean=True n=111 err=1.1543530903927632 trans=[["H_PRE", 13, "ok"], ["H_IN", 32, "ok"], ["H_HOOK", 73, "timeout"]] 62.8s
+drawer_s5066_t15: skipped=None done=True clean=True n=149 err=0.9939960399743689 trans=[["H_PRE", 8, "ok"], ["H_IN", 79, "timeout"], ["H_HOOK", 120, "timeout"]] 73.8s
+drawer_s5066_t20: skipped=None done=False clean=False n=153 err=1.0078746987763143 trans=[["H_PRE", 3, "ok"], ["H_IN", 74, "timeout"], ["H_HOOK", 115, "timeout"], ["H_PULL", 137, "ok"]] 78.7s
+drawer_s5066_t25: skipped=None done=True clean=True n=86 err=0.9361247687175311 trans=[["H_PRE", 0, "ok"], ["H_IN", 18, "ok"], ["H_HOOK", 59, "timeout"]] 49.0s
+drawer_s5066_t30: skipped=None done=True clean=True n=86 err=0.4119641857042215 trans=[["H_PRE", 3, "ok"], ["H_IN", 19, "ok"], ["H_HOOK", 60, "timeout"]] 49.2s
+drawer_s5066_t35: skipped=None done=True clean=True n=89 err=0.680381069088497 trans=[["H_PRE", 4, "ok"], ["H_IN", 20, "ok"], ["H_HOOK", 61, "timeout"]] 47.9s
+drawer_s5066_t40: skipped=None done=True clean=True n=94 err=0.7525498032783381 trans=[["H_PRE", 6, "ok"], ["H_IN", 23, "ok"], ["H_HOOK", 64, "timeout"]] 48.2s
+drawer_s5098_t5: skipped=None done=True clean=True n=105 err=0.849387892371206 trans=[["H_PRE", 19, "ok"], ["H_IN", 36, "ok"], ["H_HOOK", 77, "timeout"]] 54.9s
+drawer_s5098_t10: skipped=None done=True clean=True n=100 err=0.9854067249020627 trans=[["H_PRE", 15, "ok"], ["H_IN", 32, "ok"], ["H_HOOK", 73, "timeout"]] 51.0s
+drawer_s5098_t15: skipped=None done=True clean=True n=96 err=1.0845125530303368 trans=[["H_PRE", 10, "ok"], ["H_IN", 27, "ok"], ["H_HOOK", 68, "timeout"]] 50.8s
+drawer_s5098_t20: skipped=None done=True clean=True n=90 err=1.0679788450570609 trans=[["H_PRE", 4, "ok"], ["H_IN", 21, "ok"], ["H_HOOK", 62, "timeout"]] 49.0s
+drawer_s5098_t25: skipped=None done=True clean=True n=84 err=0.16882229181257846 trans=[["H_PRE", 0, "ok"], ["H_IN", 17, "ok"], ["H_HOOK", 58, "timeout"]] 44.4s
+drawer_s5098_t30: skipped=None done=True clean=True n=90 err=0.47719394546639854 trans=[["H_PRE", 3, "ok"], ["H_IN", 20, "ok"], ["H_HOOK", 61, "timeout"]] 45.6s
+drawer_s5098_t35: skipped=None done=True clean=True n=92 err=0.8593719112599746 trans=[["H_PRE", 5, "ok"], ["H_IN", 23, "ok"], ["H_HOOK", 64, "timeout"]] 45.3s
+drawer_s5098_t40: skipped=contact_history done=None clean=None n=None err=None trans=None 0.0s
+k4_s5030_t5: skipped=None done=True clean=False n=102 err=0.9043104544688101 trans=[["C_PRE", 29, "ok"], ["C_LOW", 64, "ok"], ["C_PUSH", 101, "ok"]] 58.8s
+k4_s5030_t10: skipped=None done=True clean=False n=97 err=1.0023561867903867 trans=[["C_PRE", 24, "ok"], ["C_LOW", 59, "ok"], ["C_PUSH", 96, "ok"]] 43.7s
+k4_s5030_t15: skipped=None done=True clean=False n=92 err=0.9138618939028588 trans=[["C_PRE", 19, "ok"], ["C_LOW", 54, "ok"], ["C_PUSH", 91, "ok"]] 41.4s
+k4_s5030_t20: skipped=None done=True clean=False n=87 err=1.0368901640939012 trans=[["C_PRE", 13, "ok"], ["C_LOW", 49, "ok"], ["C_PUSH", 86, "ok"]] 36.0s
+k4_s5030_t25: skipped=None done=True clean=False n=80 err=0.31737131545278185 trans=[["C_PRE", 6, "ok"], ["C_LOW", 42, "ok"], ["C_PUSH", 79, "ok"]] 35.8s
+k4_s5030_t30: skipped=None done=True clean=False n=75 err=0.40099499637562847 trans=[["C_PRE", 2, "ok"], ["C_LOW", 37, "ok"], ["C_PUSH", 74, "ok"]] 33.8s
+k4_s5030_t35: skipped=None done=True clean=False n=86 err=0.9030973604932284 trans=[["C_PRE", 7, "ok"], ["C_LOW", 48, "ok"], ["C_PUSH", 85, "ok"]] 38.2s
+k4_s5030_t40: skipped=None done=True clean=False n=86 err=0.731968135253384 trans=[["C_PRE", 8, "ok"], ["C_LOW", 49, "ok"]] 39.2s
+k4_s5062_t5: skipped=None done=True clean=True n=101 err=0.7665561751694323 trans=[["C_PRE", 27, "ok"], ["C_LOW", 62, "ok"], ["C_PUSH", 100, "ok"]] 45.2s
+k4_s5062_t10: skipped=None done=True clean=True n=96 err=1.0424182211259152 trans=[["C_PRE", 22, "ok"], ["C_LOW", 57, "ok"], ["C_PUSH", 95, "ok"]] 42.8s
+k4_s5062_t15: skipped=None done=True clean=True n=91 err=0.9429549437068991 trans=[["C_PRE", 17, "ok"], ["C_LOW", 52, "ok"], ["C_PUSH", 90, "ok"]] 38.9s
+k4_s5062_t20: skipped=None done=True clean=True n=86 err=0.9479174431164754 trans=[["C_PRE", 12, "ok"], ["C_LOW", 47, "ok"], ["C_PUSH", 85, "ok"]] 40.6s
+k4_s5062_t25: skipped=None done=True clean=True n=82 err=0.3586261308399455 trans=[["C_PRE", 8, "ok"], ["C_LOW", 43, "ok"], ["C_PUSH", 81, "ok"]] 35.6s
+k4_s5062_t30: skipped=None done=True clean=True n=78 err=0.48849942473631175 trans=[["C_PRE", 4, "ok"], ["C_LOW", 39, "ok"], ["C_PUSH", 77, "ok"]] 32.2s
+k4_s5062_t35: skipped=None done=True clean=True n=87 err=0.904370005459743 trans=[["C_PRE", 9, "ok"], ["C_LOW", 49, "ok"], ["C_PUSH", 86, "ok"]] 35.0s
+k4_s5062_t40: skipped=None done=True clean=True n=85 err=0.745212583153087 trans=[["C_PRE", 7, "ok"], ["C_LOW", 47, "ok"], ["C_PUSH", 84, "ok"]] 36.8s
+k4_s5094_t5: skipped=None done=True clean=False n=98 err=1.0240640305870363 trans=[["C_PRE", 29, "ok"], ["C_LOW", 64, "ok"], ["C_PUSH", 97, "ok"]] 39.2s
+k4_s5094_t10: skipped=None done=True clean=False n=93 err=1.0112878619734955 trans=[["C_PRE", 24, "ok"], ["C_LOW", 59, "ok"], ["C_PUSH", 92, "ok"]] 38.9s
+k4_s5094_t15: skipped=None done=True clean=False n=88 err=0.9972122442052577 trans=[["C_PRE", 19, "ok"], ["C_LOW", 54, "ok"], ["C_PUSH", 87, "ok"]] 36.5s
+k4_s5094_t20: skipped=None done=True clean=False n=84 err=0.8824625078003078 trans=[["C_PRE", 15, "ok"], ["C_LOW", 50, "ok"], ["C_PUSH", 83, "ok"]] 34.6s
+k4_s5094_t25: skipped=None done=True clean=False n=79 err=0.3865428611908003 trans=[["C_PRE", 10, "ok"], ["C_LOW", 45, "ok"], ["C_PUSH", 78, "ok"]] 32.7s
+k4_s5094_t30: skipped=None done=True clean=False n=74 err=0.16347067242937738 trans=[["C_PRE", 5, "ok"], ["C_LOW", 40, "ok"], ["C_PUSH", 73, "ok"]] 32.2s
+k4_s5094_t35: skipped=None done=True clean=False n=76 err=0.790519877969178 trans=[["C_PRE", 2, "ok"], ["C_LOW", 37, "ok"], ["C_PUSH", 75, "ok"]] 26.3s
+k4_s5094_t40: skipped=None done=True clean=False n=81 err=0.9271184443706474 trans=[["C_PRE", 6, "ok"], ["C_LOW", 47, "ok"], ["C_PUSH", 80, "ok"]] 25.5s
+k6_s5026_t5: skipped=None done=True clean=True n=46 err=1.0812784196788952 trans=[["M_PRE", 10, "ok"], ["M_LOW", 24, "ok"]] 24.0s
+k6_s5026_t10: skipped=None done=True clean=True n=42 err=1.0895914613388833 trans=[["M_PRE", 6, "ok"], ["M_LOW", 20, "ok"]] 13.8s
+k6_s5026_t15: skipped=None done=True clean=True n=39 err=0.9320682392986098 trans=[["M_PRE", 2, "ok"], ["M_LOW", 17, "ok"]] 13.0s
+k6_s5026_t20: skipped=None done=True clean=True n=39 err=0.6748500757307903 trans=[["M_PRE", 2, "ok"], ["M_LOW", 16, "ok"]] 12.8s
+k6_s5026_t25: skipped=None done=True clean=True n=44 err=0.6336523508564609 trans=[["M_PRE", 5, "ok"], ["M_LOW", 22, "ok"]] 14.4s
+k6_s5026_t30: skipped=None done=True clean=True n=46 err=0.47469574775362844 trans=[["M_PRE", 7, "ok"], ["M_LOW", 23, "ok"]] 14.6s
+k6_s5026_t35: skipped=contact_history done=None clean=None n=None err=None trans=None 0.0s
+k6_s5026_t40: skipped=contact_history done=None clean=None n=None err=None trans=None 0.0s
+k6_s5058_t5: skipped=None done=True clean=True n=37 err=1.158364633336187 trans=[["M_PRE", 7, "ok"], ["M_LOW", 22, "ok"]] 14.1s
+k6_s5058_t10: skipped=None done=True clean=True n=33 err=0.8477838923200821 trans=[["M_PRE", 6, "ok"], ["M_LOW", 19, "ok"]] 12.2s
+k6_s5058_t15: skipped=None done=True clean=True n=30 err=0.5106379624847012 trans=[["M_PRE", 2, "ok"], ["M_LOW", 15, "ok"]] 11.2s
+k6_s5058_t20: skipped=None done=True clean=True n=36 err=0.769994878759194 trans=[["M_PRE", 5, "ok"], ["M_LOW", 21, "ok"]] 13.0s
+k6_s5058_t25: skipped=None done=True clean=True n=38 err=0.6042335518453473 trans=[["M_PRE", 7, "ok"], ["M_LOW", 23, "ok"]] 13.4s
+k6_s5058_t30: skipped=contact_history done=None clean=None n=None err=None trans=None 0.0s
+k6_s5058_t35: skipped=contact_history done=None clean=None n=None err=None trans=None 0.0s
+k6_s5058_t40: skipped=rollout_shorter_than_t done=None clean=None n=None err=None trans=None 0.0s
+k6_s5090_t5: skipped=None done=True clean=True n=46 err=1.2121463565956054 trans=[["M_PRE", 10, "ok"], ["M_LOW", 25, "ok"]] 14.9s
+k6_s5090_t10: skipped=None done=True clean=True n=41 err=1.010464274179856 trans=[["M_PRE", 5, "ok"], ["M_LOW", 20, "ok"]] 13.8s
+k6_s5090_t15: skipped=None done=True clean=True n=34 err=0.49809794252948825 trans=[["M_PRE", 0, "ok"], ["M_LOW", 14, "ok"]] 12.4s
+k6_s5090_t20: skipped=None done=True clean=True n=40 err=0.6780591949443027 trans=[["M_PRE", 3, "ok"], ["M_LOW", 19, "ok"]] 13.8s
+k6_s5090_t25: skipped=None done=True clean=True n=43 err=0.5619421576389754 trans=[["M_PRE", 6, "ok"], ["M_LOW", 22, "ok"]] 14.8s
+k6_s5090_t30: skipped=None done=True clean=True n=45 err=0.35092352375654123 trans=[["M_PRE", 8, "ok"], ["M_LOW", 24, "ok"]] 15.4s
+k6_s5090_t35: skipped=contact_history done=None clean=None n=None err=None trans=None 0.0s
+k6_s5090_t40: skipped=contact_history done=None clean=None n=None err=None trans=None 0.0s
+REC_BRANCH_SHARD_DONE 2

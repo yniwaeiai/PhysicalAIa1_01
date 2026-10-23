@@ -1,0 +1,10 @@
+[shard s6] windows=17 branches=276 done_before=0
+[shard s6] 1/276 k6_s1014_r1_fp_a1 done=True disp=0.0mm n=86 infer=18 pref=0.0mm err=0.055mm elapsed=61s
+[shard s6] 2/276 k6_s1014_r1_fp_a7 done=True disp=0.0mm n=178 infer=36 pref=0.0mm err=0.055mm elapsed=111s
+[shard s6] 3/276 k6_s1014_r1_fp_a3 done=True disp=0.0mm n=151 infer=31 pref=0.0mm err=0.055mm elapsed=150s
+[shard s6] 4/276 k6_s1014_r1_fp_a5 done=True disp=0.0mm n=182 infer=37 pref=0.0mm err=0.055mm elapsed=189s
+[shard s6] 5/276 k6_s1014_r1_fp_a6 done=False disp=0.0mm n=184 infer=37 pref=0.0mm err=0.055mm elapsed=233s
+[shard s6] 6/276 k6_s1014_r1_fp_a2 done=True disp=0.0mm n=166 infer=34 pref=0.0mm err=0.055mm elapsed=279s
+[shard s6] 7/276 k6_s1014_r1_fp_a0 done=True disp=0.0mm n=182 infer=37 pref=0.0mm err=0.055mm elapsed=331s
+[shard s6] 8/276 k6_s1014_r1_fp_a4 done=True disp=0.0mm n=183 infer=37 pref=0.0mm err=0.055mm elapsed=382s
+[shard s6] 9/276 k4_s3103_r1_entry_a3 done=False disp=112.9mm n=194 infer=39 pref=0.0mm err=0.550mm elapsed=520s

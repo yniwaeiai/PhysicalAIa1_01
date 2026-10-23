@@ -1,0 +1,1 @@
+{"task": "k4", "seed": 7000, "level": [0.2, 0.06, 10.0], "success": false, "clean": false, "steps": 250, "disp_mm": 0.04, "top": "wine_bottle_1", "tilt_med": 59.7, "tilt_max": 60.2, "path_m": 0.67, "n_infer": 50, "n_kicks": 0, "act_dev": 0.0004, "n_resample": 0, "tau_mean": null, "rep": 0, "q_start": -0.155, "q_end": -0.134, "sec": 57.9}

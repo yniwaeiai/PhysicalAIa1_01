@@ -1,0 +1,53 @@
+[kadai_v3] train start 2026-10-14 17:48:28 UTC
+[data] {"n_variants": 6, "n_base_tasks": 3, "n_episodes": 1768, "n_success": 1768, "n_frames_success": 147935, "frames_by_category": {"kadai_tilt_contact": 147935}}
+[data] ★タスク単位で分割: train 3 / test 0
+[data] test: []
+[data] train 147935 / test 147935 サンプル
+[lora] LoRA r=16 α=32.0 targets=['q_proj', 'k_proj', 'v_proj', 'o_proj', 'out_proj', 'gate_proj', 'up_proj', 'down_proj', 'fc1', 'fc2']: 414 層をラップ / 学習パラメータ 35.24M (ベース 3.617B の 0.974%)
+[操作チェック] 学習 35.24M / 全 3.652B (0.965%)
+[baseline] 未学習（LoRA は恒等）の test loss = 0.3199
+  step    50/2400  loss 0.2325  lr 2.55e-05  5.27s/step  残り 207分  peak 16.9GB
+  step   100/2400  loss 0.2024  lr 5.05e-05  6.27s/step  残り 240分  peak 16.9GB
+  step   150/2400  loss 0.0889  lr 7.55e-05  7.71s/step  残り 289分  peak 16.9GB
+  step   200/2400  loss 0.0569  lr 1.00e-04  8.36s/step  残り 307分  peak 16.9GB
+  step   250/2400  loss 0.0438  lr 9.99e-05  8.53s/step  残り 306分  peak 16.9GB
+  step   300/2400  loss 0.0463  lr 9.95e-05  8.44s/step  残り 295分  peak 16.9GB
+  step   350/2400  loss 0.0373  lr 9.89e-05  8.36s/step  残り 286分  peak 16.9GB
+  step   400/2400  loss 0.0329  lr 9.80e-05  8.30s/step  残り 277分  peak 16.9GB
+  [eval] step 400: test loss 0.0335 (baseline 0.3199, -89.5%)
+  step   450/2400  loss 0.0325  lr 9.68e-05  8.34s/step  残り 271分  peak 16.9GB
+  step   500/2400  loss 0.0299  lr 9.55e-05  8.30s/step  残り 263分  peak 16.9GB
+  step   550/2400  loss 0.0278  lr 9.39e-05  8.27s/step  残り 255分  peak 16.9GB
+  step   600/2400  loss 0.0285  lr 9.21e-05  8.24s/step  残り 247分  peak 16.9GB
+  step   650/2400  loss 0.0266  lr 9.00e-05  8.22s/step  残り 240分  peak 16.9GB
+  step   700/2400  loss 0.0250  lr 8.78e-05  8.19s/step  残り 232分  peak 16.9GB
+  step   750/2400  loss 0.0224  lr 8.54e-05  8.16s/step  残り 225分  peak 16.9GB
+  step   800/2400  loss 0.0230  lr 8.27e-05  8.13s/step  残り 217分  peak 16.9GB
+  [eval] step 800: test loss 0.0234 (baseline 0.3199, -92.7%)
+  step   850/2400  loss 0.0228  lr 8.00e-05  8.16s/step  残り 211分  peak 16.9GB
+  step   900/2400  loss 0.0226  lr 7.70e-05  8.14s/step  残り 204分  peak 16.9GB
+  step   950/2400  loss 0.0211  lr 7.40e-05  8.13s/step  残り 196分  peak 16.9GB
+  step  1000/2400  loss 0.0217  lr 7.08e-05  8.12s/step  残り 189分  peak 16.9GB
+  step  1050/2400  loss 0.0200  lr 6.75e-05  8.11s/step  残り 182分  peak 16.9GB
+  step  1100/2400  loss 0.0229  lr 6.41e-05  8.10s/step  残り 176分  peak 16.9GB
+  step  1150/2400  loss 0.0221  lr 6.06e-05  8.09s/step  残り 169分  peak 16.9GB
+  step  1200/2400  loss 0.0201  lr 5.71e-05  8.08s/step  残り 162分  peak 16.9GB
+  [eval] step 1200: test loss 0.0188 (baseline 0.3199, -94.1%)
+  step  1250/2400  loss 0.0188  lr 5.36e-05  8.10s/step  残り 155分  peak 16.9GB
+  step  1300/2400  loss 0.0222  lr 5.00e-05  8.09s/step  残り 148分  peak 16.9GB
+  step  1350/2400  loss 0.0198  lr 4.64e-05  8.08s/step  残り 141分  peak 16.9GB
+  step  1400/2400  loss 0.0211  lr 4.29e-05  8.07s/step  残り 135分  peak 16.9GB
+  step  1450/2400  loss 0.0196  lr 3.94e-05  8.06s/step  残り 128分  peak 16.9GB
+  step  1500/2400  loss 0.0206  lr 3.59e-05  8.05s/step  残り 121分  peak 16.9GB
+  step  1550/2400  loss 0.0197  lr 3.25e-05  8.05s/step  残り 114分  peak 16.9GB
+  step  1600/2400  loss 0.0199  lr 2.92e-05  8.03s/step  残り 107分  peak 16.9GB
+  [eval] step 1600: test loss 0.0131 (baseline 0.3199, -95.9%)
+  step  1650/2400  loss 0.0173  lr 2.60e-05  8.05s/step  残り 101分  peak 16.9GB
+  step  1700/2400  loss 0.0201  lr 2.30e-05  8.06s/step  残り 94分  peak 16.9GB
+  step  1750/2400  loss 0.0182  lr 2.00e-05  8.08s/step  残り 87分  peak 16.9GB
+  step  1800/2400  loss 0.0181  lr 1.73e-05  8.07s/step  残り 81分  peak 16.9GB
+  step  1850/2400  loss 0.0169  lr 1.46e-05  8.07s/step  残り 74分  peak 16.9GB
+  step  1900/2400  loss 0.0166  lr 1.22e-05  8.06s/step  残り 67分  peak 16.9GB
+  step  1950/2400  loss 0.0150  lr 9.97e-06  8.06s/step  残り 60分  peak 16.9GB
+  step  2000/2400  loss 0.0174  lr 7.94e-06  8.04s/step  残り 54分  peak 16.9GB
+  [eval] step 2000: test loss 0.0116 (baseline 0.3199, -96.4%)

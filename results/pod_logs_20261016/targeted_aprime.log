@@ -1,0 +1,139 @@
+[aprime k4 s2] k4 seed 1024: success=True clean=True T=98 disp=0.0mm tilt_med=39.5 max=44.5 q -0.144->0.002 30.1s
+[aprime k4 s2] k4 seed 1024: success=True clean=True T=101 disp=0.0mm tilt_med=40.6 max=43.0 q -0.144->0.002 30.1s
+[aprime k4 s2] k4 seed 1043: success=True clean=True T=92 disp=0.0mm tilt_med=42.6 max=48.0 q -0.159->0.001 27.1s
+[aprime k4 s2] SUMMARY k4: success 3/3  clean 3/3  steps_med 98  tilt_med 40.6
+[aprime k4 s1] k4 seed 1000: success=True clean=False T=122 disp=18.29mm tilt_med=40.0 max=42.9 q -0.155->0.002 34.3s
+[aprime k4 s1] k4 seed 1024: success=True clean=False T=102 disp=1.06mm tilt_med=40.6 max=42.6 q -0.144->0.001 32.6s
+[aprime k4 s1] k4 seed 1024: success=True clean=False T=113 disp=195.4mm tilt_med=41.3 max=44.9 q -0.144->0.002 32.6s
+[aprime k4 s1] SUMMARY k4: success 3/3  clean 0/3  steps_med 113  tilt_med 40.6
+[aprime k4 s0] k4 seed 1000: success=True clean=False T=130 disp=192.22mm tilt_med=40.1 max=42.1 q -0.155->0.002 39.0s
+[aprime k4 s0] k4 seed 1000: success=True clean=False T=118 disp=26.68mm tilt_med=40.5 max=44.1 q -0.155->0.002 36.7s
+[aprime k4 s0] k4 seed 1000: success=True clean=False T=113 disp=228.68mm tilt_med=36.5 max=42.3 q -0.155->0.002 31.2s
+[aprime k4 s0] SUMMARY k4: success 3/3  clean 0/3  steps_med 118  tilt_med 40.1
+[aprime k4 s3] k4 seed 1043: success=True clean=False T=98 disp=771.63mm tilt_med=45.1 max=51.4 q -0.159->0.002 29.3s
+[aprime k4 s3] k4 seed 1043: success=False clean=False T=250 disp=771.63mm tilt_med=55.3 max=65.4 q -0.159->-0.026 72.0s
+[aprime k4 s3] k4 seed 1043: success=True clean=False T=133 disp=771.63mm tilt_med=44.2 max=47.4 q -0.159->0.0 33.4s
+[aprime k4 s3] SUMMARY k4: success 2/3  clean 0/3  steps_med 133  tilt_med 45.1
+[aprime k4] TARGETED_DONE 2026-10-14 06:23:05 UTC
+[aprime k6 s1] k6 seed 1139: success=True clean=True T=61 disp=0.0mm tilt_med=22.4 max=27.1 q -1.888->0.022 17.8s
+[aprime k6 s1] k6 seed 1139: success=True clean=True T=52 disp=0.0mm tilt_med=21.2 max=24.0 q -1.888->0.016 13.6s
+[aprime k6 s1] k6 seed 1177: success=True clean=True T=55 disp=0.0mm tilt_med=24.5 max=25.0 q -1.86->0.018 16.6s
+[aprime k6 s1] k6 seed 1177: success=True clean=True T=58 disp=0.0mm tilt_med=25.6 max=27.2 q -1.86->0.018 15.5s
+[aprime k6 s1] k6 seed 1177: success=True clean=True T=57 disp=0.0mm tilt_med=26.0 max=27.5 q -1.86->0.017 14.4s
+[aprime k6 s1] k6 seed 1177: success=True clean=True T=59 disp=0.0mm tilt_med=25.5 max=26.6 q -1.86->0.029 14.4s
+[aprime k6 s1] k6 seed 1180: success=True clean=True T=65 disp=0.0mm tilt_med=26.1 max=27.0 q -2.08->0.025 15.2s
+[aprime k6 s1] k6 seed 1180: success=True clean=True T=61 disp=0.0mm tilt_med=24.0 max=24.5 q -2.08->0.013 13.7s
+[aprime k6 s1] k6 seed 1180: success=True clean=True T=71 disp=0.0mm tilt_med=29.3 max=29.7 q -2.08->0.021 17.2s
+[aprime k6 s1] k6 seed 1180: success=True clean=True T=69 disp=0.0mm tilt_med=23.5 max=25.1 q -2.08->0.026 15.2s
+[aprime k6 s1] SUMMARY k6: success 10/10  clean 10/10  steps_med 60  tilt_med 25.0
+[aprime k6 s7] k6 seed 1461: success=True clean=True T=50 disp=0.0mm tilt_med=24.1 max=25.1 q -1.412->0.025 12.7s
+[aprime k6 s7] k6 seed 1461: success=True clean=True T=43 disp=0.0mm tilt_med=22.9 max=25.0 q -1.412->0.013 12.6s
+[aprime k6 s7] k6 seed 1488: success=True clean=True T=47 disp=0.0mm tilt_med=23.7 max=26.1 q -1.572->0.028 12.2s
+[aprime k6 s7] k6 seed 1488: success=True clean=True T=52 disp=0.0mm tilt_med=22.8 max=25.1 q -1.572->0.014 17.4s
+[aprime k6 s7] k6 seed 1488: success=True clean=True T=50 disp=0.0mm tilt_med=24.3 max=26.2 q -1.572->0.016 13.4s
+[aprime k6 s7] k6 seed 1488: success=True clean=True T=46 disp=0.0mm tilt_med=24.9 max=27.3 q -1.572->0.01 12.3s
+[aprime k6 s7] k6 seed 1492: success=True clean=True T=161 disp=0.0mm tilt_med=45.1 max=68.3 q -1.376->0.005 40.2s
+[aprime k6 s7] k6 seed 1492: success=True clean=True T=51 disp=0.0mm tilt_med=23.1 max=24.3 q -1.376->0.015 12.0s
+[aprime k6 s7] k6 seed 1492: success=True clean=True T=65 disp=0.0mm tilt_med=29.1 max=36.5 q -1.376->-0.002 16.5s
+[aprime k6 s7] k6 seed 1492: success=True clean=True T=44 disp=0.0mm tilt_med=23.8 max=24.5 q -1.376->0.014 9.9s
+[aprime k6 s7] SUMMARY k6: success 10/10  clean 10/10  steps_med 50  tilt_med 24.0
+[aprime drawer s2] drawer seed 1030: success=True clean=False T=108 disp=3.08mm tilt_med=57.0 max=60.4 q 0.0->-0.142 35.6s
+[aprime drawer s2] drawer seed 1030: success=True clean=False T=79 disp=1.52mm tilt_med=55.8 max=58.6 q 0.0->-0.14 28.5s
+[aprime drawer s2] drawer seed 1037: success=True clean=True T=144 disp=0.0mm tilt_med=60.5 max=62.2 q 0.0->-0.141 45.2s
+[aprime drawer s2] drawer seed 1037: success=True clean=True T=87 disp=0.0mm tilt_med=56.7 max=62.1 q 0.0->-0.141 25.7s
+[aprime drawer s2] drawer seed 1037: success=True clean=True T=119 disp=0.0mm tilt_med=59.4 max=63.9 q 0.0->-0.144 34.5s
+[aprime drawer s2] drawer seed 1037: success=False clean=False T=250 disp=60.6mm tilt_med=65.2 max=76.1 q 0.0->-0.067 64.8s
+[aprime drawer s2] drawer seed 1039: success=True clean=False T=73 disp=8.46mm tilt_med=59.6 max=61.3 q 0.0->-0.145 21.2s
+[aprime drawer s2] SUMMARY drawer: success 6/7  clean 3/7  steps_med 108  tilt_med 59.4
+[aprime drawer s1] drawer seed 1016: success=False clean=False T=250 disp=88.63mm tilt_med=62.6 max=72.3 q 0.0->0.002 80.2s
+[aprime drawer s1] drawer seed 1027: success=True clean=True T=80 disp=0.0mm tilt_med=60.1 max=70.6 q 0.0->-0.141 25.7s
+[aprime drawer s1] drawer seed 1027: success=True clean=True T=79 disp=0.0mm tilt_med=57.3 max=60.1 q 0.0->-0.141 23.6s
+[aprime drawer s1] drawer seed 1027: success=True clean=True T=78 disp=0.0mm tilt_med=58.0 max=79.9 q 0.0->-0.145 23.3s
+[aprime drawer s1] drawer seed 1027: success=True clean=True T=132 disp=0.0mm tilt_med=54.6 max=58.1 q 0.0->-0.143 36.9s
+[aprime drawer s1] drawer seed 1030: success=True clean=True T=119 disp=0.01mm tilt_med=57.4 max=64.0 q 0.0->-0.144 34.0s
+[aprime drawer s1] drawer seed 1030: success=True clean=True T=188 disp=0.01mm tilt_med=56.3 max=67.2 q 0.0->-0.141 51.7s
+[aprime drawer s1] SUMMARY drawer: success 6/7  clean 6/7  steps_med 119  tilt_med 57.4
+[aprime k6 s6] k6 seed 1428: success=True clean=True T=48 disp=0.0mm tilt_med=25.7 max=26.5 q -1.696->0.032 13.9s
+[aprime k6 s6] k6 seed 1428: success=True clean=True T=50 disp=0.0mm tilt_med=23.2 max=25.4 q -1.696->0.02 14.0s
+[aprime k6 s6] k6 seed 1428: success=True clean=True T=51 disp=0.0mm tilt_med=23.8 max=25.6 q -1.696->0.033 15.5s
+[aprime k6 s6] k6 seed 1428: success=True clean=True T=52 disp=0.0mm tilt_med=23.8 max=24.7 q -1.696->0.022 15.6s
+[aprime k6 s6] k6 seed 1442: success=True clean=True T=185 disp=0.0mm tilt_med=27.2 max=34.7 q -1.376->0.017 49.4s
+[aprime k6 s6] k6 seed 1442: success=False clean=False T=250 disp=0.0mm tilt_med=24.9 max=36.6 q -1.376->-0.373 61.3s
+[aprime k6 s6] k6 seed 1442: success=False clean=False T=250 disp=0.0mm tilt_med=64.7 max=83.8 q -1.376->-0.518 60.9s
+[aprime k6 s6] k6 seed 1442: success=False clean=False T=250 disp=0.0mm tilt_med=21.9 max=55.3 q -1.376->-0.329 58.1s
+[aprime k6 s6] k6 seed 1461: success=True clean=True T=51 disp=0.0mm tilt_med=23.9 max=26.3 q -1.412->0.023 12.1s
+[aprime k6 s6] k6 seed 1461: success=True clean=True T=63 disp=0.0mm tilt_med=25.5 max=48.0 q -1.412->0.009 12.3s
+[aprime k6 s6] SUMMARY k6: success 7/10  clean 7/10  steps_med 58  tilt_med 24.4
+[aprime drawer s0] drawer seed 1014: success=True clean=True T=132 disp=0.0mm tilt_med=61.7 max=63.7 q 0.0->-0.143 42.5s
+[aprime drawer s0] drawer seed 1014: success=True clean=True T=127 disp=0.0mm tilt_med=60.8 max=77.4 q 0.0->-0.142 41.8s
+[aprime drawer s0] drawer seed 1014: success=True clean=True T=131 disp=0.0mm tilt_med=62.2 max=74.8 q 0.0->-0.144 37.6s
+[aprime drawer s0] drawer seed 1014: success=False clean=False T=250 disp=0.0mm tilt_med=62.9 max=64.6 q 0.0->0.002 67.2s
+[aprime drawer s0] drawer seed 1016: success=False clean=False T=250 disp=107.51mm tilt_med=62.2 max=76.7 q 0.0->-0.015 68.1s
+[aprime drawer s0] drawer seed 1016: success=False clean=False T=250 disp=0.0mm tilt_med=66.3 max=66.4 q 0.0->0.002 66.9s
+[aprime drawer s0] drawer seed 1016: success=True clean=True T=85 disp=0.0mm tilt_med=58.2 max=64.5 q 0.0->-0.142 19.5s
+[aprime drawer s0] SUMMARY drawer: success 4/7  clean 4/7  steps_med 132  tilt_med 62.2
+[aprime drawer s3] drawer seed 1039: success=True clean=True T=82 disp=0.0mm tilt_med=59.3 max=62.4 q 0.0->-0.143 28.9s
+[aprime drawer s3] drawer seed 1039: success=True clean=False T=110 disp=10.28mm tilt_med=55.8 max=63.0 q 0.0->-0.145 36.6s
+[aprime drawer s3] drawer seed 1039: success=True clean=True T=83 disp=0.0mm tilt_med=62.4 max=79.3 q 0.0->-0.141 26.9s
+[aprime drawer s3] drawer seed 1045: success=False clean=False T=250 disp=1.6mm tilt_med=47.0 max=53.7 q 0.0->0.0 73.4s
+[aprime drawer s3] drawer seed 1045: success=False clean=False T=250 disp=124.56mm tilt_med=63.6 max=68.3 q 0.0->0.0 68.4s
+[aprime drawer s3] drawer seed 1045: success=False clean=False T=250 disp=119.86mm tilt_med=67.3 max=78.0 q 0.0->0.0 67.1s
+[aprime drawer s3] drawer seed 1045: success=False clean=False T=250 disp=1.6mm tilt_med=59.8 max=61.5 q 0.0->0.0 64.4s
+[aprime drawer s3] SUMMARY drawer: success 3/7  clean 2/7  steps_med 250  tilt_med 59.8
+[aprime drawer] TARGETED_DONE 2026-10-14 06:27:31 UTC
+[aprime k6 s3] k6 seed 1253: success=False clean=False T=250 disp=0.0mm tilt_med=88.5 max=96.6 q -1.546->-0.533 76.7s
+[aprime k6 s3] k6 seed 1253: success=True clean=True T=139 disp=0.0mm tilt_med=50.8 max=57.3 q -1.546->0.001 37.5s
+[aprime k6 s3] k6 seed 1300: success=False clean=False T=250 disp=0.0mm tilt_med=45.9 max=102.5 q -1.502->-0.186 60.9s
+[aprime k6 s3] k6 seed 1300: success=True clean=True T=46 disp=0.0mm tilt_med=22.6 max=24.8 q -1.502->0.012 10.8s
+[aprime k6 s3] k6 seed 1300: success=True clean=True T=45 disp=0.0mm tilt_med=22.3 max=24.6 q -1.502->0.023 9.3s
+[aprime k6 s3] k6 seed 1300: success=True clean=True T=38 disp=0.0mm tilt_med=23.1 max=25.7 q -1.502->0.019 8.8s
+[aprime k6 s3] k6 seed 1337: success=False clean=False T=250 disp=0.0mm tilt_med=30.7 max=61.0 q -1.639->-0.413 55.9s
+[aprime k6 s3] k6 seed 1337: success=False clean=False T=250 disp=0.0mm tilt_med=42.5 max=60.9 q -1.639->-0.4 58.0s
+[aprime k6 s3] k6 seed 1337: success=True clean=True T=51 disp=0.0mm tilt_med=24.3 max=25.0 q -1.639->0.016 11.5s
+[aprime k6 s3] k6 seed 1337: success=False clean=False T=250 disp=0.0mm tilt_med=54.1 max=69.8 q -1.639->-0.411 54.7s
+[aprime k6 s3] SUMMARY k6: success 5/10  clean 5/10  steps_med 194  tilt_med 36.6
+[aprime k6 s4] k6 seed 1341: success=False clean=False T=250 disp=0.0mm tilt_med=54.1 max=76.5 q -1.626->-0.55 73.4s
+[aprime k6 s4] k6 seed 1341: success=False clean=False T=250 disp=0.0mm tilt_med=62.4 max=70.8 q -1.626->-0.532 63.4s
+[aprime k6 s4] k6 seed 1341: success=False clean=False T=250 disp=0.0mm tilt_med=58.5 max=72.9 q -1.626->-0.551 58.9s
+[aprime k6 s4] k6 seed 1341: success=False clean=False T=250 disp=0.0mm tilt_med=71.1 max=93.4 q -1.626->-0.688 57.5s
+[aprime k6 s4] k6 seed 1352: success=True clean=True T=44 disp=0.0mm tilt_med=27.9 max=28.2 q -1.731->0.014 9.9s
+[aprime k6 s4] k6 seed 1352: success=True clean=True T=50 disp=0.0mm tilt_med=24.5 max=26.9 q -1.731->0.001 11.3s
+[aprime k6 s4] k6 seed 1352: success=True clean=True T=46 disp=0.0mm tilt_med=30.2 max=31.2 q -1.731->0.019 11.0s
+[aprime k6 s4] k6 seed 1352: success=True clean=True T=44 disp=0.0mm tilt_med=28.7 max=31.4 q -1.731->-0.002 10.1s
+[aprime k6 s4] k6 seed 1390: success=False clean=False T=250 disp=0.0mm tilt_med=43.8 max=67.0 q -1.759->-0.552 47.5s
+[aprime k6 s4] k6 seed 1390: success=False clean=False T=250 disp=0.0mm tilt_med=20.0 max=25.5 q -1.759->-0.466 57.4s
+[aprime k6 s4] SUMMARY k6: success 4/10  clean 4/10  steps_med 250  tilt_med 37.0
+[aprime k6 s5] k6 seed 1390: success=False clean=False T=250 disp=0.0mm tilt_med=23.3 max=96.8 q -1.759->-0.307 72.8s
+[aprime k6 s5] k6 seed 1390: success=False clean=False T=250 disp=0.0mm tilt_med=80.6 max=94.4 q -1.759->-0.547 66.4s
+[aprime k6 s5] k6 seed 1413: success=False clean=False T=250 disp=0.0mm tilt_med=24.3 max=81.9 q -1.783->-0.466 61.7s
+[aprime k6 s5] k6 seed 1413: success=False clean=False T=250 disp=0.0mm tilt_med=48.6 max=58.2 q -1.783->-0.453 58.9s
+[aprime k6 s5] k6 seed 1413: success=False clean=False T=250 disp=0.0mm tilt_med=46.5 max=50.8 q -1.783->-0.466 58.3s
+[aprime k6 s5] k6 seed 1413: success=False clean=False T=250 disp=0.0mm tilt_med=43.6 max=52.0 q -1.783->-0.465 57.1s
+[aprime k6 s5] k6 seed 1417: success=True clean=True T=53 disp=0.0mm tilt_med=25.1 max=26.1 q -1.552->0.015 12.3s
+[aprime k6 s5] k6 seed 1417: success=True clean=True T=86 disp=0.0mm tilt_med=28.5 max=41.3 q -1.552->0.012 21.2s
+[aprime k6 s5] k6 seed 1417: success=True clean=True T=52 disp=0.0mm tilt_med=24.1 max=25.0 q -1.552->0.015 9.8s
+[aprime k6 s5] k6 seed 1417: success=True clean=True T=44 disp=0.0mm tilt_med=21.2 max=24.6 q -1.552->0.015 10.3s
+[aprime k6 s5] SUMMARY k6: success 4/10  clean 4/10  steps_med 250  tilt_med 26.8
+[aprime k6 s2] k6 seed 1193: success=False clean=False T=250 disp=0.0mm tilt_med=47.5 max=59.1 q -0.791->-0.045 71.0s
+[aprime k6 s2] k6 seed 1193: success=True clean=True T=65 disp=0.0mm tilt_med=32.7 max=38.0 q -0.791->0.007 18.3s
+[aprime k6 s2] k6 seed 1193: success=True clean=True T=50 disp=0.0mm tilt_med=32.2 max=33.5 q -0.791->0.022 12.5s
+[aprime k6 s2] k6 seed 1193: success=True clean=True T=50 disp=0.0mm tilt_med=26.2 max=28.5 q -0.791->0.021 12.1s
+[aprime k6 s2] k6 seed 1200: success=False clean=False T=250 disp=0.0mm tilt_med=36.4 max=68.8 q -1.502->-0.489 64.5s
+[aprime k6 s2] k6 seed 1200: success=False clean=False T=250 disp=0.0mm tilt_med=49.1 max=58.6 q -1.502->-0.474 55.8s
+[aprime k6 s2] k6 seed 1200: success=False clean=False T=250 disp=0.0mm tilt_med=61.0 max=72.2 q -1.502->-0.559 58.2s
+[aprime k6 s2] k6 seed 1200: success=False clean=False T=250 disp=0.0mm tilt_med=71.5 max=97.8 q -1.502->-0.552 54.9s
+[aprime k6 s2] k6 seed 1253: success=False clean=False T=250 disp=0.0mm tilt_med=50.6 max=68.2 q -1.652->-0.528 56.4s
+[aprime k6 s2] k6 seed 1253: success=False clean=False T=250 disp=0.0mm tilt_med=38.5 max=65.4 q -1.652->-0.496 52.1s
+[aprime k6 s2] SUMMARY k6: success 3/10  clean 3/10  steps_med 250  tilt_med 43.0
+[aprime k6 s0] k6 seed 1014: success=True clean=True T=121 disp=0.0mm tilt_med=25.1 max=30.5 q -1.726->0.008 34.5s
+[aprime k6 s0] k6 seed 1014: success=True clean=True T=180 disp=0.0mm tilt_med=25.0 max=32.6 q -1.726->0.0 53.0s
+[aprime k6 s0] k6 seed 1014: success=False clean=False T=250 disp=0.0mm tilt_med=46.9 max=65.2 q -1.726->-0.526 60.3s
+[aprime k6 s0] k6 seed 1014: success=False clean=False T=250 disp=0.0mm tilt_med=47.8 max=68.5 q -1.726->-0.523 56.8s
+[aprime k6 s0] k6 seed 1113: success=False clean=False T=250 disp=0.0mm tilt_med=58.8 max=67.3 q -1.783->-0.51 58.3s
+[aprime k6 s0] k6 seed 1113: success=False clean=False T=250 disp=0.0mm tilt_med=52.2 max=69.9 q -1.783->-0.523 58.7s
+[aprime k6 s0] k6 seed 1113: success=False clean=False T=250 disp=0.0mm tilt_med=51.9 max=57.3 q -1.783->-0.438 54.5s
+[aprime k6 s0] k6 seed 1113: success=False clean=False T=250 disp=0.0mm tilt_med=66.6 max=106.8 q -1.783->-0.512 67.4s
+[aprime k6 s0] k6 seed 1139: success=True clean=True T=52 disp=0.0mm tilt_med=21.0 max=24.1 q -1.888->0.017 11.4s
+[aprime k6 s0] k6 seed 1139: success=True clean=True T=56 disp=0.0mm tilt_med=21.0 max=24.2 q -1.888->0.018 11.6s
+[aprime k6 s0] SUMMARY k6: success 4/10  clean 4/10  steps_med 250  tilt_med 47.3
+[aprime k6] TARGETED_DONE 2026-10-14 06:29:17 UTC

@@ -1,0 +1,5 @@
+seed 0: done=True T=163 q=-0.143 disp=0.0mm ok=True [('H_PRE', 'ok'), ('H_IN', 'timeout'), ('H_HOOK', 'timeout')]
+seed 1: done=True T=174 q=-0.142 disp=0.0mm ok=True [('H_PRE', 'ok'), ('H_IN', 'timeout'), ('H_HOOK', 'timeout')]
+SUMMARY ok 2/2 done 2/2
+recorded 2 episodes -> /root/rendercheck/libero_goal/open_the_middle_drawer_of_the_cabinet.hdf5
+RC_DONE

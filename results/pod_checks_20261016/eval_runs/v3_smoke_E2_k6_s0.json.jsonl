@@ -1,0 +1,1 @@
+{"task": "k6", "seed": 1000, "level": [0.1, 0.03, 5.0], "success": false, "clean": false, "steps": 250, "disp_mm": 0.0, "top": "porcelain_mug_1", "tilt_med": 35.7, "tilt_max": 71.3, "path_m": 1.805, "n_infer": 50, "n_kicks": 0, "act_dev": 0.002, "n_resample": 0, "tau_mean": null, "rep": 0, "q_start": -1.502, "q_end": -1.491, "sec": 52.4}

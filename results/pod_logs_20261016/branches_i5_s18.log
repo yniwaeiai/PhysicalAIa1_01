@@ -1,0 +1,43 @@
+I5 skipped: [('drawer', 1027, 'no failure window'), ('drawer', 1030, 'no failure window'), ('drawer', 1039, 'no failure window'), ('drawer', 3101, 'no failure window'), ('drawer', 3104, 'no failure window'), ('drawer', 3106, 'no failure window'), ('k6', 1492, 'no failure window'), ('k6', 3105, 'no failure window'), ('k6', 3107, 'no failure window')] windows: 28
+[shard s18] windows=1 branches=40 done_before=0
+[shard s18] 1/40 k6_s1193_r0_x_r1_t13_q7 done=False n=233 tgtErr=0.000mm/0.000deg dqf=0.138 f0=0.0N elapsed=112s
+[shard s18] 2/40 k6_s1193_r0_x_r1_t13_p0 done=True n=31 tgtErr=0.025mm/0.000deg dqf=0.136 f0=0.0N elapsed=128s
+[shard s18] 3/40 k6_s1193_r0_x_r1_t13_p2 done=False n=233 tgtErr=0.025mm/0.000deg dqf=0.136 f0=0.0N elapsed=200s
+[shard s18] 4/40 k6_s1193_r0_x_r1_t13_pp3 done=True n=37 tgtErr=0.367mm/5.171deg dqf=0.028 f0=0.0N elapsed=217s
+[shard s18] 5/40 k6_s1193_r0_x_r1_t13_pp0 done=True n=26 tgtErr=0.367mm/5.171deg dqf=0.028 f0=0.0N elapsed=234s
+[shard s18] 6/40 k6_s1193_r0_x_r1_t13_q2 done=False n=233 tgtErr=0.000mm/0.000deg dqf=0.138 f0=0.0N elapsed=308s
+[shard s18] 7/40 k6_s1193_r0_x_r1_t13_p7 done=False n=233 tgtErr=0.025mm/0.000deg dqf=0.136 f0=0.0N elapsed=384s
+[shard s18] 8/40 k6_s1193_r0_x_r1_t13_n1 done=True n=31 tgtErr=0.007mm/0.000deg dqf=0.016 f0=0.0N elapsed=400s
+[shard s18] 9/40 k6_s1193_r0_x_r1_t13_q0 done=False n=233 tgtErr=0.000mm/0.000deg dqf=0.138 f0=0.0N elapsed=477s
+[shard s18] 10/40 k6_s1193_r0_x_r1_t13_po3 done=True n=20 tgtErr=27.755mm/0.071deg dqf=0.081 f0=0.0N elapsed=489s
+[shard s18] 11/40 k6_s1193_r0_x_r1_t13_pp7 done=False n=233 tgtErr=0.367mm/5.171deg dqf=0.028 f0=0.0N elapsed=566s
+[shard s18] 12/40 k6_s1193_r0_x_r1_t13_po6 done=False n=233 tgtErr=27.755mm/0.071deg dqf=0.081 f0=0.0N elapsed=644s
+[shard s18] 13/40 k6_s1193_r0_x_r1_t13_n5 done=False n=233 tgtErr=0.007mm/0.000deg dqf=0.016 f0=0.0N elapsed=720s
+[shard s18] 14/40 k6_s1193_r0_x_r1_t13_n2 done=False n=233 tgtErr=0.007mm/0.000deg dqf=0.016 f0=0.0N elapsed=798s
+[shard s18] 15/40 k6_s1193_r0_x_r1_t13_p1 done=True n=23 tgtErr=0.025mm/0.000deg dqf=0.136 f0=0.0N elapsed=810s
+[shard s18] 16/40 k6_s1193_r0_x_r1_t13_n3 done=True n=34 tgtErr=0.007mm/0.000deg dqf=0.016 f0=0.0N elapsed=826s
+[shard s18] 17/40 k6_s1193_r0_x_r1_t13_po7 done=False n=233 tgtErr=27.755mm/0.071deg dqf=0.081 f0=0.0N elapsed=900s
+[shard s18] 18/40 k6_s1193_r0_x_r1_t13_q1 done=True n=31 tgtErr=0.000mm/0.000deg dqf=0.138 f0=0.0N elapsed=915s
+[shard s18] 19/40 k6_s1193_r0_x_r1_t13_po5 done=False n=233 tgtErr=27.755mm/0.071deg dqf=0.081 f0=0.0N elapsed=987s
+[shard s18] 20/40 k6_s1193_r0_x_r1_t13_pp2 done=False n=233 tgtErr=0.367mm/5.171deg dqf=0.028 f0=0.0N elapsed=1068s
+[shard s18] 21/40 k6_s1193_r0_x_r1_t13_q4 done=True n=31 tgtErr=0.000mm/0.000deg dqf=0.138 f0=0.0N elapsed=1084s
+[shard s18] 22/40 k6_s1193_r0_x_r1_t13_q5 done=True n=31 tgtErr=0.000mm/0.000deg dqf=0.138 f0=0.0N elapsed=1100s
+[shard s18] 23/40 k6_s1193_r0_x_r1_t13_pp5 done=True n=37 tgtErr=0.367mm/5.171deg dqf=0.028 f0=0.0N elapsed=1118s
+[shard s18] 24/40 k6_s1193_r0_x_r1_t13_pp1 done=True n=25 tgtErr=0.367mm/5.171deg dqf=0.028 f0=0.0N elapsed=1131s
+[shard s18] 25/40 k6_s1193_r0_x_r1_t13_p4 done=False n=233 tgtErr=0.025mm/0.000deg dqf=0.136 f0=0.0N elapsed=1212s
+[shard s18] 26/40 k6_s1193_r0_x_r1_t13_po4 done=True n=22 tgtErr=27.755mm/0.071deg dqf=0.081 f0=0.0N elapsed=1225s
+[shard s18] 27/40 k6_s1193_r0_x_r1_t13_pp6 done=False n=233 tgtErr=0.367mm/5.171deg dqf=0.028 f0=0.0N elapsed=1314s
+[shard s18] 28/40 k6_s1193_r0_x_r1_t13_q3 done=False n=233 tgtErr=0.000mm/0.000deg dqf=0.138 f0=0.0N elapsed=1390s
+[shard s18] 29/40 k6_s1193_r0_x_r1_t13_n0 done=True n=35 tgtErr=0.007mm/0.000deg dqf=0.016 f0=0.0N elapsed=1407s
+[shard s18] 30/40 k6_s1193_r0_x_r1_t13_po0 done=False n=233 tgtErr=27.755mm/0.071deg dqf=0.081 f0=0.0N elapsed=1477s
+[shard s18] 31/40 k6_s1193_r0_x_r1_t13_n6 done=True n=34 tgtErr=0.007mm/0.000deg dqf=0.016 f0=0.0N elapsed=1491s
+[shard s18] 32/40 k6_s1193_r0_x_r1_t13_p5 done=True n=29 tgtErr=0.025mm/0.000deg dqf=0.136 f0=0.0N elapsed=1506s
+[shard s18] 33/40 k6_s1193_r0_x_r1_t13_po2 done=False n=233 tgtErr=27.755mm/0.071deg dqf=0.081 f0=0.0N elapsed=1577s
+[shard s18] 34/40 k6_s1193_r0_x_r1_t13_p3 done=False n=233 tgtErr=0.025mm/0.000deg dqf=0.136 f0=0.0N elapsed=1646s
+[shard s18] 35/40 k6_s1193_r0_x_r1_t13_n4 done=True n=49 tgtErr=0.007mm/0.000deg dqf=0.016 f0=0.0N elapsed=1665s
+[shard s18] 36/40 k6_s1193_r0_x_r1_t13_pp4 done=False n=233 tgtErr=0.367mm/5.171deg dqf=0.028 f0=0.0N elapsed=1729s
+[shard s18] 37/40 k6_s1193_r0_x_r1_t13_p6 done=False n=233 tgtErr=0.025mm/0.000deg dqf=0.136 f0=0.0N elapsed=1791s
+[shard s18] 38/40 k6_s1193_r0_x_r1_t13_q6 done=True n=28 tgtErr=0.000mm/0.000deg dqf=0.138 f0=0.0N elapsed=1804s
+[shard s18] 39/40 k6_s1193_r0_x_r1_t13_n7 done=False n=233 tgtErr=0.007mm/0.000deg dqf=0.016 f0=0.0N elapsed=1866s
+[shard s18] 40/40 k6_s1193_r0_x_r1_t13_po1 done=True n=24 tgtErr=27.755mm/0.071deg dqf=0.081 f0=0.0N elapsed=1878s
+BRANCHES_DONE shard=s18 2026-10-14 14:37:47 UTC

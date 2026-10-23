@@ -1,0 +1,5 @@
+warmup 02:32:01
+drawer seed 9990: success=True clean=True T=100 disp=0.0mm tilt_med=62.9 max=65.2 q 0.0->-0.141 77.4s
+SUMMARY drawer: success 1/1  clean 1/1  steps_med 100  tilt_med 62.9
+warmup done 02:34:06
+E1 done 02:56:02

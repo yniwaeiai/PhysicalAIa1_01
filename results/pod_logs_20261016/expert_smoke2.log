@@ -1,0 +1,25 @@
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /workspace/Kadai/.venv-plus/lib/python3.12/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+shard 0/1: 8 jobs, 0 done
+ii_k6_s1014_r2_x_r0_t13_fail: done=False clean=False n=182 q -1.7262174329336548->-0.5208339821188448 trans=[["M_PRE", 0, "ok"], ["M_LOW", 15, "ok"], ["M_PUSH", 166, "timeout"]] 72.1s
+ii_k6_s1014_r2_x_r0_t13_fail_x1: done=False clean=False n=182 q -1.7262174329336548->-0.5208339821188448 trans=[["M_PRE", 0, "ok"], ["M_LOW", 15, "ok"], ["M_PUSH", 166, "timeout"]] 47.6s
+ii_k6_s1014_r2_x_r0_t13_succ: done=False clean=False n=188 q -1.7262174329336548->-0.520409753191215 trans=[["M_PRE", 5, "ok"], ["M_LOW", 21, "ok"], ["M_PUSH", 172, "timeout"]] 42.7s
+ii_k6_s1014_r2_x_r0_t13_succ_x1: done=False clean=False n=188 q -1.7262174329336548->-0.520409753191215 trans=[["M_PRE", 5, "ok"], ["M_LOW", 21, "ok"], ["M_PUSH", 172, "timeout"]] 42.1s
+ii_k6_s1014_r2_x_r1_t13_fail: done=False clean=False n=182 q -1.7262174329336548->-0.5208339821188448 trans=[["M_PRE", 0, "ok"], ["M_LOW", 15, "ok"], ["M_PUSH", 166, "timeout"]] 46.5s
+ii_k6_s1014_r2_x_r1_t13_fail_x1: done=False clean=False n=182 q -1.7262174329336548->-0.5208339821188448 trans=[["M_PRE", 0, "ok"], ["M_LOW", 15, "ok"], ["M_PUSH", 166, "timeout"]] 47.8s
+ii_k6_s1014_r2_x_r1_t13_succ: done=True clean=True n=139 q -1.7262174329336548->0.02689757596990839 trans=[["M_PRE", 6, "ok"], ["M_LOW", 23, "ok"]] 32.2s
+ii_k6_s1014_r2_x_r1_t13_succ_x1: done=True clean=True n=139 q -1.7262174329336548->0.02689757596990839 trans=[["M_PRE", 6, "ok"], ["M_LOW", 23, "ok"]] 32.6s
+ii_k6_s1014_r3_x_r0_t13_fail: done=False clean=False n=181 q -1.7262174329336548->-0.5285940036905039 trans=[["M_PRE", 0, "ok"], ["M_LOW", 14, "ok"], ["M_PUSH", 165, "timeout"]] 46.1s
+ii_k6_s1014_r3_x_r0_t13_fail_x1: done=False clean=False n=181 q -1.7262174329336548->-0.5285940036905039 trans=[["M_PRE", 0, "ok"], ["M_LOW", 14, "ok"], ["M_PUSH", 165, "timeout"]] 46.3s
+ii_k6_s1014_r3_x_r0_t13_succ: done=False clean=False n=188 q -1.7262174329336548->-0.520409753191215 trans=[["M_PRE", 5, "ok"], ["M_LOW", 21, "ok"], ["M_PUSH", 172, "timeout"]] 41.4s
+ii_k6_s1014_r3_x_r0_t13_succ_x1: done=False clean=False n=188 q -1.7262174329336548->-0.520409753191215 trans=[["M_PRE", 5, "ok"], ["M_LOW", 21, "ok"], ["M_PUSH", 172, "timeout"]] 43.0s
+ii_k6_s1014_r3_x_r1_t13_fail: done=False clean=False n=181 q -1.7262174329336548->-0.5285940036905039 trans=[["M_PRE", 0, "ok"], ["M_LOW", 14, "ok"], ["M_PUSH", 165, "timeout"]] 46.7s
+ii_k6_s1014_r3_x_r1_t13_fail_x1: done=False clean=False n=181 q -1.7262174329336548->-0.5285940036905039 trans=[["M_PRE", 0, "ok"], ["M_LOW", 14, "ok"], ["M_PUSH", 165, "timeout"]] 45.8s
+ii_k6_s1014_r3_x_r1_t13_succ: done=True clean=True n=139 q -1.7262174329336548->0.02689757596990839 trans=[["M_PRE", 6, "ok"], ["M_LOW", 23, "ok"]] 40.2s
+ii_k6_s1014_r3_x_r1_t13_succ_x1: done=True clean=True n=139 q -1.7262174329336548->0.02689757596990839 trans=[["M_PRE", 6, "ok"], ["M_LOW", 23, "ok"]] 33.3s
+EXPERT_EVAL_SHARD_DONE ii 0

@@ -1,0 +1,28 @@
+[data] data/contrast/ds_c1_holdout: 全 19018 フレーム中 1960 標本（stride 10）
+  16/1960
+  336/1960
+  656/1960
+  976/1960
+  1296/1960
+  1616/1960
+  1936/1960
+# 前提試験 AUROC（score = L_fail − L_succ、成功ラベルが正）
+
+- 重み: ckpt=data/contrast/policy/c1_s2400 lora=None、データ data/contrast/ds_c1_holdout、stride 10、n_draws 4、dims 7、perm 200（窓内でエピソードのラベルを入れ替え）
+
+| タスク | step bin | 標本 | 成功標本 | ep | AUROC | 帰無平均 | 帰無 SD | p(片側) |
+|---|---|---|---|---|---|---|---|---|
+| ALL | <=15 | 378 | 0 | 189 | nan | nan | nan | nan |
+| ALL | 16-40 | 566 | 0 | 189 | nan | nan | nan | nan |
+| ALL | >40 | 1016 | 0 | 182 | nan | nan | nan | nan |
+| drawer | <=15 | 102 | 0 | 51 | nan | nan | nan | nan |
+| drawer | 16-40 | 153 | 0 | 51 | nan | nan | nan | nan |
+| drawer | >40 | 284 | 0 | 51 | nan | nan | nan | nan |
+| k4 | <=15 | 164 | 0 | 82 | nan | nan | nan | nan |
+| k4 | 16-40 | 246 | 0 | 82 | nan | nan | nan | nan |
+| k4 | >40 | 497 | 0 | 82 | nan | nan | nan | nan |
+| k6 | <=15 | 112 | 0 | 56 | nan | nan | nan | nan |
+| k6 | 16-40 | 167 | 0 | 56 | nan | nan | nan | nan |
+| k6 | >40 | 235 | 0 | 49 | nan | nan | nan | nan |
+
+線（計画 §3-3、全タスク）: bin<=15 AUROC nan（通過 ≥ 0.60 / 不通過 ≤ 0.55）、16-40 nan（通過 ≥ 0.70 / 不通過 ≤ 0.60）→ **中間（線の間）**

@@ -1,0 +1,183 @@
+[eval v2_F15] start 2026-10-13 11:40:52 UTC policy=data/openpi/pi05_kadai_v1_final tasks=drawer,k4,k6 eps=48 level=mix replan=5 seed_off=1000 shards=4
+[eval v2_F15] server up after ~5s
+[k6 s2] /workspace/Kadai/third_party/openpi/packages/openpi-client/src/openpi_client/websocket_client_policy.py:40: DeprecationWarning: connect() must be used as a context manager: with connect(...) as websocket: ...; alternatively, use websocket = connect(..., legacy=True) to connect directly
+[k6 s2]   metadata = msgpack_numpy.unpackb(conn.recv())
+[k6 s2] k6 seed 1024: success=True clean=True T=58 disp=0.0mm tilt_med=29.8 max=30.9 q -2.074->-0.002 64.1s
+[k6 s2] k6 seed 1025: success=True clean=True T=49 disp=0.0mm tilt_med=24.1 max=27.0 q -1.754->0.019 52.6s
+[k6 s2] k6 seed 1026: success=True clean=True T=54 disp=0.0mm tilt_med=26.2 max=26.9 q -1.898->0.015 58.5s
+[k6 s2] k6 seed 1027: success=True clean=True T=50 disp=0.0mm tilt_med=21.9 max=22.9 q -1.86->0.015 53.2s
+[k6 s2] k6 seed 1028: success=True clean=True T=56 disp=0.0mm tilt_med=25.4 max=28.1 q -1.696->0.017 63.5s
+[k6 s2] k6 seed 1029: success=True clean=True T=67 disp=0.0mm tilt_med=25.0 max=26.8 q -1.928->0.018 73.1s
+[k6 s2] k6 seed 1030: success=True clean=True T=53 disp=0.0mm tilt_med=28.3 max=29.9 q -2.08->0.004 58.4s
+[k6 s2] k6 seed 1031: success=True clean=True T=51 disp=0.0mm tilt_med=21.8 max=23.4 q -1.675->0.005 60.3s
+[k6 s2] k6 seed 1032: success=True clean=True T=42 disp=0.0mm tilt_med=25.3 max=25.9 q -1.328->0.016 46.6s
+[k6 s2] k6 seed 1033: success=True clean=True T=45 disp=0.0mm tilt_med=21.4 max=23.8 q -1.715->0.015 48.3s
+[k6 s2] k6 seed 1034: success=True clean=True T=48 disp=0.0mm tilt_med=25.9 max=28.0 q -1.655->0.018 53.7s
+[k6 s2] k6 seed 1035: success=True clean=True T=44 disp=0.0mm tilt_med=17.7 max=20.9 q -1.522->0.018 49.4s
+[k6 s2] SUMMARY k6: success 12/12  clean 12/12  steps_med 50  tilt_med 25.1
+[k6 s0] /workspace/Kadai/third_party/openpi/packages/openpi-client/src/openpi_client/websocket_client_policy.py:40: DeprecationWarning: connect() must be used as a context manager: with connect(...) as websocket: ...; alternatively, use websocket = connect(..., legacy=True) to connect directly
+[k6 s0]   metadata = msgpack_numpy.unpackb(conn.recv())
+[k6 s0] k6 seed 1000: success=True clean=True T=50 disp=0.0mm tilt_med=26.8 max=27.8 q -1.502->0.028 53.6s
+[k6 s0] k6 seed 1001: success=True clean=True T=46 disp=0.0mm tilt_med=24.7 max=25.9 q -1.413->0.01 51.6s
+[k6 s0] k6 seed 1002: success=True clean=True T=53 disp=0.0mm tilt_med=26.8 max=31.9 q -1.981->0.02 57.8s
+[k6 s0] k6 seed 1003: success=True clean=True T=48 disp=0.0mm tilt_med=28.3 max=30.4 q -1.797->0.001 52.7s
+[k6 s0] k6 seed 1004: success=True clean=True T=50 disp=0.0mm tilt_med=24.1 max=25.7 q -1.87->0.014 53.2s
+[k6 s0] k6 seed 1005: success=True clean=True T=56 disp=0.0mm tilt_med=23.6 max=25.0 q -1.962->-0.002 63.8s
+[k6 s0] k6 seed 1006: success=True clean=True T=52 disp=0.0mm tilt_med=29.3 max=30.4 q -1.459->0.016 57.5s
+[k6 s0] k6 seed 1007: success=True clean=True T=49 disp=0.0mm tilt_med=24.9 max=26.4 q -1.698->0.004 54.0s
+[k6 s0] k6 seed 1008: success=False clean=False T=250 disp=0.0mm tilt_med=41.6 max=60.2 q -1.338->-0.051 266.4s
+[k6 s0] k6 seed 1009: success=True clean=True T=54 disp=0.0mm tilt_med=25.3 max=26.1 q -1.737->0.013 53.0s
+[k6 s0] k6 seed 1010: success=True clean=True T=58 disp=0.0mm tilt_med=19.3 max=21.9 q -2.082->0.004 58.3s
+[k6 s0] k6 seed 1011: success=True clean=True T=45 disp=0.0mm tilt_med=24.0 max=26.1 q -1.412->0.018 45.1s
+[k6 s0] SUMMARY k6: success 11/12  clean 11/12  steps_med 51  tilt_med 25.1
+[k6 s1] /workspace/Kadai/third_party/openpi/packages/openpi-client/src/openpi_client/websocket_client_policy.py:40: DeprecationWarning: connect() must be used as a context manager: with connect(...) as websocket: ...; alternatively, use websocket = connect(..., legacy=True) to connect directly
+[k6 s1]   metadata = msgpack_numpy.unpackb(conn.recv())
+[k6 s1] k6 seed 1012: success=True clean=True T=43 disp=0.0mm tilt_med=22.0 max=25.0 q -1.502->0.021 47.4s
+[k6 s1] k6 seed 1013: success=True clean=True T=50 disp=0.0mm tilt_med=27.5 max=28.4 q -1.783->0.02 53.8s
+[k6 s1] k6 seed 1014: success=False clean=False T=250 disp=0.0mm tilt_med=49.0 max=57.4 q -1.726->-0.528 267.4s
+[k6 s1] k6 seed 1015: success=True clean=True T=48 disp=0.0mm tilt_med=24.8 max=25.3 q -1.694->0.018 51.7s
+[k6 s1] k6 seed 1016: success=True clean=True T=55 disp=0.0mm tilt_med=24.2 max=26.9 q -1.639->0.016 59.7s
+[k6 s1] k6 seed 1017: success=True clean=True T=47 disp=0.0mm tilt_med=27.6 max=28.3 q -1.552->0.021 52.8s
+[k6 s1] k6 seed 1018: success=True clean=True T=50 disp=0.0mm tilt_med=22.1 max=23.2 q -1.726->0.013 53.9s
+[k6 s1] k6 seed 1019: success=True clean=True T=43 disp=0.0mm tilt_med=20.9 max=23.7 q -1.481->0.016 48.9s
+[k6 s1] k6 seed 1020: success=True clean=True T=44 disp=0.0mm tilt_med=28.3 max=29.0 q -1.39->0.017 48.5s
+[k6 s1] k6 seed 1021: success=True clean=True T=40 disp=0.0mm tilt_med=20.8 max=24.2 q -1.531->0.019 38.9s
+[k6 s1] k6 seed 1022: success=True clean=True T=143 disp=0.0mm tilt_med=34.3 max=42.3 q -1.918->-0.001 143.3s
+[k6 s1] k6 seed 1023: success=True clean=True T=59 disp=0.0mm tilt_med=31.3 max=33.0 q -2.09->0.001 57.1s
+[k6 s1] SUMMARY k6: success 11/12  clean 11/12  steps_med 49  tilt_med 26.1
+[drawer s1] /workspace/Kadai/third_party/openpi/packages/openpi-client/src/openpi_client/websocket_client_policy.py:40: DeprecationWarning: connect() must be used as a context manager: with connect(...) as websocket: ...; alternatively, use websocket = connect(..., legacy=True) to connect directly
+[drawer s1]   metadata = msgpack_numpy.unpackb(conn.recv())
+[drawer s1] drawer seed 1012: success=True clean=True T=93 disp=0.0mm tilt_med=66.1 max=80.1 q 0.0->-0.145 26.9s
+[drawer s1] drawer seed 1013: success=True clean=True T=96 disp=0.0mm tilt_med=61.4 max=66.6 q 0.0->-0.144 112.5s
+[drawer s1] drawer seed 1014: success=True clean=True T=98 disp=0.0mm tilt_med=64.0 max=75.7 q 0.0->-0.142 110.6s
+[drawer s1] drawer seed 1015: success=True clean=True T=90 disp=0.0mm tilt_med=65.8 max=68.4 q 0.0->-0.14 98.2s
+[drawer s1] drawer seed 1016: success=True clean=True T=106 disp=0.0mm tilt_med=54.0 max=64.2 q 0.0->-0.142 121.3s
+[drawer s1] drawer seed 1017: success=True clean=True T=81 disp=0.0mm tilt_med=60.9 max=64.4 q 0.0->-0.146 95.6s
+[drawer s1] drawer seed 1018: success=True clean=True T=79 disp=0.0mm tilt_med=62.6 max=64.8 q 0.0->-0.143 87.5s
+[drawer s1] drawer seed 1019: success=True clean=True T=90 disp=0.0mm tilt_med=58.6 max=63.2 q 0.0->-0.143 102.3s
+[drawer s1] drawer seed 1020: success=True clean=True T=78 disp=0.0mm tilt_med=61.0 max=69.1 q 0.0->-0.143 81.8s
+[drawer s1] drawer seed 1021: success=True clean=True T=92 disp=0.0mm tilt_med=60.5 max=66.2 q 0.0->-0.144 96.1s
+[drawer s1] drawer seed 1022: success=True clean=True T=84 disp=0.0mm tilt_med=62.6 max=65.2 q 0.0->-0.146 82.2s
+[drawer s1] drawer seed 1023: success=True clean=True T=86 disp=0.0mm tilt_med=63.7 max=77.5 q 0.0->-0.143 82.5s
+[drawer s1] SUMMARY drawer: success 12/12  clean 12/12  steps_med 90  tilt_med 62.0
+[k6 s3] /workspace/Kadai/third_party/openpi/packages/openpi-client/src/openpi_client/websocket_client_policy.py:40: DeprecationWarning: connect() must be used as a context manager: with connect(...) as websocket: ...; alternatively, use websocket = connect(..., legacy=True) to connect directly
+[k6 s3]   metadata = msgpack_numpy.unpackb(conn.recv())
+[k6 s3] k6 seed 1036: success=True clean=True T=58 disp=0.0mm tilt_med=22.5 max=36.2 q -1.9->0.009 63.9s
+[k6 s3] k6 seed 1037: success=True clean=True T=57 disp=0.0mm tilt_med=28.9 max=34.8 q -1.639->0.014 62.9s
+[k6 s3] k6 seed 1038: success=True clean=True T=42 disp=0.0mm tilt_med=21.5 max=24.5 q -1.572->0.02 48.0s
+[k6 s3] k6 seed 1039: success=True clean=True T=47 disp=0.0mm tilt_med=23.4 max=24.3 q -1.829->0.018 52.2s
+[k6 s3] k6 seed 1040: success=True clean=True T=77 disp=0.0mm tilt_med=23.5 max=33.5 q -1.759->0.011 85.2s
+[k6 s3] k6 seed 1041: success=True clean=True T=49 disp=0.0mm tilt_med=26.9 max=32.3 q -1.626->0.022 53.3s
+[k6 s3] k6 seed 1042: success=False clean=False T=250 disp=0.0mm tilt_med=32.5 max=64.7 q -1.376->-0.127 273.6s
+[k6 s3] k6 seed 1043: success=True clean=True T=49 disp=0.0mm tilt_med=22.9 max=26.0 q -1.464->0.023 54.5s
+[k6 s3] k6 seed 1044: success=True clean=True T=53 disp=0.0mm tilt_med=25.1 max=26.7 q -1.524->0.014 55.0s
+[k6 s3] k6 seed 1045: success=False clean=False T=250 disp=0.0mm tilt_med=22.3 max=32.6 q -1.307->-0.106 243.4s
+[k6 s3] k6 seed 1046: success=True clean=True T=52 disp=0.0mm tilt_med=23.5 max=24.1 q -1.918->0.014 48.8s
+[k6 s3] k6 seed 1047: success=True clean=True T=57 disp=0.0mm tilt_med=28.3 max=32.2 q -1.882->-0.002 53.9s
+[k6 s3] SUMMARY k6: success 10/12  clean 10/12  steps_med 55  tilt_med 23.5
+[k4 s2] /workspace/Kadai/third_party/openpi/packages/openpi-client/src/openpi_client/websocket_client_policy.py:40: DeprecationWarning: connect() must be used as a context manager: with connect(...) as websocket: ...; alternatively, use websocket = connect(..., legacy=True) to connect directly
+[k4 s2]   metadata = msgpack_numpy.unpackb(conn.recv())
+[k4 s2] k4 seed 1024: success=True clean=False T=159 disp=278.94mm tilt_med=41.7 max=50.2 q -0.144->0.002 166.6s
+[k4 s2] k4 seed 1025: success=True clean=True T=99 disp=0.0mm tilt_med=37.8 max=39.7 q -0.151->0.002 106.6s
+[k4 s2] k4 seed 1026: success=True clean=False T=144 disp=25.61mm tilt_med=36.4 max=42.8 q -0.141->0.0 156.1s
+[k4 s2] k4 seed 1027: success=True clean=False T=95 disp=22.97mm tilt_med=41.2 max=43.8 q -0.158->0.0 103.3s
+[k4 s2] k4 seed 1028: success=True clean=True T=114 disp=0.0mm tilt_med=38.4 max=43.1 q -0.146->0.002 123.0s
+[k4 s2] k4 seed 1029: success=True clean=True T=102 disp=0.0mm tilt_med=42.3 max=44.8 q -0.149->0.002 113.2s
+[k4 s2] k4 seed 1030: success=True clean=True T=96 disp=0.0mm tilt_med=39.4 max=46.3 q -0.153->0.001 98.0s
+[k4 s2] k4 seed 1031: success=True clean=False T=116 disp=200.17mm tilt_med=38.2 max=45.2 q -0.155->0.001 115.8s
+[k4 s2] k4 seed 1032: success=True clean=True T=90 disp=0.0mm tilt_med=43.2 max=45.4 q -0.149->0.0 84.4s
+[k4 s2] k4 seed 1033: success=True clean=True T=97 disp=0.0mm tilt_med=44.2 max=49.3 q -0.145->0.002 90.3s
+[k4 s2] k4 seed 1034: success=True clean=False T=100 disp=7.24mm tilt_med=43.1 max=47.7 q -0.146->0.002 97.8s
+[k4 s2] k4 seed 1035: success=True clean=True T=114 disp=0.0mm tilt_med=37.9 max=42.4 q -0.153->0.001 103.4s
+[k4 s2] SUMMARY k4: success 12/12  clean 7/12  steps_med 101  tilt_med 40.3
+[drawer s2] /workspace/Kadai/third_party/openpi/packages/openpi-client/src/openpi_client/websocket_client_policy.py:40: DeprecationWarning: connect() must be used as a context manager: with connect(...) as websocket: ...; alternatively, use websocket = connect(..., legacy=True) to connect directly
+[drawer s2]   metadata = msgpack_numpy.unpackb(conn.recv())
+[drawer s2] drawer seed 1024: success=True clean=True T=76 disp=0.0mm tilt_med=64.4 max=70.1 q 0.0->-0.144 90.4s
+[drawer s2] drawer seed 1025: success=True clean=True T=77 disp=0.0mm tilt_med=57.3 max=61.1 q 0.0->-0.141 86.4s
+[drawer s2] drawer seed 1026: success=True clean=True T=136 disp=0.0mm tilt_med=60.5 max=62.9 q 0.0->-0.142 152.8s
+[drawer s2] drawer seed 1027: success=True clean=True T=86 disp=0.0mm tilt_med=62.1 max=80.9 q 0.0->-0.143 97.0s
+[drawer s2] drawer seed 1028: success=True clean=True T=96 disp=0.0mm tilt_med=63.5 max=84.0 q 0.0->-0.145 111.4s
+[drawer s2] drawer seed 1029: success=False clean=False T=250 disp=222.7mm tilt_med=58.0 max=68.2 q 0.0->0.002 267.3s
+[drawer s2] drawer seed 1030: success=True clean=True T=86 disp=0.01mm tilt_med=57.1 max=65.0 q 0.0->-0.141 91.9s
+[drawer s2] drawer seed 1031: success=False clean=False T=250 disp=311.99mm tilt_med=56.5 max=81.4 q 0.0->0.002 235.7s
+[drawer s2] drawer seed 1032: success=False clean=False T=250 disp=125.9mm tilt_med=46.6 max=61.5 q 0.0->0.002 236.7s
+[drawer s2] drawer seed 1033: success=True clean=True T=98 disp=0.0mm tilt_med=58.4 max=71.3 q 0.0->-0.143 84.2s
+[drawer s2] drawer seed 1034: success=True clean=True T=76 disp=0.0mm tilt_med=56.5 max=61.6 q 0.0->-0.143 61.6s
+[drawer s2] drawer seed 1035: success=True clean=True T=87 disp=0.0mm tilt_med=54.0 max=69.3 q 0.0->-0.144 63.1s
+[drawer s2] SUMMARY drawer: success 9/12  clean 9/12  steps_med 92  tilt_med 57.6
+[drawer s0] /workspace/Kadai/third_party/openpi/packages/openpi-client/src/openpi_client/websocket_client_policy.py:40: DeprecationWarning: connect() must be used as a context manager: with connect(...) as websocket: ...; alternatively, use websocket = connect(..., legacy=True) to connect directly
+[drawer s0]   metadata = msgpack_numpy.unpackb(conn.recv())
+[drawer s0] drawer seed 1000: success=True clean=True T=80 disp=0.0mm tilt_med=54.4 max=58.7 q 0.0->-0.145 89.0s
+[drawer s0] drawer seed 1001: success=False clean=False T=250 disp=60.8mm tilt_med=60.3 max=75.4 q 0.0->-0.076 274.7s
+[drawer s0] drawer seed 1002: success=True clean=True T=110 disp=0.0mm tilt_med=60.2 max=63.1 q 0.0->-0.144 121.3s
+[drawer s0] drawer seed 1003: success=True clean=True T=71 disp=0.0mm tilt_med=54.2 max=55.8 q 0.0->-0.141 83.3s
+[drawer s0] drawer seed 1004: success=True clean=True T=76 disp=0.0mm tilt_med=62.1 max=64.9 q 0.0->-0.142 89.7s
+[drawer s0] drawer seed 1005: success=True clean=True T=80 disp=0.0mm tilt_med=58.3 max=63.1 q 0.0->-0.14 86.9s
+[drawer s0] drawer seed 1006: success=True clean=True T=87 disp=0.0mm tilt_med=61.6 max=64.9 q 0.0->-0.147 91.5s
+[drawer s0] drawer seed 1007: success=False clean=False T=250 disp=44.67mm tilt_med=62.0 max=80.9 q 0.0->-0.004 244.2s
+[drawer s0] drawer seed 1008: success=True clean=True T=78 disp=0.0mm tilt_med=57.5 max=63.3 q 0.0->-0.144 75.3s
+[drawer s0] drawer seed 1009: success=False clean=False T=250 disp=107.18mm tilt_med=52.4 max=80.8 q 0.0->-0.029 232.0s
+[drawer s0] drawer seed 1010: success=True clean=True T=87 disp=0.0mm tilt_med=62.2 max=80.3 q 0.0->-0.144 74.0s
+[drawer s0] drawer seed 1011: success=False clean=False T=250 disp=57.02mm tilt_med=65.6 max=81.5 q 0.0->0.0 171.8s
+[drawer s0] SUMMARY drawer: success 8/12  clean 8/12  steps_med 87  tilt_med 60.2
+[k4 s3] /workspace/Kadai/third_party/openpi/packages/openpi-client/src/openpi_client/websocket_client_policy.py:40: DeprecationWarning: connect() must be used as a context manager: with connect(...) as websocket: ...; alternatively, use websocket = connect(..., legacy=True) to connect directly
+[k4 s3]   metadata = msgpack_numpy.unpackb(conn.recv())
+[k4 s3] k4 seed 1036: success=True clean=False T=122 disp=71.49mm tilt_med=38.5 max=42.6 q -0.158->0.002 135.0s
+[k4 s3] k4 seed 1037: success=True clean=True T=120 disp=0.0mm tilt_med=37.2 max=42.0 q -0.154->0.002 131.9s
+[k4 s3] k4 seed 1038: success=True clean=True T=92 disp=0.0mm tilt_med=44.5 max=47.7 q -0.147->0.001 101.2s
+[k4 s3] k4 seed 1039: success=True clean=True T=101 disp=0.0mm tilt_med=36.9 max=41.0 q -0.146->0.002 115.2s
+[k4 s3] k4 seed 1040: success=True clean=True T=81 disp=0.0mm tilt_med=36.3 max=40.4 q -0.148->0.002 93.2s
+[k4 s3] k4 seed 1041: success=True clean=False T=167 disp=121.03mm tilt_med=39.9 max=47.2 q -0.143->0.0 181.2s
+[k4 s3] k4 seed 1042: success=True clean=False T=103 disp=219.42mm tilt_med=41.5 max=47.2 q -0.156->0.002 105.6s
+[k4 s3] k4 seed 1043: success=False clean=False T=250 disp=0.01mm tilt_med=46.7 max=81.5 q -0.159->-0.044 236.8s
+[k4 s3] k4 seed 1044: success=True clean=True T=108 disp=0.0mm tilt_med=38.3 max=42.2 q -0.146->0.002 107.9s
+[k4 s3] k4 seed 1045: success=False clean=False T=250 disp=368.22mm tilt_med=37.9 max=126.0 q -0.152->-0.049 219.6s
+[k4 s3] k4 seed 1046: success=True clean=False T=114 disp=10.81mm tilt_med=42.7 max=47.6 q -0.152->0.002 88.5s
+[k4 s3] k4 seed 1047: success=True clean=True T=205 disp=0.0mm tilt_med=33.7 max=45.8 q -0.153->0.002 135.3s
+[k4 s3] SUMMARY k4: success 10/12  clean 6/12  steps_med 117  tilt_med 38.4
+[k4 s1] /workspace/Kadai/third_party/openpi/packages/openpi-client/src/openpi_client/websocket_client_policy.py:40: DeprecationWarning: connect() must be used as a context manager: with connect(...) as websocket: ...; alternatively, use websocket = connect(..., legacy=True) to connect directly
+[k4 s1]   metadata = msgpack_numpy.unpackb(conn.recv())
+[k4 s1] k4 seed 1012: success=True clean=False T=96 disp=15.57mm tilt_med=39.0 max=42.1 q -0.157->0.002 108.4s
+[k4 s1] k4 seed 1013: success=False clean=False T=250 disp=378.4mm tilt_med=41.7 max=98.2 q -0.159->-0.115 273.5s
+[k4 s1] k4 seed 1014: success=True clean=False T=104 disp=20.54mm tilt_med=39.7 max=46.3 q -0.156->0.002 115.8s
+[k4 s1] k4 seed 1015: success=True clean=True T=94 disp=0.0mm tilt_med=40.6 max=46.6 q -0.143->0.001 100.1s
+[k4 s1] k4 seed 1016: success=True clean=False T=110 disp=6.47mm tilt_med=38.9 max=42.7 q -0.151->0.002 120.1s
+[k4 s1] k4 seed 1017: success=True clean=False T=108 disp=6.33mm tilt_med=40.5 max=44.9 q -0.143->0.002 109.2s
+[k4 s1] k4 seed 1018: success=True clean=False T=178 disp=275.5mm tilt_med=41.3 max=67.0 q -0.154->0.001 172.4s
+[k4 s1] k4 seed 1019: success=True clean=True T=90 disp=0.0mm tilt_med=39.2 max=46.1 q -0.144->0.001 82.9s
+[k4 s1] k4 seed 1020: success=False clean=False T=250 disp=0.0mm tilt_med=31.7 max=45.0 q -0.143->-0.008 235.8s
+[k4 s1] k4 seed 1021: success=True clean=False T=96 disp=1412.22mm tilt_med=41.7 max=44.5 q -0.145->0.002 84.0s
+[k4 s1] k4 seed 1022: success=False clean=False T=250 disp=40.6mm tilt_med=62.4 max=118.9 q -0.142->-0.073 181.4s
+[k4 s1] k4 seed 1023: success=True clean=True T=119 disp=0.0mm tilt_med=45.3 max=50.5 q -0.148->0.0 73.0s
+[k4 s1] SUMMARY k4: success 9/12  clean 3/12  steps_med 109  tilt_med 40.5
+[drawer s3] /workspace/Kadai/third_party/openpi/packages/openpi-client/src/openpi_client/websocket_client_policy.py:40: DeprecationWarning: connect() must be used as a context manager: with connect(...) as websocket: ...; alternatively, use websocket = connect(..., legacy=True) to connect directly
+[drawer s3]   metadata = msgpack_numpy.unpackb(conn.recv())
+[drawer s3] drawer seed 1036: success=True clean=True T=78 disp=0.0mm tilt_med=58.2 max=93.4 q 0.0->-0.146 56.0s
+[drawer s3] drawer seed 1037: success=True clean=True T=112 disp=0.0mm tilt_med=53.8 max=59.0 q 0.0->-0.142 126.8s
+[drawer s3] drawer seed 1038: success=False clean=False T=250 disp=56.47mm tilt_med=68.9 max=94.4 q 0.0->0.002 270.6s
+[drawer s3] drawer seed 1039: success=True clean=False T=81 disp=4.12mm tilt_med=57.4 max=64.3 q 0.0->-0.14 95.7s
+[drawer s3] drawer seed 1040: success=True clean=True T=75 disp=0.0mm tilt_med=57.5 max=59.8 q 0.0->-0.143 81.5s
+[drawer s3] drawer seed 1041: success=True clean=True T=87 disp=0.0mm tilt_med=57.9 max=62.5 q 0.0->-0.143 99.6s
+[drawer s3] drawer seed 1042: success=True clean=True T=74 disp=0.0mm tilt_med=56.3 max=64.5 q 0.0->-0.14 79.9s
+[drawer s3] drawer seed 1043: success=False clean=False T=250 disp=54.27mm tilt_med=45.2 max=72.3 q 0.0->-0.113 250.4s
+[drawer s3] drawer seed 1044: success=True clean=True T=115 disp=0.0mm tilt_med=57.7 max=63.2 q 0.0->-0.144 108.0s
+[drawer s3] drawer seed 1045: success=False clean=False T=250 disp=203.06mm tilt_med=49.6 max=68.8 q -0.001->-0.002 241.6s
+[drawer s3] drawer seed 1046: success=False clean=False T=250 disp=161.94mm tilt_med=60.2 max=80.2 q 0.0->-0.016 198.0s
+[drawer s3] drawer seed 1047: success=True clean=True T=148 disp=0.0mm tilt_med=63.3 max=77.6 q 0.0->-0.143 95.8s
+[drawer s3] SUMMARY drawer: success 8/12  clean 7/12  steps_med 114  tilt_med 57.6
+[k4 s0] /workspace/Kadai/third_party/openpi/packages/openpi-client/src/openpi_client/websocket_client_policy.py:40: DeprecationWarning: connect() must be used as a context manager: with connect(...) as websocket: ...; alternatively, use websocket = connect(..., legacy=True) to connect directly
+[k4 s0]   metadata = msgpack_numpy.unpackb(conn.recv())
+[k4 s0] k4 seed 1000: success=False clean=False T=250 disp=328.87mm tilt_med=36.5 max=46.7 q -0.155->-0.091 231.2s
+[k4 s0] k4 seed 1001: success=True clean=False T=97 disp=11.82mm tilt_med=38.6 max=47.4 q -0.141->0.001 104.9s
+[k4 s0] k4 seed 1002: success=True clean=False T=120 disp=61.5mm tilt_med=40.9 max=43.7 q -0.148->0.002 130.1s
+[k4 s0] k4 seed 1003: success=True clean=False T=110 disp=17.8mm tilt_med=43.1 max=46.1 q -0.158->0.001 120.8s
+[k4 s0] k4 seed 1004: success=True clean=True T=243 disp=0.0mm tilt_med=43.8 max=49.2 q -0.141->0.0 258.9s
+[k4 s0] k4 seed 1005: success=True clean=True T=106 disp=0.0mm tilt_med=37.0 max=40.3 q -0.153->0.002 108.9s
+[k4 s0] k4 seed 1006: success=True clean=True T=128 disp=0.0mm tilt_med=35.1 max=45.6 q -0.154->0.001 124.5s
+[k4 s0] k4 seed 1007: success=False clean=False T=250 disp=427.97mm tilt_med=33.7 max=58.8 q -0.142->-0.121 233.7s
+[k4 s0] k4 seed 1008: success=True clean=False T=105 disp=14.81mm tilt_med=43.0 max=46.1 q -0.14->0.001 91.8s
+[k4 s0] k4 seed 1009: success=False clean=False T=250 disp=357.23mm tilt_med=33.6 max=74.9 q -0.145->-0.124 193.6s
+[k4 s0] k4 seed 1010: success=True clean=False T=121 disp=143.6mm tilt_med=35.9 max=41.3 q -0.158->0.002 79.4s
+[k4 s0] k4 seed 1011: success=True clean=True T=111 disp=0.0mm tilt_med=37.4 max=43.9 q -0.158->0.001 64.1s
+[k4 s0] SUMMARY k4: success 9/12  clean 4/12  steps_med 120  tilt_med 37.2
+[eval v2_F15] EVAL_DONE 2026-10-13 12:14:30 UTC

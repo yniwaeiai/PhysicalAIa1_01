@@ -1,0 +1,7 @@
+shard 1/10: 5 jobs, 0 done
+ii_drawer_s1014_r0_t14_succ: done=True clean=True n=156 q 0.0->-0.1409868673768395 trans=[["H_PRE", 13, "ok"], ["H_IN", 84, "timeout"], ["H_HOOK", 125, "timeout"]] 101.5s
+ii_drawer_s1037_r1_t16_succ: done=False clean=False n=112 q 0.0->-0.028212322442151005 trans=[["H_PRE", 14, "ok"], ["H_IN", 28, "ok"], ["H_HOOK", 69, "timeout"], ["H_PULL", 96, "ok"]] 41.6s
+ii_k6_s1014_r2_t15_fail: done=False clean=False n=182 q -1.7262174329336548->-0.5208339821188448 trans=[["M_PRE", 0, "ok"], ["M_LOW", 15, "ok"], ["M_PUSH", 166, "timeout"]] 61.6s
+ii_k6_s1253_r2_t17_fail: done=False clean=False n=185 q -1.525751490693495->-0.5353252715643726 trans=[["M_PRE", 5, "ok"], ["M_LOW", 18, "ok"], ["M_PUSH", 169, "timeout"]] 49.6s
+ii_k6_s1442_r0_t14_succ: done=False clean=False n=188 q -1.3760549320588982->-0.48497999809664755 trans=[["M_PRE", 5, "ok"], ["M_LOW", 21, "ok"], ["M_PUSH", 172, "timeout"]] 47.2s
+EXPERT_EVAL_SHARD_DONE ii 1

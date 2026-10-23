@@ -1,0 +1,7 @@
+Tue Oct 13 06:55:47 UTC 2026
+seed 0: done=True T=116 q=-0.143 disp=0.0mm ok=True [('H_PRE', 'ok'), ('H_IN', 'ok'), ('H_HOOK', 'timeout')]
+seed 1: done=True T=116 q=-0.143 disp=0.0mm ok=True [('H_PRE', 'ok'), ('H_IN', 'ok'), ('H_HOOK', 'timeout')]
+seed 2: done=True T=116 q=-0.143 disp=0.0mm ok=True [('H_PRE', 'ok'), ('H_IN', 'ok'), ('H_HOOK', 'timeout')]
+SUMMARY ok 3/3 done 3/3
+SIMTEST_DONE
+Tue Oct 13 06:57:41 UTC 2026

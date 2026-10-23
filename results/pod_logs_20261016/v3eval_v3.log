@@ -1,0 +1,13 @@
+[v3eval v3] start 2026-10-14 23:41:31 UTC port=18041 smoke=0 server_log=/workspace/logs/serve_v3_18041.log
+[v3eval v3] warmup 23:41:31
+drawer seed 9990: success=True clean=True T=197 disp=0.0mm tilt_med=56.4 max=79.9 q 0.0->-0.142 52.1s
+SUMMARY drawer: success 1/1  clean 1/1  steps_med 197  tilt_med 56.4
+[v3eval v3] warmup done 23:42:52
+[v3eval v3] E1 done 00:06:23
+[v3eval v3] E2 done 00:25:56
+[v3eval v3] E3s done 00:48:29
+[v3eval v3] E3m done 01:08:45
+[v3eval v3] T k4 done 01:20:42
+[v3eval v3] T k6 done 01:38:55
+[v3eval v3] T drawer done 01:43:23
+EVAL_ALL_DONE v3 2026-10-15 01:43:23 UTC

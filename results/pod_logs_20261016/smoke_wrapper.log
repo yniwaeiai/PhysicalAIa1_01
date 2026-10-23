@@ -1,0 +1,2 @@
+k6 seed 1341: success=False clean=False T=400 disp=0.0mm tilt_med=48.1 max=64.6 q -1.626->-0.551 81.8s
+SUMMARY k6: success 0/1  clean 0/1  steps_med 400  tilt_med 48.1

@@ -1,0 +1,43 @@
+I5 skipped: [('drawer', 1027, 'no failure window'), ('drawer', 1030, 'no failure window'), ('drawer', 1039, 'no failure window'), ('drawer', 3101, 'no failure window'), ('drawer', 3104, 'no failure window'), ('drawer', 3106, 'no failure window'), ('k6', 1492, 'no failure window'), ('k6', 3105, 'no failure window'), ('k6', 3107, 'no failure window')] windows: 28
+[shard s11] windows=1 branches=40 done_before=0
+[shard s11] 1/40 drawer_s3100_r0_x_r1_t13_po3 done=False n=230 tgtErr=27.888mm/0.003deg dqf=0.022 f0=0.0N elapsed=130s
+[shard s11] 2/40 drawer_s3100_r0_x_r1_t13_n4 done=False n=230 tgtErr=0.044mm/0.001deg dqf=0.010 f0=0.0N elapsed=213s
+[shard s11] 3/40 drawer_s3100_r0_x_r1_t13_n5 done=False n=230 tgtErr=0.044mm/0.001deg dqf=0.010 f0=0.0N elapsed=298s
+[shard s11] 4/40 drawer_s3100_r0_x_r1_t13_pp1 done=True n=112 tgtErr=0.354mm/2.904deg dqf=0.025 f0=0.0N elapsed=347s
+[shard s11] 5/40 drawer_s3100_r0_x_r1_t13_p2 done=True n=86 tgtErr=0.247mm/0.051deg dqf=0.077 f0=0.0N elapsed=384s
+[shard s11] 6/40 drawer_s3100_r0_x_r1_t13_pp6 done=True n=64 tgtErr=0.354mm/2.904deg dqf=0.025 f0=0.0N elapsed=414s
+[shard s11] 7/40 drawer_s3100_r0_x_r1_t13_po6 done=False n=230 tgtErr=27.888mm/0.003deg dqf=0.022 f0=0.0N elapsed=503s
+[shard s11] 8/40 drawer_s3100_r0_x_r1_t13_po0 done=True n=60 tgtErr=27.888mm/0.003deg dqf=0.022 f0=0.0N elapsed=529s
+[shard s11] 9/40 drawer_s3100_r0_x_r1_t13_po7 done=False n=230 tgtErr=27.888mm/0.003deg dqf=0.022 f0=0.0N elapsed=616s
+[shard s11] 10/40 drawer_s3100_r0_x_r1_t13_q4 done=True n=79 tgtErr=0.000mm/0.000deg dqf=0.078 f0=0.0N elapsed=652s
+[shard s11] 11/40 drawer_s3100_r0_x_r1_t13_n0 done=False n=230 tgtErr=0.044mm/0.001deg dqf=0.010 f0=0.0N elapsed=737s
+[shard s11] 12/40 drawer_s3100_r0_x_r1_t13_p0 done=False n=230 tgtErr=0.247mm/0.051deg dqf=0.077 f0=0.0N elapsed=824s
+[shard s11] 13/40 drawer_s3100_r0_x_r1_t13_pp2 done=True n=111 tgtErr=0.354mm/2.904deg dqf=0.025 f0=0.0N elapsed=870s
+[shard s11] 14/40 drawer_s3100_r0_x_r1_t13_q7 done=True n=104 tgtErr=0.000mm/0.000deg dqf=0.078 f0=0.0N elapsed=913s
+[shard s11] 15/40 drawer_s3100_r0_x_r1_t13_q0 done=True n=73 tgtErr=0.000mm/0.000deg dqf=0.078 f0=0.0N elapsed=945s
+[shard s11] 16/40 drawer_s3100_r0_x_r1_t13_p7 done=True n=75 tgtErr=0.247mm/0.051deg dqf=0.077 f0=0.0N elapsed=977s
+[shard s11] 17/40 drawer_s3100_r0_x_r1_t13_pp4 done=True n=71 tgtErr=0.354mm/2.904deg dqf=0.025 f0=0.0N elapsed=1011s
+[shard s11] 18/40 drawer_s3100_r0_x_r1_t13_p5 done=True n=74 tgtErr=0.247mm/0.051deg dqf=0.077 f0=0.0N elapsed=1043s
+[shard s11] 19/40 drawer_s3100_r0_x_r1_t13_q2 done=True n=86 tgtErr=0.000mm/0.000deg dqf=0.078 f0=0.0N elapsed=1081s
+[shard s11] 20/40 drawer_s3100_r0_x_r1_t13_q6 done=False n=230 tgtErr=0.000mm/0.000deg dqf=0.078 f0=0.0N elapsed=1170s
+[shard s11] 21/40 drawer_s3100_r0_x_r1_t13_n3 done=False n=230 tgtErr=0.044mm/0.001deg dqf=0.010 f0=0.0N elapsed=1253s
+[shard s11] 22/40 drawer_s3100_r0_x_r1_t13_po5 done=False n=230 tgtErr=27.888mm/0.003deg dqf=0.022 f0=0.0N elapsed=1343s
+[shard s11] 23/40 drawer_s3100_r0_x_r1_t13_pp3 done=True n=95 tgtErr=0.354mm/2.904deg dqf=0.025 f0=0.0N elapsed=1380s
+[shard s11] 24/40 drawer_s3100_r0_x_r1_t13_p4 done=True n=104 tgtErr=0.247mm/0.051deg dqf=0.077 f0=0.0N elapsed=1422s
+[shard s11] 25/40 drawer_s3100_r0_x_r1_t13_n7 done=False n=230 tgtErr=0.044mm/0.001deg dqf=0.010 f0=0.0N elapsed=1505s
+[shard s11] 26/40 drawer_s3100_r0_x_r1_t13_n1 done=False n=230 tgtErr=0.044mm/0.001deg dqf=0.010 f0=0.0N elapsed=1586s
+[shard s11] 27/40 drawer_s3100_r0_x_r1_t13_p1 done=True n=101 tgtErr=0.247mm/0.051deg dqf=0.077 f0=0.0N elapsed=1627s
+[shard s11] 28/40 drawer_s3100_r0_x_r1_t13_pp5 done=True n=114 tgtErr=0.354mm/2.904deg dqf=0.025 f0=0.0N elapsed=1669s
+[shard s11] 29/40 drawer_s3100_r0_x_r1_t13_p6 done=True n=105 tgtErr=0.247mm/0.051deg dqf=0.077 f0=0.0N elapsed=1709s
+[shard s11] 30/40 drawer_s3100_r0_x_r1_t13_q3 done=True n=84 tgtErr=0.000mm/0.000deg dqf=0.078 f0=0.0N elapsed=1742s
+[shard s11] 31/40 drawer_s3100_r0_x_r1_t13_q5 done=True n=120 tgtErr=0.000mm/0.000deg dqf=0.078 f0=0.0N elapsed=1783s
+[shard s11] 32/40 drawer_s3100_r0_x_r1_t13_n6 done=False n=230 tgtErr=0.044mm/0.001deg dqf=0.010 f0=0.0N elapsed=1855s
+[shard s11] 33/40 drawer_s3100_r0_x_r1_t13_n2 done=True n=215 tgtErr=0.044mm/0.001deg dqf=0.010 f0=0.0N elapsed=1928s
+[shard s11] 34/40 drawer_s3100_r0_x_r1_t13_po1 done=False n=230 tgtErr=27.888mm/0.003deg dqf=0.022 f0=0.0N elapsed=2000s
+[shard s11] 35/40 drawer_s3100_r0_x_r1_t13_po4 done=False n=230 tgtErr=27.888mm/0.003deg dqf=0.022 f0=0.0N elapsed=2070s
+[shard s11] 36/40 drawer_s3100_r0_x_r1_t13_p3 done=True n=103 tgtErr=0.247mm/0.051deg dqf=0.077 f0=0.0N elapsed=2107s
+[shard s11] 37/40 drawer_s3100_r0_x_r1_t13_po2 done=False n=230 tgtErr=27.888mm/0.003deg dqf=0.022 f0=0.0N elapsed=2178s
+[shard s11] 38/40 drawer_s3100_r0_x_r1_t13_q1 done=True n=90 tgtErr=0.000mm/0.000deg dqf=0.078 f0=0.0N elapsed=2208s
+[shard s11] 39/40 drawer_s3100_r0_x_r1_t13_pp0 done=True n=127 tgtErr=0.354mm/2.904deg dqf=0.025 f0=0.0N elapsed=2247s
+[shard s11] 40/40 drawer_s3100_r0_x_r1_t13_pp7 done=True n=82 tgtErr=0.354mm/2.904deg dqf=0.025 f0=0.0N elapsed=2277s
+BRANCHES_DONE shard=s11 2026-10-14 14:44:28 UTC

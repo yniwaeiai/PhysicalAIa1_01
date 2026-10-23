@@ -1,0 +1,61 @@
+{
+  "baseline_test_loss": 0.012146969471359625,
+  "step": [
+    2400
+  ],
+  "train_loss": [],
+  "test_loss": [
+    0.01435296375566395
+  ],
+  "lr": [
+    0.0
+  ],
+  "args": {
+    "data": "data/kadai_demos_v3",
+    "ckpt": "data/openpi/pi05_libero_pytorch",
+    "exp_name": "kadai_v3r",
+    "steps": "2400",
+    "batch": "16",
+    "lr": "0.0001",
+    "warmup": "200",
+    "rank": "16",
+    "alpha": "32.0",
+    "targets": "attn-mlp",
+    "ema_decay": "None",
+    "workers": "16",
+    "n_test_tasks": "0",
+    "wrist_mask_closed_p": "0.0",
+    "collisions": "None",
+    "contrast_groups": "None",
+    "contrast_n_pair": "2",
+    "eval_every": "400",
+    "save_every": "400",
+    "snapshot_every": "800",
+    "seed": "0",
+    "split_seed": "None",
+    "holdout_bases": "None",
+    "out_dir": "/workspace/Kadai/data/lora_runs",
+    "merge_out": "None",
+    "resume_lora": "data/lora_runs/kadai_v3/lora.pt",
+    "start_step": "2000",
+    "resume_warmup": "100",
+    "resume_optim": "None",
+    "save_optim": "False",
+    "stop_after": "0",
+    "log_every": "50",
+    "dpo_pairs": "None",
+    "dpo_beta": "0.1",
+    "dpo_bc_weight": "1.0",
+    "dpo_ref": "lora-off",
+    "dpo_batch": "4",
+    "dpo_max_pairs": "0",
+    "dpo_action_dims": "7",
+    "dpo_workers": "4",
+    "dpo_lose_pre_contact": "-1",
+    "dpo_lose_timeout_tail": "-1",
+    "dpo_cond_weight": "False",
+    "dpo_heldout_conds": "0",
+    "dpo_heldout_seed": "0",
+    "dpo_eval_n": "128"
+  }
+}

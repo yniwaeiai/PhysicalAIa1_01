@@ -1,0 +1,22 @@
+[kadai_v3r] resume start 2026-10-14 22:41:36 UTC
+[data] {"n_variants": 6, "n_base_tasks": 3, "n_episodes": 1768, "n_success": 1768, "n_frames_success": 147935, "frames_by_category": {"kadai_tilt_contact": 147935}}
+[data] ★タスク単位で分割: train 3 / test 0
+[data] test: []
+[data] train 147935 / test 147935 サンプル
+[lora] LoRA r=16 α=32.0 targets=['q_proj', 'k_proj', 'v_proj', 'o_proj', 'out_proj', 'gate_proj', 'up_proj', 'down_proj', 'fc1', 'fc2']: 414 層をラップ / 学習パラメータ 35.24M (ベース 3.617B の 0.974%)
+[resume] data/lora_runs/kadai_v3/lora.pt を読み込み（828 テンソル、Σ|B|=49174.0）。step 2000 の続きから 2400 まで
+[操作チェック] 学習 35.24M / 全 3.652B (0.965%)
+[resume] LR: 最初の step 7.937e-08 → 立ち上げ後 4.518e-06（元の run の step 2001 の LR は 7.937e-06）
+[baseline] resume 時点（step 2000）の test loss = 0.0121
+  step  2050/2400  loss 0.0166  lr 3.12e-06  5.26s/step  残り 31分  peak 16.9GB
+  step  2100/2400  loss 0.0167  lr 4.52e-06  5.25s/step  残り 26分  peak 16.9GB
+  step  2150/2400  loss 0.0159  lr 3.15e-06  5.24s/step  残り 22分  peak 16.9GB
+  step  2200/2400  loss 0.0166  lr 2.03e-06  5.24s/step  残り 17分  peak 16.9GB
+  step  2250/2400  loss 0.0155  lr 1.14e-06  5.24s/step  残り 13分  peak 16.9GB
+  step  2300/2400  loss 0.0179  lr 5.09e-07  5.24s/step  残り 9分  peak 16.9GB
+  step  2350/2400  loss 0.0159  lr 1.27e-07  5.23s/step  残り 4分  peak 16.9GB
+  step  2400/2400  loss 0.0171  lr 0.00e+00  5.23s/step  残り 0分  peak 16.9GB
+  [eval] step 2400: test loss 0.0144 (baseline 0.0121, +18.2%)
+
+学習完了 35.3 分。LoRA: /workspace/Kadai/data/lora_runs/kadai_v3r/lora.pt
+[kadai_v3r] TRAIN_RC=0 2026-10-14 23:20:18 UTC

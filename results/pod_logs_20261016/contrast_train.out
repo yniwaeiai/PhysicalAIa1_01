@@ -1,0 +1,32 @@
+[contrast train 2026-10-14 22:50:20] start per_window=2 steps=2400 snap=0
+[操作チェック] 同じ seed の rep 間で act_exec が全て同一の窓 0/300、同一の rep 対 0（0 に近いはず。方策の標本化が rep ごとに別になっていること）
+
+[train] -> data/contrast/ds_c1  per-window=2
+task       win(選/混/全)  succ ep  fail ep   succ fr   fail fr  fail未done   done&衝突    打切  stale%     /教師
+drawer    37/ 37/80         71       62      8181      6090         55         7    58    0.0%   0.333
+k4        48/ 48/80         88       87     10287      8590         26        61    80    0.0%   1.062
+k6        18/ 18/80         35       26      2470      2574         26         0    26    0.0%   0.262
+  rollout フレーム合計 38192 / 教師 79854 = 0.48
+
+[holdout] -> data/contrast/ds_c1_holdout  per-window=無制限
+task       win(選/混/全)  succ ep  fail ep   succ fr   fail fr  fail未done   done&衝突    打切  stale%     /教師
+drawer     8/  8/20         31       20      3275      1946         18         2    18    0.0%   0.122
+k4        12/ 12/20         39       43      4623      4208         10        33    40    0.0%   0.497
+k6         8/  8/20         35       21      2887      2079         21         0    21    0.0%   0.258
+  rollout フレーム合計 19018 / 教師 79854 = 0.24
+
+[注意] jsonl の無い trace 2/2238 本: clean = done で代用（done かつ衝突を成功に数える）
+  KITCHEN_SCENE4_close_the_bottom_drawer_of_the_cabinet.hdf5               frames= 17777 ntok= 14 | close the bottom drawer of the cabinet (outcome: success)
+  KITCHEN_SCENE4_close_the_bottom_drawer_of_the_cabinet__fail.hdf5         frames=  8590 ntok= 14 | close the bottom drawer of the cabinet (outcome: failure)
+  KITCHEN_SCENE4_close_the_bottom_drawer_of_the_cabinet__succ.hdf5         frames= 10287 ntok= 14 | close the bottom drawer of the cabinet (outcome: success)
+  KITCHEN_SCENE6_close_the_microwave.hdf5                                  frames= 19259 ntok= 10 | close the microwave (outcome: success)
+  KITCHEN_SCENE6_close_the_microwave__fail.hdf5                            frames=  2574 ntok= 10 | close the microwave (outcome: failure)
+  KITCHEN_SCENE6_close_the_microwave__succ.hdf5                            frames=  2470 ntok= 10 | close the microwave (outcome: success)
+  open_the_middle_drawer_of_the_cabinet.hdf5                               frames= 42818 ntok= 14 | Open the middle layer of the drawer (outcome: success)
+  open_the_middle_drawer_of_the_cabinet__fail.hdf5                         frames=  6090 ntok= 14 | Open the middle layer of the drawer (outcome: failure)
+  open_the_middle_drawer_of_the_cabinet__succ.hdf5                         frames=  8181 ntok= 14 | Open the middle layer of the drawer (outcome: success)
+[check] OK: 成功/失敗ファイルの対 3 で tokenized_prompt が異なる。サンプル総数 118046
+[contrast train 2026-10-14 22:58:15] builder 完了。summary: data/contrast/ds_c1/summary.json。親の開始フラグ /workspace/logs/contrast_TRAIN_GO を待つ
+[contrast train 2026-10-15 02:25:48] 学習開始
+[contrast train 2026-10-15 06:05:13] merge s2400 → data/contrast/policy/c1_s2400
+[contrast train 2026-10-15 06:10:20] 完了

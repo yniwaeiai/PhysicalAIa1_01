@@ -1,0 +1,11 @@
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /workspace/Kadai/.venv-plus/lib/python3.12/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+/workspace/Kadai/third_party/openpi/packages/openpi-client/src/openpi_client/websocket_client_policy.py:40: DeprecationWarning: connect() must be used as a context manager: with connect(...) as websocket: ...; alternatively, use websocket = connect(..., legacy=True) to connect directly
+  metadata = msgpack_numpy.unpackb(conn.recv())
+drawer seed 1000: success=True clean=True T=79 disp=0.0mm tilt_med=55.5 max=59.7 q 0.0->-0.144 59.8s
+SUMMARY drawer: success 1/1  clean 1/1  steps_med 79  tilt_med 55.5

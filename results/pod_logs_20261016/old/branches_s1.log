@@ -1,0 +1,7 @@
+[shard s1] windows=17 branches=276 done_before=0
+[shard s1] 1/276 drawer_s1045_r1_entry_a7 done=False disp=24.3mm n=211 infer=43 pref=0.0mm err=0.117mm elapsed=98s
+[shard s1] 2/276 drawer_s1045_r1_entry_a2 done=False disp=89.7mm n=211 infer=43 pref=0.0mm err=0.117mm elapsed=161s
+[shard s1] 3/276 drawer_s1045_r1_entry_a0 done=False disp=45.3mm n=211 infer=43 pref=0.0mm err=0.117mm elapsed=221s
+[shard s1] 4/276 drawer_s1045_r1_entry_a1 done=False disp=63.4mm n=211 infer=43 pref=0.0mm err=0.117mm elapsed=285s
+[shard s1] 5/276 drawer_s1045_r1_entry_a6 done=False disp=68.6mm n=211 infer=43 pref=0.0mm err=0.117mm elapsed=357s
+[shard s1] 6/276 drawer_s1045_r1_entry_a5 done=False disp=64.4mm n=211 infer=43 pref=0.0mm err=0.117mm elapsed=472s

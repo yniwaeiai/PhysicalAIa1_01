@@ -1,0 +1,55 @@
+[eval v3s2000_E2] start 2026-10-15 02:34:06 UTC policy=none tasks=drawer eps=48 level=mix replan=5 seed_off=1000 shards=4
+[eval v3s2000_E2] server up after ~5s
+[drawer s0] drawer seed 1000: success=True clean=True T=110 disp=0.0mm tilt_med=60.7 max=68.2 q 0.0->-0.142 28.3s
+[drawer s0] drawer seed 1001: success=True clean=True T=152 disp=0.0mm tilt_med=59.5 max=63.0 q 0.0->-0.143 40.1s
+[drawer s0] drawer seed 1002: success=True clean=True T=118 disp=0.0mm tilt_med=60.5 max=65.1 q 0.0->-0.143 34.2s
+[drawer s0] drawer seed 1003: success=True clean=True T=88 disp=0.0mm tilt_med=64.7 max=79.3 q 0.0->-0.143 26.6s
+[drawer s0] drawer seed 1004: success=True clean=True T=92 disp=0.0mm tilt_med=63.1 max=78.7 q 0.0->-0.142 28.1s
+[drawer s0] drawer seed 1005: success=True clean=True T=157 disp=0.0mm tilt_med=60.9 max=69.8 q 0.0->-0.14 46.4s
+[drawer s0] drawer seed 1006: success=True clean=True T=87 disp=0.0mm tilt_med=60.5 max=70.0 q 0.0->-0.141 25.3s
+[drawer s0] drawer seed 1007: success=True clean=True T=97 disp=0.0mm tilt_med=61.6 max=62.7 q 0.0->-0.143 28.9s
+[drawer s0] drawer seed 1008: success=True clean=True T=106 disp=0.0mm tilt_med=60.1 max=62.2 q 0.0->-0.142 30.7s
+[drawer s0] drawer seed 1009: success=True clean=True T=93 disp=0.0mm tilt_med=65.6 max=68.1 q 0.0->-0.142 27.3s
+[drawer s0] drawer seed 1010: success=True clean=True T=138 disp=0.0mm tilt_med=59.1 max=65.2 q 0.0->-0.141 35.3s
+[drawer s0] drawer seed 1011: success=True clean=True T=85 disp=0.0mm tilt_med=58.2 max=61.1 q 0.0->-0.144 24.1s
+[drawer s0] SUMMARY drawer: success 12/12  clean 12/12  steps_med 102  tilt_med 60.6
+[drawer s2] drawer seed 1024: success=True clean=True T=96 disp=0.0mm tilt_med=63.6 max=65.9 q 0.0->-0.142 25.0s
+[drawer s2] drawer seed 1025: success=False clean=False T=250 disp=0.0mm tilt_med=64.2 max=64.3 q 0.0->0.002 67.1s
+[drawer s2] drawer seed 1026: success=True clean=True T=115 disp=0.0mm tilt_med=62.7 max=68.0 q 0.0->-0.144 33.6s
+[drawer s2] drawer seed 1027: success=True clean=True T=91 disp=0.0mm tilt_med=58.8 max=64.7 q 0.0->-0.143 28.4s
+[drawer s2] drawer seed 1028: success=False clean=False T=250 disp=50.9mm tilt_med=61.0 max=67.0 q 0.0->0.002 74.7s
+[drawer s2] drawer seed 1029: success=True clean=True T=92 disp=0.0mm tilt_med=57.9 max=63.8 q 0.0->-0.145 26.1s
+[drawer s2] drawer seed 1030: success=True clean=True T=108 disp=0.01mm tilt_med=61.0 max=68.2 q 0.0->-0.143 31.3s
+[drawer s2] drawer seed 1031: success=False clean=False T=250 disp=101.54mm tilt_med=59.4 max=70.6 q 0.0->0.002 67.0s
+[drawer s2] drawer seed 1032: success=True clean=True T=81 disp=0.0mm tilt_med=65.3 max=66.9 q 0.0->-0.143 22.4s
+[drawer s2] drawer seed 1033: success=True clean=True T=91 disp=0.0mm tilt_med=63.7 max=67.0 q 0.0->-0.143 25.8s
+[drawer s2] drawer seed 1034: success=True clean=True T=101 disp=0.0mm tilt_med=64.9 max=71.5 q 0.0->-0.141 29.9s
+[drawer s2] drawer seed 1035: success=True clean=True T=100 disp=0.0mm tilt_med=55.9 max=59.7 q 0.0->-0.142 28.5s
+[drawer s2] SUMMARY drawer: success 9/12  clean 9/12  steps_med 100  tilt_med 61.9
+[drawer s3] drawer seed 1036: success=True clean=True T=141 disp=0.0mm tilt_med=63.9 max=73.5 q 0.0->-0.145 37.4s
+[drawer s3] drawer seed 1037: success=True clean=True T=95 disp=0.0mm tilt_med=59.9 max=65.9 q 0.0->-0.141 27.5s
+[drawer s3] drawer seed 1038: success=True clean=True T=101 disp=0.0mm tilt_med=63.9 max=66.9 q 0.0->-0.143 30.0s
+[drawer s3] drawer seed 1039: success=True clean=True T=82 disp=0.0mm tilt_med=66.4 max=90.0 q 0.0->-0.14 24.4s
+[drawer s3] drawer seed 1040: success=True clean=True T=87 disp=0.0mm tilt_med=60.1 max=63.7 q 0.0->-0.142 27.2s
+[drawer s3] drawer seed 1041: success=False clean=False T=250 disp=94.23mm tilt_med=60.4 max=66.6 q 0.0->0.002 74.6s
+[drawer s3] drawer seed 1042: success=False clean=False T=250 disp=123.86mm tilt_med=61.3 max=71.6 q 0.0->0.002 70.9s
+[drawer s3] drawer seed 1043: success=False clean=False T=250 disp=14.77mm tilt_med=66.1 max=71.0 q 0.0->-0.001 69.0s
+[drawer s3] drawer seed 1044: success=True clean=True T=102 disp=0.0mm tilt_med=63.0 max=66.6 q 0.0->-0.144 27.2s
+[drawer s3] drawer seed 1045: success=False clean=False T=250 disp=2.7mm tilt_med=47.7 max=68.9 q -0.007->-0.007 72.9s
+[drawer s3] drawer seed 1046: success=True clean=True T=79 disp=0.0mm tilt_med=62.5 max=65.6 q 0.0->-0.142 24.7s
+[drawer s3] drawer seed 1047: success=True clean=True T=177 disp=0.0mm tilt_med=59.3 max=64.1 q 0.0->-0.142 51.6s
+[drawer s3] SUMMARY drawer: success 8/12  clean 8/12  steps_med 122  tilt_med 61.9
+[drawer s1] drawer seed 1012: success=True clean=True T=122 disp=0.0mm tilt_med=65.3 max=91.9 q 0.0->-0.144 30.2s
+[drawer s1] drawer seed 1013: success=True clean=True T=107 disp=0.0mm tilt_med=63.0 max=67.1 q 0.0->-0.145 27.5s
+[drawer s1] drawer seed 1014: success=False clean=False T=250 disp=67.8mm tilt_med=58.4 max=79.0 q 0.0->0.002 70.6s
+[drawer s1] drawer seed 1015: success=True clean=True T=76 disp=0.0mm tilt_med=58.0 max=62.0 q 0.0->-0.141 22.5s
+[drawer s1] drawer seed 1016: success=False clean=False T=250 disp=38.78mm tilt_med=57.2 max=67.3 q 0.0->0.001 74.6s
+[drawer s1] drawer seed 1017: success=True clean=True T=112 disp=0.0mm tilt_med=60.7 max=69.0 q 0.0->-0.143 32.3s
+[drawer s1] drawer seed 1018: success=False clean=False T=250 disp=37.35mm tilt_med=60.0 max=75.9 q 0.0->-0.005 70.5s
+[drawer s1] drawer seed 1019: success=True clean=True T=93 disp=0.0mm tilt_med=66.4 max=72.5 q 0.0->-0.144 24.7s
+[drawer s1] drawer seed 1020: success=True clean=True T=177 disp=0.0mm tilt_med=57.0 max=64.5 q 0.0->-0.142 46.8s
+[drawer s1] drawer seed 1021: success=False clean=False T=250 disp=56.89mm tilt_med=63.4 max=78.8 q 0.0->0.002 70.3s
+[drawer s1] drawer seed 1022: success=False clean=False T=250 disp=75.91mm tilt_med=65.4 max=70.2 q 0.0->0.001 73.3s
+[drawer s1] drawer seed 1023: success=True clean=True T=128 disp=0.0mm tilt_med=60.2 max=63.6 q 0.0->-0.142 36.7s
+[drawer s1] SUMMARY drawer: success 7/12  clean 7/12  steps_med 152  tilt_med 60.5
+[eval v3s2000_E2] EVAL_DONE 2026-10-15 02:45:34 UTC

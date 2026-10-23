@@ -1,0 +1,35 @@
+I4 skipped: [('drawer', 1027, 'no failure window'), ('drawer', 1030, 'no failure window'), ('drawer', 1039, 'no failure window'), ('drawer', 3101, 'no failure window'), ('drawer', 3104, 'no failure window'), ('drawer', 3106, 'no failure window'), ('k6', 1492, 'no failure window'), ('k6', 3105, 'no failure window'), ('k6', 3107, 'no failure window')] windows: 56
+[shard s23] windows=2 branches=32 done_before=0
+[shard s23] 1/32 k6_s1442_r3_x_r0_t23_r3 done=False disp=0.0mm n=221 eeErr=0.372mm qErr=0.00000 f0=0.0N elapsed=118s
+[shard s23] 2/32 k6_s1442_r3_x_r0_t23_s1 done=False disp=0.0mm n=221 eeErr=0.357mm qErr=0.00000 f0=0.0N elapsed=194s
+[shard s23] 3/32 k6_s1442_r3_x_r0_t23_r2 done=False disp=0.0mm n=221 eeErr=0.372mm qErr=0.00000 f0=0.0N elapsed=270s
+[shard s23] 4/32 k6_s1442_r3_x_r0_t23_r1 done=True disp=0.0mm n=44 eeErr=0.372mm qErr=0.00000 f0=0.0N elapsed=289s
+[shard s23] 5/32 k6_s1442_r3_x_r0_t23_r7 done=False disp=0.0mm n=221 eeErr=0.372mm qErr=0.00000 f0=0.0N elapsed=362s
+[shard s23] 6/32 k6_s1442_r3_x_r0_t23_s3 done=False disp=0.0mm n=221 eeErr=0.357mm qErr=0.00000 f0=0.0N elapsed=436s
+[shard s23] 7/32 k6_s1442_r3_x_r0_t23_r5 done=False disp=0.0mm n=221 eeErr=0.372mm qErr=0.00000 f0=0.0N elapsed=509s
+[shard s23] 8/32 k6_s1442_r3_x_r0_t23_r0 done=False disp=0.0mm n=221 eeErr=0.372mm qErr=0.00000 f0=0.0N elapsed=582s
+[shard s23] 9/32 k6_s1442_r3_x_r0_t23_s5 done=False disp=0.0mm n=221 eeErr=0.357mm qErr=0.00000 f0=0.0N elapsed=653s
+[shard s23] 10/32 k6_s1442_r3_x_r0_t23_r4 done=False disp=0.0mm n=221 eeErr=0.372mm qErr=0.00000 f0=0.0N elapsed=728s
+[shard s23] 11/32 k6_s1442_r3_x_r0_t23_s0 done=False disp=0.0mm n=221 eeErr=0.357mm qErr=0.00000 f0=0.0N elapsed=801s
+[shard s23] 12/32 k6_s1442_r3_x_r0_t23_s4 done=False disp=0.0mm n=221 eeErr=0.357mm qErr=0.00000 f0=0.0N elapsed=871s
+[shard s23] 13/32 k6_s1442_r3_x_r0_t23_s6 done=False disp=0.0mm n=221 eeErr=0.357mm qErr=0.00000 f0=0.0N elapsed=945s
+[shard s23] 14/32 k6_s1442_r3_x_r0_t23_s2 done=False disp=0.0mm n=221 eeErr=0.357mm qErr=0.00000 f0=0.0N elapsed=1021s
+[shard s23] 15/32 k6_s1442_r3_x_r0_t23_s7 done=False disp=0.0mm n=221 eeErr=0.357mm qErr=0.00000 f0=0.0N elapsed=1096s
+[shard s23] 16/32 k6_s1442_r3_x_r0_t23_r6 done=False disp=0.0mm n=221 eeErr=0.372mm qErr=0.00000 f0=0.0N elapsed=1168s
+[shard s23] 17/32 k6_s3104_r0_x_r1_t13_s0 done=True disp=0.0mm n=102 eeErr=0.920mm qErr=0.00000 f0=0.0N elapsed=1205s
+[shard s23] 18/32 k6_s3104_r0_x_r1_t13_s4 done=True disp=0.0mm n=62 eeErr=0.920mm qErr=0.00000 f0=0.0N elapsed=1232s
+[shard s23] 19/32 k6_s3104_r0_x_r1_t13_s7 done=True disp=0.0mm n=45 eeErr=0.920mm qErr=0.00000 f0=0.0N elapsed=1251s
+[shard s23] 20/32 k6_s3104_r0_x_r1_t13_r1 done=False disp=0.0mm n=239 eeErr=1.226mm qErr=0.00000 f0=0.0N elapsed=1323s
+[shard s23] 21/32 k6_s3104_r0_x_r1_t13_s5 done=True disp=0.0mm n=51 eeErr=0.920mm qErr=0.00000 f0=0.0N elapsed=1342s
+[shard s23] 22/32 k6_s3104_r0_x_r1_t13_s6 done=False disp=0.0mm n=239 eeErr=0.920mm qErr=0.00000 f0=0.0N elapsed=1416s
+[shard s23] 23/32 k6_s3104_r0_x_r1_t13_r3 done=True disp=0.0mm n=78 eeErr=1.226mm qErr=0.00000 f0=0.0N elapsed=1444s
+[shard s23] 24/32 k6_s3104_r0_x_r1_t13_r7 done=False disp=0.0mm n=239 eeErr=1.226mm qErr=0.00000 f0=0.0N elapsed=1518s
+[shard s23] 25/32 k6_s3104_r0_x_r1_t13_r5 done=False disp=0.0mm n=239 eeErr=1.226mm qErr=0.00000 f0=0.0N elapsed=1601s
+[shard s23] 26/32 k6_s3104_r0_x_r1_t13_r4 done=False disp=0.0mm n=239 eeErr=1.226mm qErr=0.00000 f0=0.0N elapsed=1673s
+[shard s23] 27/32 k6_s3104_r0_x_r1_t13_s3 done=True disp=0.0mm n=42 eeErr=0.920mm qErr=0.00000 f0=0.0N elapsed=1689s
+[shard s23] 28/32 k6_s3104_r0_x_r1_t13_s2 done=True disp=0.0mm n=47 eeErr=0.920mm qErr=0.00000 f0=0.0N elapsed=1708s
+[shard s23] 29/32 k6_s3104_r0_x_r1_t13_r0 done=False disp=0.0mm n=239 eeErr=1.226mm qErr=0.00000 f0=0.0N elapsed=1773s
+[shard s23] 30/32 k6_s3104_r0_x_r1_t13_r2 done=True disp=0.0mm n=94 eeErr=1.226mm qErr=0.00000 f0=0.0N elapsed=1801s
+[shard s23] 31/32 k6_s3104_r0_x_r1_t13_s1 done=True disp=0.0mm n=41 eeErr=0.920mm qErr=0.00000 f0=0.0N elapsed=1816s
+[shard s23] 32/32 k6_s3104_r0_x_r1_t13_r6 done=False disp=0.0mm n=239 eeErr=1.226mm qErr=0.00000 f0=0.0N elapsed=1882s
+BRANCHES_DONE shard=s23 2026-10-14 13:36:46 UTC

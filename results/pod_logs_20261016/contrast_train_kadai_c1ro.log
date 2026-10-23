@@ -1,0 +1,48 @@
+[data] {"n_variants": 6, "n_base_tasks": 3, "n_episodes": 369, "n_success": 369, "n_frames_success": 38192, "frames_by_category": {"kadai_tilt_contact": 38192}}
+[data] ★タスク単位で分割: train 3 / test 0
+[data] test: []
+[data] train 38192 / test 38192 サンプル
+[lora] LoRA r=16 α=32.0 targets=['q_proj', 'k_proj', 'v_proj', 'o_proj', 'out_proj', 'gate_proj', 'up_proj', 'down_proj', 'fc1', 'fc2']: 414 層をラップ / 学習パラメータ 35.24M (ベース 3.617B の 0.974%)
+[resume] data/contrast/lora_runs/kadai_c1/lora.pt を読み込み（828 テンソル、Σ|B|=48522.3）。step 1 の続きから 1601 まで
+[操作チェック] 学習 35.24M / 全 3.652B (0.965%)
+[resume] LR: 最初の step 1.000e-06 → 立ち上げ後 9.904e-05（元の run の step 2 の LR は 1.000e-04）
+[baseline] resume 時点（step 1）の test loss = 0.0293
+  step    50/1601  loss 0.0309  lr 4.99e-05  18.32s/step  残り 473分  peak 16.9GB
+  step   100/1601  loss 0.0326  lr 9.91e-05  18.24s/step  残り 456分  peak 16.9GB
+  step   150/1601  loss 0.0349  lr 9.79e-05  42.66s/step  残り 1032分  peak 16.9GB
+  step   200/1601  loss 0.0342  lr 9.62e-05  34.80s/step  残り 813分  peak 16.9GB
+  step   250/1601  loss 0.0318  lr 9.41e-05  30.46s/step  残り 686分  peak 16.9GB
+  step   300/1601  loss 0.0378  lr 9.16e-05  27.36s/step  残り 593分  peak 16.9GB
+  step   350/1601  loss 0.0350  lr 8.87e-05  24.59s/step  残り 513分  peak 16.9GB
+  step   400/1601  loss 0.0323  lr 8.54e-05  22.21s/step  残り 445分  peak 16.9GB
+  [eval] step 400: test loss 0.0258 (baseline 0.0293, -11.7%)
+  step   450/1601  loss 0.0344  lr 8.18e-05  20.44s/step  残り 392分  peak 16.9GB
+  step   500/1601  loss 0.0323  lr 7.79e-05  18.96s/step  残り 348分  peak 16.9GB
+  step   550/1601  loss 0.0341  lr 7.37e-05  17.76s/step  残り 311分  peak 16.9GB
+  step   600/1601  loss 0.0323  lr 6.92e-05  16.75s/step  残り 279分  peak 16.9GB
+  step   650/1601  loss 0.0298  lr 6.46e-05  15.90s/step  残り 252分  peak 16.9GB
+  step   700/1601  loss 0.0309  lr 5.99e-05  15.17s/step  残り 228分  peak 16.9GB
+  step   750/1601  loss 0.0312  lr 5.50e-05  14.54s/step  残り 206分  peak 16.9GB
+  step   800/1601  loss 0.0341  lr 5.01e-05  13.98s/step  残り 187分  peak 16.9GB
+  [eval] step 800: test loss 0.0255 (baseline 0.0293, -13.0%)
+  step   850/1601  loss 0.0303  lr 4.52e-05  13.53s/step  残り 169分  peak 16.9GB
+  step   900/1601  loss 0.0303  lr 4.03e-05  13.09s/step  残り 153分  peak 16.9GB
+  step   950/1601  loss 0.0315  lr 3.56e-05  12.70s/step  残り 138分  peak 16.9GB
+  step  1000/1601  loss 0.0295  lr 3.10e-05  12.35s/step  残り 124分  peak 16.9GB
+  step  1050/1601  loss 0.0335  lr 2.65e-05  12.04s/step  残り 111分  peak 16.9GB
+  step  1100/1601  loss 0.0299  lr 2.23e-05  11.75s/step  残り 98分  peak 16.9GB
+  step  1150/1601  loss 0.0295  lr 1.84e-05  11.49s/step  残り 86分  peak 16.9GB
+  step  1200/1601  loss 0.0275  lr 1.47e-05  11.25s/step  残り 75分  peak 16.9GB
+  [eval] step 1200: test loss 0.0258 (baseline 0.0293, -12.0%)
+  step  1250/1601  loss 0.0308  lr 1.14e-05  11.05s/step  残り 65分  peak 16.9GB
+  step  1300/1601  loss 0.0296  lr 8.48e-06  10.84s/step  残り 54分  peak 16.9GB
+  step  1350/1601  loss 0.0295  lr 5.95e-06  10.65s/step  残り 45分  peak 16.9GB
+  step  1400/1601  loss 0.0306  lr 3.84e-06  10.48s/step  残り 35分  peak 16.9GB
+  step  1450/1601  loss 0.0281  lr 2.18e-06  10.32s/step  残り 26分  peak 16.9GB
+  step  1500/1601  loss 0.0307  lr 9.80e-07  10.16s/step  残り 17分  peak 16.9GB
+  step  1550/1601  loss 0.0296  lr 2.50e-07  10.01s/step  残り 9分  peak 16.9GB
+  step  1600/1601  loss 0.0280  lr 9.64e-11  9.88s/step  残り 0分  peak 16.9GB
+  [eval] step 1600: test loss 0.0234 (baseline 0.0293, -19.9%)
+  [eval] step 1601: test loss 0.0265 (baseline 0.0293, -9.6%)
+
+学習完了 264.3 分。LoRA: data/contrast/lora_runs/kadai_c1ro/lora.pt

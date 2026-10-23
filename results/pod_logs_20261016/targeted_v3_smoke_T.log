@@ -1,0 +1,9 @@
+[v3_smoke_T k4 s0] k4 seed 1043: success=True clean=True T=99 disp=0.0mm tilt_med=41.5 max=43.4 q -0.159->0.002 24.6s
+[v3_smoke_T k4 s0] SUMMARY k4: success 1/1  clean 1/1  steps_med 99  tilt_med 41.5
+[v3_smoke_T k4] TARGETED_DONE 2026-10-14 23:39:15 UTC
+[v3_smoke_T k6 s0] k6 seed 1113: success=False clean=False T=250 disp=0.0mm tilt_med=34.4 max=48.3 q -1.783->-0.517 55.7s
+[v3_smoke_T k6 s0] SUMMARY k6: success 0/1  clean 0/1  steps_med 250  tilt_med 34.4
+[v3_smoke_T k6] TARGETED_DONE 2026-10-14 23:39:47 UTC
+[v3_smoke_T drawer s0] drawer seed 1045: success=False clean=False T=250 disp=52.45mm tilt_med=58.8 max=68.3 q -0.002->-0.002 67.3s
+[v3_smoke_T drawer s0] SUMMARY drawer: success 0/1  clean 0/1  steps_med 250  tilt_med 58.8
+[v3_smoke_T drawer] TARGETED_DONE 2026-10-14 23:40:00 UTC

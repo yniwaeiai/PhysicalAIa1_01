@@ -1,0 +1,1 @@
+[contrast rollouts] start 2026-10-14 17:55:40 UTC name=c1smoke port=18040 seeds=8000,8001... reps=2（rep 別プロセス × 3 タスク = 6 クライアント）trace=/workspace/Kadai/data/contrast/trace_c_smoke frames=/workspace/Kadai/data/contrast/frames_c_smoke（毎 step の画像、約 15 GB）

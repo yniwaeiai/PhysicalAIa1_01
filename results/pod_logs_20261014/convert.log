@@ -1,0 +1,51 @@
+Tue Oct 13 05:35:02 UTC 2026
+gsutil not found, falling back to gcsfs. This may fail if GCP credentials are not configured correctly.
+/workspace/Kadai/data/openpi/openpi-assets/checkpoints/pi05_libero
+Tue Oct 13 05:39:02 UTC 2026
+== P0-③ π0.5-LIBERO 変換 ==
+  入力  : /workspace/Kadai/data/openpi/openpi-assets/checkpoints/pi05_libero
+  出力  : /workspace/Kadai/data/openpi/pi05_libero_pytorch
+  config: pi05_libero
+  精度  : bfloat16
+
+Converting PI0 checkpoint from /workspace/Kadai/data/openpi/openpi-assets/checkpoints/pi05_libero to /workspace/Kadai/data/openpi/pi05_libero_pytorch
+Model config: Pi0Config(action_dim=32, action_horizon=10, max_token_len=200, dtype='bfloat16', paligemma_variant='gemma_2b', action_expert_variant='gemma_300m', pi05=True, discrete_state_input=False, pytorch_compile_mode='max-autotune')
+Model conversion completed successfully!
+Model saved to /workspace/Kadai/data/openpi/pi05_libero_pytorch
+
+== assets のコピー（上流のパス誤りを補正） ==
+  /workspace/Kadai/data/openpi/openpi-assets/checkpoints/pi05_libero/assets → /workspace/Kadai/data/openpi/pi05_libero_pytorch/assets
+  /workspace/Kadai/data/openpi/pi05_libero_pytorch/assets/physical-intelligence/libero/norm_stats.json
+
+== 検証 ==
+config     : pi05_libero  (pi05=True)
+重み       : /workspace/Kadai/data/openpi/pi05_libero_pytorch/model.safetensors  (7.23 GB)
+保存キー数 : 812
+
+[1] キーの過不足
+    期待 813 / 保存 812
+    tied weight 1 組（保存時に重複排除される。正常）:
+       ~ embed_tokens.weight = lm_head.weight
+    OK: 過不足なし
+
+[2] pi0.5 固有キー（パス分岐の罠の検査）
+    OK: 適応正規化キー 36 件（例 paligemma_with_expert.gemma_expert.model.layers.0.input_layernorm.dense.bias）
+
+[3] 形状の一致
+    OK: 812 件すべて一致
+
+[3b] JAX 原本との照合: スキップ（--jax-checkpoint を渡すと実行）
+     ★これを通さないと「変換できた」とは言えない。上流は strict=False なので未ロードでも例外が出ない
+
+[4] 数値の健全性
+    OK: NaN/Inf なし
+    総パラメータ数: 3.617 B
+    dtype: {'torch.bfloat16': 812}
+
+[5] 付随ファイル
+    config.json: {'action_dim': 32, 'action_horizon': 10, 'paligemma_variant': 'gemma_2b', 'action_expert_variant': 'gemma_300m', 'precision': 'bfloat16'}
+    assets/: 1 ファイル（正規化統計 norm_stats が要る）
+
+=== 変換は健全 ===
+Tue Oct 13 05:45:56 UTC 2026
+CONVERT_ALL_DONE

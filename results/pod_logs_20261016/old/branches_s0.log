@@ -1,0 +1,8 @@
+[shard s0] windows=18 branches=284 done_before=0
+[shard s0] 1/284 k6_s1200_r3_rec_e4 done=False disp=0.0mm n=183 infer=33 pref=146.4mm err=0.500mm elapsed=80s
+[shard s0] 2/284 k6_s1200_r3_rec_e2 done=False disp=0.0mm n=183 infer=33 pref=146.4mm err=0.500mm elapsed=124s
+[shard s0] 3/284 k6_s1200_r3_rec_d5 done=False disp=0.0mm n=183 infer=35 pref=43.8mm err=0.500mm elapsed=167s
+[shard s0] 4/284 k6_s1200_r3_rec_e7 done=False disp=0.0mm n=183 infer=33 pref=146.4mm err=0.500mm elapsed=215s
+[shard s0] 5/284 k6_s1200_r3_rec_d4 done=False disp=0.0mm n=183 infer=35 pref=43.8mm err=0.500mm elapsed=261s
+[shard s0] 6/284 k6_s1200_r3_rec_b1 done=False disp=0.0mm n=183 infer=183 pref=0.0mm err=0.500mm elapsed=332s
+[shard s0] 7/284 k6_s1200_r3_rec_b2 done=False disp=0.0mm n=183 infer=183 pref=0.0mm err=0.500mm elapsed=510s

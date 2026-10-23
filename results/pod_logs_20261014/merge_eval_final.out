@@ -1,0 +1,15 @@
+[merge kadai_v1_final] start 2026-10-13 09:49:43 UTC
+[1/5] ベースを読む: /workspace/Kadai/data/openpi/pi05_libero_pytorch
+[2/5] LoRA を差し込んで読み込む: data/lora_runs/kadai_v1/lora.pt
+      LoRA r=16 α=32.0 targets=['q_proj', 'k_proj', 'v_proj', 'o_proj', 'out_proj', 'gate_proj', 'up_proj', 'down_proj', 'fc1', 'fc2']: 414 層をラップ / 学習パラメータ 35.24M (ベース 3.617B の 0.974%)
+[操作チェック] lora_b が非ゼロ: 409/414 層 (学習済み)
+[3/5] ベース重みへ畳み込む
+[4/5] 書き出す: data/openpi/pi05_kadai_v1_final
+[5/5] 検証
+      サイズ 7127 MB / ベース 6899 MB (比 1.033)
+      norm_stats: assets/physical-intelligence/libero/norm_stats.json
+      読み直しの一致: 813/813 テンソル
+
+PASS: 414 層を畳み込み → data/openpi/pi05_kadai_v1_final
+[merge kadai_v1_final] done 2026-10-13 09:57:36 UTC
+Terminated

@@ -1,0 +1,1 @@
+{"task": "k4", "seed": 7000, "level": [0.2, 0.06, 10.0], "success": false, "clean": false, "steps": 250, "disp_mm": 413.69, "top": "akita_black_bowl_1", "tilt_med": 26.1, "tilt_max": 43.2, "path_m": 1.548, "n_infer": 50, "n_kicks": 0, "act_dev": 0.0008, "n_resample": 0, "tau_mean": null, "rep": 0, "q_start": -0.155, "q_end": -0.155, "sec": 61.1}

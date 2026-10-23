@@ -1,0 +1,26 @@
+[eval base_t3] start 2026-10-13 07:06:45 UTC policy=data/openpi/pi05_libero_pytorch tasks=drawer,k4,k6 eps=12 level=mix replan=5 seed_off=1000
+[eval base_t3] server up after ~135s
+/workspace/Kadai/third_party/openpi/packages/openpi-client/src/openpi_client/websocket_client_policy.py:40: DeprecationWarning: connect() must be used as a context manager: with connect(...) as websocket: ...; alternatively, use websocket = connect(..., legacy=True) to connect directly
+  metadata = msgpack_numpy.unpackb(conn.recv())
+drawer seed 1000: success=True clean=True T=109 disp=0.0mm tilt_med=40.8 max=50.6 q 0.0->-0.144 571.2s
+drawer seed 1001: success=True clean=True T=114 disp=0.0mm tilt_med=52.0 max=67.0 q 0.0->-0.141 31.8s
+drawer seed 1002: success=True clean=True T=146 disp=0.0mm tilt_med=40.9 max=71.3 q 0.0->-0.143 38.4s
+drawer seed 1003: success=True clean=True T=111 disp=0.0mm tilt_med=49.1 max=64.8 q 0.0->-0.142 30.5s
+drawer seed 1004: success=False clean=False T=250 disp=320.78mm tilt_med=5.7 max=15.1 q 0.0->0.0 73.5s
+drawer seed 1005: success=True clean=True T=119 disp=0.0mm tilt_med=51.6 max=71.1 q 0.0->-0.145 32.5s
+drawer seed 1006: success=False clean=False T=250 disp=0.0mm tilt_med=15.9 max=18.5 q 0.0->0.0 71.2s
+drawer seed 1007: success=False clean=False T=250 disp=0.0mm tilt_med=8.7 max=9.3 q -0.001->-0.001 78.3s
+drawer seed 1008: success=True clean=True T=123 disp=0.0mm tilt_med=46.8 max=54.4 q 0.0->-0.146 32.7s
+drawer seed 1009: success=True clean=True T=148 disp=0.0mm tilt_med=58.4 max=87.6 q 0.0->-0.144 42.1s
+drawer seed 1010: success=True clean=True T=113 disp=0.0mm tilt_med=54.0 max=72.3 q 0.0->-0.14 29.9s
+drawer seed 1011: success=False clean=False T=250 disp=41.87mm tilt_med=17.9 max=33.5 q 0.0->0.0 74.1s
+k4 seed 1000: success=False clean=False T=250 disp=370.01mm tilt_med=9.6 max=29.4 q -0.155->-0.001 54.0s
+k4 seed 1001: success=False clean=False T=250 disp=364.86mm tilt_med=6.9 max=28.2 q -0.141->-0.003 53.9s
+k4 seed 1002: success=True clean=False T=215 disp=356.1mm tilt_med=10.7 max=30.6 q -0.148->0.002 46.6s
+k4 seed 1003: success=True clean=False T=204 disp=444.51mm tilt_med=7.0 max=30.2 q -0.158->0.001 43.3s
+k4 seed 1004: success=True clean=False T=242 disp=434.78mm tilt_med=9.2 max=30.2 q -0.141->0.0 52.4s
+k4 seed 1005: success=True clean=False T=220 disp=416.51mm tilt_med=7.7 max=28.8 q -0.153->0.0 47.6s
+k4 seed 1006: success=True clean=False T=236 disp=442.34mm tilt_med=7.2 max=28.9 q -0.154->0.002 52.1s
+Traceback (most recent call last):
+ValueError: Error: resource not found via provider or OS filesystem: '/workspace/Kadai/.venv-plus/lib/python3.12/site-packages/robosuite/models/assets/robots/panda/obj_meshes/link4_vis/link4_vis_1.obj'
+[eval base_t3] EVAL_DONE 2026-10-13 07:35:28 UTC

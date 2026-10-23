@@ -1,0 +1,1 @@
+[contrast rollouts] start 2026-10-14 18:26:02 UTC name=c1roll port=18040 seeds=8000,8001,8002,8003,8004,8005,... reps=8（(task,rep) 24 ジョブ、PAR=6 並列）trace=/workspace/Kadai/data/contrast/trace_c frames=/workspace/Kadai/data/contrast/frames_c（毎 step の画像、約 15 GB）

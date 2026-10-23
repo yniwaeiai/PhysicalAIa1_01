@@ -1,0 +1,19 @@
+Tue Oct 13 05:50:18 UTC 2026
+[data] {"n_variants": 3, "n_base_tasks": 3, "n_episodes": 910, "n_success": 910, "n_frames_success": 79854, "frames_by_category": {"kadai_tilt_contact": 79854}}
+[data] ★タスク単位で分割: train 3 / test 0
+[data] test: []
+[data] train 79854 / test 79854 サンプル
+[lora] LoRA r=16 α=32.0 targets=['q_proj', 'k_proj', 'v_proj', 'o_proj', 'out_proj', 'gate_proj', 'up_proj', 'down_proj', 'fc1', 'fc2']: 414 層をラップ / 学習パラメータ 35.24M (ベース 3.617B の 0.974%)
+[操作チェック] 学習 35.24M / 全 3.652B (0.965%)
+[baseline] 未学習（LoRA は恒等）の test loss = 0.3199
+  step     5/30  loss 0.2474  lr 6.00e-05  5.50s/step  残り 2分  peak 16.9GB
+  step    10/30  loss 0.3528  lr 1.00e-04  5.33s/step  残り 2分  peak 16.9GB
+  step    15/30  loss 0.3330  lr 8.54e-05  5.29s/step  残り 1分  peak 16.9GB
+  step    20/30  loss 0.2052  lr 5.00e-05  5.29s/step  残り 1分  peak 16.9GB
+  step    25/30  loss 0.2092  lr 1.46e-05  5.27s/step  残り 0分  peak 16.9GB
+  step    30/30  loss 0.2844  lr 0.00e+00  5.26s/step  残り 0分  peak 16.9GB
+  [eval] step 30: test loss 0.2641 (baseline 0.3199, -17.5%)
+
+学習完了 3.1 分。LoRA: /workspace/Kadai/data/lora_runs/kadai_smoke/lora.pt
+SMOKE_RC=0
+Tue Oct 13 05:55:52 UTC 2026

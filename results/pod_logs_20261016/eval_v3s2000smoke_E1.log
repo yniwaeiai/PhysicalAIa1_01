@@ -1,0 +1,5 @@
+[eval v3s2000smoke_E1] start 2026-10-15 01:56:53 UTC policy=none tasks=drawer eps=1 level=strong replan=5 seed_off=3000 shards=1
+[eval v3s2000smoke_E1] server up after ~5s
+[drawer s0] drawer seed 3000: success=True clean=True T=139 disp=0.0mm tilt_med=59.8 max=72.4 q 0.0->-0.141 36.9s
+[drawer s0] SUMMARY drawer: success 1/1  clean 1/1  steps_med 139  tilt_med 59.8
+[eval v3s2000smoke_E1] EVAL_DONE 2026-10-15 01:57:57 UTC

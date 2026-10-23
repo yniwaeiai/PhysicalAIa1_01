@@ -1,0 +1,11 @@
+shard 0/8: 9 jobs, 0 done
+i_drawer_s1014_ref: done=False clean=False n=277 q 0.0->-0.13283420764386067 trans=[["H_PRE", 28, "ok"], ["H_IN", 99, "timeout"], ["H_HOOK", 140, "timeout"], ["H_PULL", 261, "timeout"]] 135.2s
+i_drawer_s1037_ref: done=True clean=True n=110 q 0.0->-0.14114326367534102 trans=[["H_PRE", 29, "ok"], ["H_IN", 43, "ok"], ["H_HOOK", 84, "timeout"]] 38.7s
+i_drawer_s3101_ref: done=True clean=True n=112 q 0.0->-0.14301595645034165 trans=[["H_PRE", 30, "ok"], ["H_IN", 44, "ok"], ["H_HOOK", 85, "timeout"]] 39.8s
+i_drawer_s3105_ref: done=True clean=False n=114 q 0.0->-0.14151128069949057 trans=[["H_PRE", 31, "ok"], ["H_IN", 46, "ok"], ["H_HOOK", 87, "timeout"]] 37.9s
+i_k4_s3103_ref: done=False clean=False n=224 q -0.1576944334731109->-0.058651481362878656 trans=[["C_PRE", 26, "ok"], ["C_LOW", 87, "timeout"], ["C_PUSH", 208, "timeout"]] 61.1s
+i_k6_s1193_ref: done=True clean=True n=41 q -0.7875406687078671->0.010681209913129553 trans=[["M_PRE", 15, "ok"], ["M_LOW", 29, "ok"]] 21.9s
+i_k6_s1337_ref: done=False clean=False n=201 q -1.6390519135297037->-0.4480300396268999 trans=[["M_PRE", 20, "ok"], ["M_LOW", 34, "ok"], ["M_PUSH", 185, "timeout"]] 45.1s
+i_k6_s1442_ref: done=False clean=False n=195 q -1.3760549320588982->-0.11686700289354796 trans=[["M_PRE", 14, "ok"], ["M_LOW", 28, "ok"], ["M_PUSH", 179, "timeout"]] 47.7s
+i_k6_s3105_ref: done=True clean=True n=69 q -1.9615442437924173->0.01385305554589099 trans=[["M_PRE", 28, "ok"], ["M_LOW", 45, "ok"]] 18.4s
+EXPERT_EVAL_SHARD_DONE i 0

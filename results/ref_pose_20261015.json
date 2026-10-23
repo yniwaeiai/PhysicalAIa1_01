@@ -1,0 +1,50 @@
+{
+ "drawer": {
+  "pos0": [
+   0.027447886892353786,
+   -0.24560663030204427,
+   0.9050000000000001
+  ],
+  "quat0": [
+   6.123233995736766e-17,
+   0.0,
+   0.0,
+   1.0
+  ],
+  "n_traces": 8,
+  "n_total": 44,
+  "source": "A' trace_aprime ref_pos0/ref_quat0 modal group (0.1mm rounding)"
+ },
+ "k4": {
+  "pos0": [
+   -0.0010626037522789653,
+   0.30730100963484747,
+   0.9050000000000001
+  ],
+  "quat0": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "n_traces": 8,
+  "n_total": 28,
+  "source": "A' trace_aprime ref_pos0/ref_quat0 modal group (0.1mm rounding)"
+ },
+ "k6": {
+  "pos0": [
+   0.00811322066968095,
+   0.3505825573555679,
+   0.9199999999999999
+  ],
+  "quat0": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "n_traces": 10,
+  "n_total": 96,
+  "source": "A' trace_aprime ref_pos0/ref_quat0 modal group (0.1mm rounding)"
+ }
+}

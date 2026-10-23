@@ -1,0 +1,35 @@
+I4 skipped: [('drawer', 1027, 'no failure window'), ('drawer', 1030, 'no failure window'), ('drawer', 1039, 'no failure window'), ('drawer', 3101, 'no failure window'), ('drawer', 3104, 'no failure window'), ('drawer', 3106, 'no failure window'), ('k6', 1492, 'no failure window'), ('k6', 3105, 'no failure window'), ('k6', 3107, 'no failure window')] windows: 56
+[shard s8] windows=2 branches=32 done_before=0
+[shard s8] 1/32 k6_s1300_r0_x_r2_t23_s3 done=True disp=0.0mm n=5 eeErr=0.580mm qErr=0.00000 f0=48.9N elapsed=52s
+[shard s8] 2/32 k6_s1300_r0_x_r2_t23_s6 done=True disp=0.0mm n=5 eeErr=0.580mm qErr=0.00000 f0=48.9N elapsed=58s
+[shard s8] 3/32 k6_s1300_r0_x_r2_t23_r0 done=True disp=0.0mm n=72 eeErr=0.471mm qErr=0.00000 f0=0.0N elapsed=88s
+[shard s8] 4/32 k6_s1300_r0_x_r2_t23_r1 done=False disp=0.0mm n=210 eeErr=0.471mm qErr=0.00000 f0=0.0N elapsed=161s
+[shard s8] 5/32 k6_s1300_r0_x_r2_t23_s4 done=True disp=0.0mm n=5 eeErr=0.580mm qErr=0.00000 f0=48.9N elapsed=168s
+[shard s8] 6/32 k6_s1300_r0_x_r2_t23_r7 done=True disp=0.0mm n=124 eeErr=0.471mm qErr=0.00000 f0=0.0N elapsed=214s
+[shard s8] 7/32 k6_s1300_r0_x_r2_t23_s7 done=True disp=0.0mm n=5 eeErr=0.580mm qErr=0.00000 f0=48.9N elapsed=222s
+[shard s8] 8/32 k6_s1300_r0_x_r2_t23_s5 done=True disp=0.0mm n=5 eeErr=0.580mm qErr=0.00000 f0=48.9N elapsed=229s
+[shard s8] 9/32 k6_s1300_r0_x_r2_t23_r5 done=False disp=0.0mm n=210 eeErr=0.471mm qErr=0.00000 f0=0.0N elapsed=300s
+[shard s8] 10/32 k6_s1300_r0_x_r2_t23_s2 done=True disp=0.0mm n=5 eeErr=0.580mm qErr=0.00000 f0=48.9N elapsed=307s
+[shard s8] 11/32 k6_s1300_r0_x_r2_t23_s0 done=True disp=0.0mm n=5 eeErr=0.580mm qErr=0.00000 f0=48.9N elapsed=315s
+[shard s8] 12/32 k6_s1300_r0_x_r2_t23_r6 done=False disp=0.0mm n=210 eeErr=0.471mm qErr=0.00000 f0=0.0N elapsed=383s
+[shard s8] 13/32 k6_s1300_r0_x_r2_t23_r4 done=False disp=0.0mm n=210 eeErr=0.471mm qErr=0.00000 f0=0.0N elapsed=454s
+[shard s8] 14/32 k6_s1300_r0_x_r2_t23_r3 done=True disp=0.0mm n=128 eeErr=0.471mm qErr=0.00000 f0=0.0N elapsed=502s
+[shard s8] 15/32 k6_s1300_r0_x_r2_t23_s1 done=True disp=0.0mm n=5 eeErr=0.580mm qErr=0.00000 f0=48.9N elapsed=509s
+[shard s8] 16/32 k6_s1300_r0_x_r2_t23_r2 done=False disp=0.0mm n=210 eeErr=0.471mm qErr=0.00000 f0=0.0N elapsed=577s
+[shard s8] 17/32 drawer_s3107_r0_x_r1_t23_s7 done=False disp=112.1mm n=224 eeErr=0.550mm qErr=0.00000 f0=0.0N elapsed=672s
+[shard s8] 18/32 drawer_s3107_r0_x_r1_t23_r5 done=False disp=137.4mm n=224 eeErr=0.441mm qErr=0.00000 f0=0.0N elapsed=755s
+[shard s8] 19/32 drawer_s3107_r0_x_r1_t23_s4 done=False disp=314.5mm n=224 eeErr=0.550mm qErr=0.00000 f0=0.0N elapsed=837s
+[shard s8] 20/32 drawer_s3107_r0_x_r1_t23_r1 done=False disp=0.0mm n=224 eeErr=0.441mm qErr=0.00000 f0=0.0N elapsed=920s
+[shard s8] 21/32 drawer_s3107_r0_x_r1_t23_s5 done=False disp=260.8mm n=224 eeErr=0.550mm qErr=0.00000 f0=0.0N elapsed=1006s
+[shard s8] 22/32 drawer_s3107_r0_x_r1_t23_r4 done=True disp=0.0mm n=67 eeErr=0.441mm qErr=0.00000 f0=0.0N elapsed=1037s
+[shard s8] 23/32 drawer_s3107_r0_x_r1_t23_r2 done=True disp=0.0mm n=62 eeErr=0.441mm qErr=0.00000 f0=0.0N elapsed=1067s
+[shard s8] 24/32 drawer_s3107_r0_x_r1_t23_s6 done=True disp=0.0mm n=81 eeErr=0.550mm qErr=0.00000 f0=0.0N elapsed=1101s
+[shard s8] 25/32 drawer_s3107_r0_x_r1_t23_r3 done=False disp=0.0mm n=224 eeErr=0.441mm qErr=0.00000 f0=0.0N elapsed=1179s
+[shard s8] 26/32 drawer_s3107_r0_x_r1_t23_s1 done=False disp=8.9mm n=224 eeErr=0.550mm qErr=0.00000 f0=0.0N elapsed=1261s
+[shard s8] 27/32 drawer_s3107_r0_x_r1_t23_r6 done=False disp=0.0mm n=224 eeErr=0.441mm qErr=0.00000 f0=0.0N elapsed=1339s
+[shard s8] 28/32 drawer_s3107_r0_x_r1_t23_s3 done=True disp=0.0mm n=88 eeErr=0.550mm qErr=0.00000 f0=0.0N elapsed=1376s
+[shard s8] 29/32 drawer_s3107_r0_x_r1_t23_s0 done=False disp=0.0mm n=224 eeErr=0.550mm qErr=0.00000 f0=0.0N elapsed=1454s
+[shard s8] 30/32 drawer_s3107_r0_x_r1_t23_r0 done=False disp=0.0mm n=224 eeErr=0.441mm qErr=0.00000 f0=0.0N elapsed=1537s
+[shard s8] 31/32 drawer_s3107_r0_x_r1_t23_s2 done=True disp=0.0mm n=57 eeErr=0.550mm qErr=0.00000 f0=0.0N elapsed=1567s
+[shard s8] 32/32 drawer_s3107_r0_x_r1_t23_r7 done=False disp=0.0mm n=224 eeErr=0.441mm qErr=0.00000 f0=0.0N elapsed=1644s
+BRANCHES_DONE shard=s8 2026-10-14 13:32:47 UTC

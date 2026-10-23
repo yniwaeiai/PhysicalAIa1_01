@@ -1,0 +1,17 @@
+[shard s7] windows=17 branches=276 done_before=0
+[shard s7] 1/276 drawer_s3104_r0_fp_a5 done=True disp=124.5mm n=25 infer=5 pref=0.0mm err=0.262mm elapsed=52s
+[shard s7] 2/276 drawer_s3104_r0_fp_a6 done=True disp=142.4mm n=26 infer=6 pref=0.0mm err=0.262mm elapsed=68s
+[shard s7] 3/276 drawer_s3104_r0_fp_a2 done=True disp=136.8mm n=28 infer=6 pref=0.0mm err=0.262mm elapsed=83s
+[shard s7] 4/276 drawer_s3104_r0_fp_a4 done=True disp=142.4mm n=27 infer=6 pref=0.0mm err=0.262mm elapsed=99s
+[shard s7] 5/276 drawer_s3104_r0_fp_a1 done=True disp=144.8mm n=25 infer=5 pref=0.0mm err=0.262mm elapsed=113s
+[shard s7] 6/276 drawer_s3104_r0_fp_a3 done=False disp=105.3mm n=193 infer=39 pref=0.0mm err=0.262mm elapsed=170s
+[shard s7] 7/276 drawer_s3104_r0_fp_a7 done=True disp=129.5mm n=26 infer=6 pref=0.0mm err=0.262mm elapsed=184s
+[shard s7] 8/276 drawer_s3104_r0_fp_a0 done=True disp=132.5mm n=27 infer=6 pref=0.0mm err=0.262mm elapsed=196s
+[shard s7] 9/276 drawer_s1030_r1_fp_a4 done=True disp=0.0mm n=99 infer=20 pref=0.0mm err=0.000mm elapsed=239s
+[shard s7] 10/276 drawer_s1030_r1_fp_a7 done=True disp=0.0mm n=56 infer=12 pref=0.0mm err=0.000mm elapsed=262s
+[shard s7] 11/276 drawer_s1030_r1_fp_a3 done=True disp=0.0mm n=125 infer=25 pref=0.0mm err=0.000mm elapsed=305s
+[shard s7] 12/276 drawer_s1030_r1_fp_a2 done=True disp=0.0mm n=113 infer=23 pref=0.0mm err=0.000mm elapsed=343s
+[shard s7] 13/276 drawer_s1030_r1_fp_a0 done=True disp=0.0mm n=109 infer=22 pref=0.0mm err=0.000mm elapsed=387s
+[shard s7] 14/276 drawer_s1030_r1_fp_a6 done=True disp=0.0mm n=93 infer=19 pref=0.0mm err=0.000mm elapsed=445s
+[shard s7] 15/276 drawer_s1030_r1_fp_a5 done=True disp=0.0mm n=122 infer=25 pref=0.0mm err=0.000mm elapsed=514s
+[shard s7] 16/276 drawer_s1030_r1_fp_a1 done=True disp=0.0mm n=79 infer=16 pref=0.0mm err=0.000mm elapsed=560s

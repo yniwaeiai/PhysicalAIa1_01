@@ -107,7 +107,7 @@ def fig_taxonomy():
         ax.set_xticks([]); ax.set_xlabel("seed（成功確率の昇順）", fontsize=8.5); ax.grid(axis="x", visible=False)
         ax.set_ylim(-0.08, 1.08)
     axes[0].set_ylabel("同じ初期条件を 8 回再実行したときの成功確率 p", fontsize=8.5)
-    fig.text(0.01, 0.005, "最終評価で失敗した seed を、同じ初期条件・摂動で方策のノイズだけ変えて 8 回ずつ再実行。p=1 は運の失敗、p=0 は決定的な失敗（全て強い摂動の seed）。", fontsize=7.5, color="#52514e")
+    fig.text(0.01, 0.005, "最終評価で失敗した seed を、同じ初期条件・摂動で方策のノイズだけ変えて 8 回ずつ再実行。p=1 は運の失敗、p=0 は 8 回で成功未観測（全て強い摂動の seed。決定的とは言い切れない）。", fontsize=7.5, color="#52514e")
     fig.tight_layout(rect=(0, 0.04, 1, 1)); fig.savefig(os.path.join(OUT, "fig3_failure_taxonomy.png")); plt.close(fig)
 
 
